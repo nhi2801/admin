@@ -13,34 +13,39 @@
         width: 100px;
     }
     </style>
+    <link rel="stylesheet" href="../css/quiz.css">
 </head>
 
 <body>
-    <div class="container">
-        <!-- search starts-->
-        <div class="input-group mb-3 mt-3">
-            <input id="SearchBar" type="text" class="form-control" placeholder="Tìm kiếm bài thi" aria-label="Recipient's username" aria-describedby="basic-addon2">
-            <div class="input-group-append">
-                <select class="custom-select" id="CategorySelected">
-                    <option selected value="1">Mã bài thi</option>
-                    <option value="2">Tên bài thi</option>
-                    <option value="3">Phân loại</option>
-                    <option value="4">Tìm kiếm</option>
-                    <option value="5">Hình ảnh</option>
-                  </select>
-              <button id="SearchBtn" class="btn btn-outline-primary ml-1" type="button">Tìm kiếm</button>
-            </div>
-          </div>
+
+    <!-- search starts-->
+    <div class="input-group mb-3 mt-3">
+        <input id="SearchBar" type="text" class="form-control" placeholder="Tìm kiếm bài thi" aria-label="Recipient's username" aria-describedby="basic-addon2">
+        <div class="input-group-append">
+            <select class="custom-select" id="CategorySelected">
+                <option selected value="1">Mã bài thi</option>
+                <option value="2">Tên bài thi</option>
+                <option value="3">Phân loại</option>
+                <option value="4">Tìm kiếm</option>
+                <option value="5">Hình ảnh</option>
+              </select>
+          <button id="SearchBtn" class="btn btn-outline-primary ml-1" type="button">Tìm kiếm</button>
+        </div>
+    </div>
+
+    <div class="heading">Quản lý bài thi trên hệ thống</div>
+
+    <div class="container container-quiz">
         <!-- search ends -->
 
-        <table class="table">
+        <table class="table table-quiz table-striped">
             <thead>
                 <th>STT</th>
                 <th>Mã bài thi</th>
-                <th>Tên bài thi</th>
+                <th >Tên bài thi</th>
                 <th>Phân loại</th>
                 <th>Tìm kiếm</th>
-                <th>Hình ảnh</th>
+                <th >Hình ảnh</th>
                 <th>Hành động</th>
             </thead>
             <tbody id="tbody1"></tbody>
@@ -135,11 +140,17 @@
             var tbody1 = document.getElementById('tbody1');
             var trow = document.createElement("tr");
             var td0 = document.createElement('td');
+            td0.classList.add("td1");
             var td1 = document.createElement('td');
+            td1.classList.add("td2");
             var td2 = document.createElement('td');
+            td2.classList.add("td3");
             var td3 = document.createElement('td');
+            td3.classList.add("td4");
             var td4 = document.createElement('td');
+            td4.classList.add("td5");
             var td5 = document.createElement('td');
+            td5.classList.add("td6");
 
             quizList.push([quizId,questionTitle,category,search,image]);
             td0.innerHTML= ++quizNo;
@@ -162,7 +173,8 @@
             trow.appendChild(td4);
             trow.appendChild(td5);
 
-            var ControlDiv = document.createElement("div");
+            var ControlDiv = document.createElement("td");
+            ControlDiv.classList.add("button-quiz")
             ControlDiv.innerHTML = '<button type="button" class="create btn btn-primary my-2" data-toggle="modal" data-target="#exampleModalCenter">Tạo bài thi</button>'
             ControlDiv.innerHTML += '<button type="button" class="edit btn btn-primary my-2 m1-2" data-toggle="modal" data-target="#exampleModalCenter" onclick="FillTboxes('+quizNo+')">Sửa bài thi </button>'
 
