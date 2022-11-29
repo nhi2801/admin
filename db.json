@@ -1,0 +1,2275 @@
+{
+    "quizList": {
+      "quiz1": {
+          "quizId":"quiz1",
+          "questionTitle": "Trắc nghiệm HTML cơ bản",
+          "image": "https://codelearn.io/Upload/Blog/html-la-gi-no-co-quan-trong-khong-63715266434.3958.jpg",
+          "category": "basic",
+          "search": "html",
+          "questions": [
+          {
+            "quizNumber": "Câu 1",
+            "answers": ["A. alt", "B. src", "C. title", "D. longdesc"],
+            "rightAnswer": "A",
+            "quiz": "Thuộc tính HTML nào xác định một văn bản sẽ dùng thay thế cho hình ảnh, nếu hình ảnh không thể được hiển thị?"
+          },
+          {
+            "quizNumber": "Câu 2",
+            "answers": [
+              "A. Hoàn toàn giống nhau",
+              "B. Chỉ khác ở cái tên nhưng đều chứa thẻ con &lt;li>",
+              "C. &lt;ul> dùng để tạo menu còn &lt;ol > thì ít ai dùng",
+              "D. &lt;ul> định nghĩa các &lt;li> không thứ tự còn &lt;ol> thì có thứ tự"
+            ],
+            "rightAnswer": "D",
+            "quiz": "Thẻ `&lt;ol>` và '&lt;ul>' khác nhau chỗ nào?"
+          },
+          {
+            "quizNumber": "Câu 3",
+            "answers": [
+              "A. '&lt;select>'",
+              "B. '&lt;list>'",
+              "C. '&lt;input type=\"list\">'",
+              "D. '&lt;input type=\"dropdown\">'"
+            ],
+            "rightAnswer": "A",
+            "quiz": "Thẻ HTML nào tạo ra một danh sách đổ xuống (drop-down list)?"
+          },
+          {
+            "quizNumber": "Câu 4",
+            "answers": ["A. &lt;lb>", "B. &lt;br>", "C. &lt;break>", "D. &lt;p>"],
+            "rightAnswer": "B",
+            "quiz": "Phần tử HTML nào thực hiện xuống dòng mới?"
+          },
+          {
+            "quizNumber": "Câu 5",
+            "answers": [
+              "A. &lt;img >image.gif&lt;/img>",
+              "B. &lt;img src=\"image.gif\">",
+              "C. &lt;image src=\"image.gif\">",
+              "D. &lt;img href=\"image.gif>"
+            ],
+            "rightAnswer": "B",
+            "quiz": "Thẻ HTML nào dùng để chèn hình ảnh vào trang web?"
+          },
+          {
+            "quizNumber": "Câu 6",
+            "answers": [
+              "A. &lt;a>http://www.timoday.edu.vn&lt;/a>",
+              "B. &lt;a name=\"http://www.timoday.edu.vn\">Tìm ở đây&lt;/a>",
+              "C. &lt;a url=\"http://www.timoday.edu.vn\">Tìm ở đây&lt;/a>",
+              "D. &lt;a href=\"http://www.timoday.edu.vn\">Tìm ở đây&lt;/a>"
+            ],
+            "rightAnswer": "D",
+            "quiz": "Đoạn HTML nào là đúng để tạo một liên kết?"
+          },
+          {
+            "quizNumber": "Câu 7",
+            "answers": ["A. &lt;list>", "B. &lt;ul>", "C. &lt;dl>", "D. &lt;ol>"],
+            "rightAnswer": "D",
+            "quiz": "Đâu là phần tử HTML tạo ra 1 danh sách đầu mục bằng số?"
+          },
+          {
+            "quizNumber": "Câu 8",
+            "answers": [
+              "A. &lt;heading>",
+              "B. &lt;h6>",
+              "C. &lt;h1>",
+              "D. &lt;head>"
+            ],
+            "rightAnswer": "C",
+            "quiz": "Chọn phần tử HTML nào đúng nhất cho định dạng tiêu đề là lớn nhất?"
+          },
+          {
+            "quizNumber": "Câu 9",
+            "answers": ["A. <", "B. ^", "C. *", "D. /"],
+            "rightAnswer": "D",
+            "quiz": "Ký tự nào dùng để kết thúc một thẻ trong HTML?"
+          },
+          {
+            "quizNumber": "Câu 10",
+            "answers": [
+              "A. &lt;strong>",
+              "B. &lt;b>",
+              "C. &lt;i>",
+              "D. &lt;important>"
+            ],
+            "rightAnswer": "A",
+            "quiz": "Chọn phần tử HTML đúng nhất để diễn mức quan trọng của văn bản?"
+          },
+          {
+            "quizNumber": "Câu 11",
+            "answers": [
+              "A. Hoàn toàn giống nhau",
+              "B. Chỉ khác ở cái tên nhưng đều chứa thẻ con &lt;li>",
+              "C. &lt;ul> dùng để tạo menu còn &lt;ol> thì ít ai dùng",
+              "D. &lt;ul> định nghĩa các &lt;li> không thứ tự, &lt;ol> có thứ tự"
+            ],
+            "rightAnswer": "D",
+            "quiz": "Thẻ &lt;ol> và &lt;ul> khác nhau chỗ nào?"
+          },
+          {
+            "quizNumber": "Câu 12",
+            "answers": [
+              "A. Để chứa 1 tiêu đề cho một chương mục, bài báo..",
+              "B. Để đánh dấu phần đầu của nội dung",
+              "C. Để sử dụng trong &lt;table> làm tiêu đề",
+              "D. Để sử dụng trong &lt;ul> làm tiêu đề"
+            ],
+            "rightAnswer": "C",
+            "quiz": "Thẻ &lt;caption> được dùng như thế nào"
+          },
+          {
+            "quizNumber": "Câu 13",
+            "answers": [
+              "A. Dùng để định nghĩa các phần đầu đề trong HTML",
+              "B. Dùng để chọn độ lớn của kích thước chữ trong HTML cho thiết kế",
+              "C. Dùng để định nghĩa kích thước tiêu chuẩn của chữ trong HTML",
+              "D. Tùy trường hợp mà dùng"
+            ],
+            "rightAnswer": "A",
+            "quiz": "Các thẻ từ &lt;h1> đến &lt;h6> dùng để làm gì?"
+          },
+          {
+            "quizNumber": "Câu 14",
+            "answers": [
+              "A. Chỉ có tác dụng canh giữ chữ",
+              "B. Chỉ có tác dụng canh giữa thẻ &lt;div>",
+              "C. Chỉ có tác dụng canh giữa các thẻ văn bản",
+              "D. Chỉ có tác dụng tương tự { text-align: center; } trong CSS"
+            ],
+            "rightAnswer": "D",
+            "quiz": "Thẻ &lt;center> có tác dụng như thế nào?"
+          },
+          {
+            "quizNumber": "Câu 15",
+            "answers": [
+              "A. Hiển thị đường dẫn trước đó mà người dùng đã truy cập trước đó",
+              "B. Hiển thị đúng văn bản đã được định dạng sẵn trong HTML",
+              "C. Dùng để hiển thị trước nội dung đã được gõ trong textarea",
+              "D. Dùng để hiển thị số khoảng trắng tùy ý"
+            ],
+            "rightAnswer": "B",
+            "quiz": "Thẻ &lt;pre> dùng thể làm gì?"
+          },
+          {
+            "quizNumber": "Câu 16",
+            "answers": [
+              "A. Hyperlinks and Text Markup Language",
+              "B. Home Tool Markup Language",
+              "C. Hyper Text Markup Language",
+              "D. Hát tê mờ lờ"
+            ],
+            "rightAnswer": "C",
+            "quiz": "Chuẩn HTML là cho cái gì?"
+          },
+          {
+            "quizNumber": "Câu 17",
+            "answers": [
+              "A. &lt;body style=\"background-color:yellow;\">",
+              "B. &lt;body bg=\"yellow\">",
+              "C. &lt;background>yellow< /background>",
+              "D. &lt;body style=\"color:yellow;\">"
+            ],
+            "rightAnswer": "A",
+            "quiz": "Đoạn mã HTML nào thực hiện việc thêm màu nền cho trang web?"
+          },
+          {
+            "quizNumber": "Câu 18",
+            "answers": [
+              "A. Tạo một textbox cho phép nhập liệu nhiều dòng",
+              "B. Tạo một ô text để nhập dữ liệu 1 dòng",
+              "C. Tạo một ô nhập mật khẩu",
+              "D. Tất cả các ý trên"
+            ],
+            "rightAnswer": "C",
+            "quiz": "Thẻ &lt;input type=”Password” …> dùng để làm gì?"
+          },
+          {
+            "quizNumber": "Câu 19",
+            "answers": [
+              "A. &lt;meta>",
+              "B. &lt;title>",
+              "C. &lt;head>",
+              "D. &lt;link>"
+            ],
+            "rightAnswer": "B",
+            "quiz": "Phần tử HTML nào định nghĩa dữ liệu sẽ hiển thị trên thanh tiêu đề của tài liệu?"
+          },
+          {
+            "quizNumber": "Câu 20",
+            "answers": [
+              "A. &lt;a href=\"url\" target=\"new\">",
+              "B. &lt;a href=\"url\" new>",
+              "C. &lt;a href=\"url\" target=\"_blank\">",
+              "D. &lt;a href=\"url\">"
+            ],
+            "rightAnswer": "C",
+            "quiz": "Cách nào bạn có thể mở một liên kết trong một tab mới hoặc một cửa sổ mới?"
+          }
+        ]
+      },
+      "quiz2": {
+          "quizId":"quiz2",
+          "questionTitle": "Trắc nghiệm CSS cơ bản",
+          "image": "https://tltvietnam.vn/upload/images/css-la-gi-4.jpg",
+          "category": "basic",
+          "search": "css",
+          "questions":[
+          {
+          "quizNumber": "Câu 1",
+          "answers": [
+            "A. Creative Style Sheets",
+            "B. Computer Style Sheets",
+            "C. Cascading Style Sheets",
+            "D. Colorful Style Sheets"
+          ],
+          "rightAnswer": "C",
+          "quiz": "CSS là viết tắt của?"
+          },
+        {
+          "quizNumber": "Câu 2",
+          "answers": [
+            "A. &lt;style src=”mystyle.css”>",
+            "B. &lt;stylesheet>mystyle.css&lt;/stylesheet>",
+            "C. &lt;link rel=”stylesheet” type=”text/css” href=”mystyle.css”>",
+            "D. Tất cả đều đúng"
+          ],
+          "rightAnswer": "C",
+          "quiz": "Muốn liên kết file HTML với  file định nghĩa CSS ta dùng dòng nào sau đây?"
+        },
+        {
+          "quizNumber": "Câu 3",
+          "answers": [
+            "A. Trong thẻ &lt;body>",
+            "B. Trong thẻ &lt;head>",
+            "C. Ở cuối file HTML",
+            "D. Ở đầu file HTML"
+          ],
+          "rightAnswer": "B",
+          "quiz": "Đặt dòng liên kết với file CSS ở vùng nào trong file HTML?"
+        },
+        {
+          "quizNumber": "Câu 4",
+          "answers": [
+            "A. Thiết lập khoảng cách thụt đầu dòng",
+            "B. Thiết lập chế độ canh văn bản",
+            "C. Thêm hiệu ứng đặc biệt cho văn bản",
+            "D. Tất cả đều sai"
+          ],
+          "rightAnswer": "A",
+          "quiz": "Thuộc tính text-indent dùng để?"
+        },
+        {
+          "quizNumber": "Câu 5",
+          "answers": ["A. font", "B. class", "C. style", "D. styles"],
+          "rightAnswer": "C",
+          "quiz": "Thuộc tính nào định nghĩa CSS ngay trong 1 tag?"
+        },
+        {
+          "quizNumber": "Câu 6",
+          "answers": [
+            "A. body {color: black}",
+            "B. {body;color:black}",
+            "C. body:color=black",
+            "D. {body:color=black(body}"
+          ],
+          "rightAnswer": "A",
+          "quiz": "Dòng nào tuân theo đúng cú pháp của CSS?"
+        },
+        {
+          "quizNumber": "Câu 7",
+          "answers": [
+            "A. /* this is a comment */",
+            "B. // this is a comment //",
+            "C. “this is a comment”",
+            "D. // this is a comment"
+          ],
+          "rightAnswer": "A",
+          "quiz": "Dòng nào thể hiện đúng một comment (lời chú thích) trong CSS?"
+        },
+        {
+          "quizNumber": "Câu 8",
+          "answers": [
+            "A. color:",
+            "B. bgcolor:",
+            "C. background-color:",
+            "D. Tất cả đều đúng"
+          ],
+          "rightAnswer": "C",
+          "quiz": "Dòng nào dùng để thay đổi màu nền?"
+        },
+        {
+          "quizNumber": "Câu 9",
+          "answers": [
+            "A. h1.all {background-color:#FFFFFF}",
+            "B. h1 {background-color:#FFFFFF}",
+            "C. all.h1 {background-color:#FFFFFF}",
+            "D. Tất cả đều đúng"
+          ],
+          "rightAnswer": "B",
+          "quiz": "Làm thế nào thêm màu nền cho tất cả các phần tử < h1 > ?"
+        },
+        {
+          "quizNumber": "Câu 10",
+          "answers": ["A. text-color=", "B", "B. fgcolor:", "D. text-color:"],
+          "rightAnswer": "C",
+          "quiz": "Làm thế nào thay màu nền của chữ (text)?"
+        },
+        {
+          "quizNumber": "Câu 11",
+          "answers": [
+            "A. font-style",
+            "B. font-size",
+            "C. text-style",
+            "D. text-size"
+          ],
+          "rightAnswer": "B",
+          "quiz": "Thuộc tính nào thay đổi kích cỡ chữ?"
+        },
+        {
+          "quizNumber": "Câu 12",
+          "answers": [
+            "A. p {text-size:bold}",
+            "B. &lt;p style=”font-size:bold”>",
+            "C. &lt;style=”text-size:bold”>",
+            "D. p {font-weight:bold}"
+          ],
+          "rightAnswer": "D",
+          "quiz": "Thuộc tính nào làm chữ trong tag p trở thành chữ đậm?"
+        },
+        {
+          "quizNumber": "Câu 13",
+          "answers": [
+            "A. a {decoration:no underline}",
+            "B. a {text-decoration:no underline}",
+            "C. a {underline:none}",
+            "D. a {text-decoration:none}"
+          ],
+          "rightAnswer": "D",
+          "quiz": "Làm sao để hiển thị liên kết mà ko có gạch chân bên dưới?"
+        },
+        {
+          "quizNumber": "Câu 14",
+          "answers": [
+            "A. text-transform:capitalize",
+            "B. text-transform:uppercase",
+            "C. Cả A và B đều đúng",
+            "D. CSS không hỗ trợ chức năng này"
+          ],
+          "rightAnswer": "A",
+          "quiz": "Làm sao để mỗi từ trong 1 dòng đều viết hoa ở đầu từ?"
+        },
+        {
+          "quizNumber": "Câu 15",
+          "answers": [
+            "A. font=",
+            "B. font:",
+            "C. font-family:",
+            "D. font-family="
+          ],
+          "rightAnswer": "C",
+          "quiz": "Làm sao để thay đổi font của mỗi phần tử?"
+        },
+        {
+          "quizNumber": "Câu 16",
+          "answers": [
+            "A. font-weight:bold",
+            "B. style:bold",
+            "C. font-style:bold",
+            "D. Tất cả đều đúng"
+          ],
+          "rightAnswer": "A",
+          "quiz": "Làm sao để tạo chữ đậm?"
+        },
+        {
+          "quizNumber": "Câu 17",
+          "answers": [
+            "A. margin-left:",
+            "B. text-indent:",
+            "C. indent:",
+            "D. left:"
+          ],
+          "rightAnswer": "A",
+          "quiz": "Làm sao để thay đổi lề trái của một phần tử?"
+        },
+        {
+          "quizNumber": "Câu 18",
+          "answers": [
+            "A. class",
+            "B. id",
+            "C. Cả A và B đều đúng",
+            "D. Cả A và B đều sai"
+          ],
+          "rightAnswer": "A",
+          "quiz": "Nhóm các đối tượng có cùng thuộc tính và có thể được sử dụng nhiều lần là:"
+        },
+        {
+          "quizNumber": "Câu 19",
+          "answers": [
+            "A. text-align: center",
+            "B. text-align: justify",
+            "C. font-align: center",
+            "D. font-align: justify"
+          ],
+          "rightAnswer": "B",
+          "quiz": "Dòng nào để thiết lập canh đều cho văn bản"
+        },
+        {
+          "quizNumber": "Câu 20",
+          "answers": ["A. Đỏ", "B. Trắng", "C. Đen", "D. Cam"],
+          "rightAnswer": "B",
+          "quiz": "Trong mã màu RGB dạng hệ thập lục, #FFFFFF là màu gì?"
+        }
+          ]
+      },
+      "quiz3": {
+          "quizId":"quiz3",
+          "questionTitle": "Trắc nghiệm Javascript cơ bản",
+          "image": "https://tuandc.com/wp-content/uploads/2017/07/laptrinh-javascript.jpg",
+          "category": "basic",
+          "search": "javascript",
+          "questions":[
+          {
+          "quizNumber": "Câu 1",
+          "answers": [
+            "A. Client",
+            "B. Server",
+            "C. Server/client",
+            "D. Không có dạng nào."
+          ],
+          "rightAnswer": "C",
+          "quiz": "JavaScript là ngôn ngữ xử lý ở:"
+        },
+        {
+          "quizNumber": "Câu 2",
+          "answers": [
+            "A. Thông dịch",
+            "B. Diễn dịch",
+            "C. Cả hai dạng",
+            "D. Không có dạng nào ở trên"
+          ],
+          "rightAnswer": "A",
+          "quiz": "Javascript là ngôn ngữ thông dịch hay biên dịch?"
+        },
+        {
+          "quizNumber": "Câu 3",
+          "answers": [
+            "A. Viết riêng một trang",
+            "B. Viết chung với HTML",
+            "C. Cả hai dạng",
+            "D. Không có dạng nào"
+          ],
+          "rightAnswer": "B",
+          "quiz": "Phương thức viết chương trình của Javascript như thế nào?"
+        },
+        {
+          "quizNumber": "Câu 4",
+          "answers": [
+            "A. Không giấu được vì các kịch bản chạy ở client",
+            "B. Giấu được vì chương trình hoạt động độc lập với trình duyệt",
+            "C. Hai phát biểu đều sai",
+            "D. Hai phát biểu đều đúng"
+          ],
+          "rightAnswer": "A",
+          "quiz": "Javascript là ngôn ngữ kịch bản có giấu được mã nguồn không?"
+        },
+        {
+          "quizNumber": "Câu 5",
+          "answers": [
+            "A. &lt;scritp> …&lt;/script>",
+            "B. &lt;Javascript > …&lt;Javascript>",
+            "C. &lt;java > &lt;/java>",
+            "D. Tất cả các dạng trên"
+          ],
+          "rightAnswer": "A",
+          "quiz": "JavaScript được bắt đầu bằng?"
+        },
+        {
+          "quizNumber": "Câu 6",
+          "answers": [
+            "A. Number, String, Boolean",
+            "B. Number, Integer, char",
+            "C. Number, String, Boolean, Null",
+            "D. Tất cả các loại trên"
+          ],
+          "rightAnswer": "C",
+          "quiz": "Javascript có các dạng biến?"
+        },
+        {
+          "quizNumber": "Câu 7",
+          "answers": [
+            "A. Chuyển một chuỗi thành số",
+            "B. Chuyển một chuỗi thành số nguyên",
+            "C. Chuyển một chuỗi thành số thực",
+            "D. Chuyển một số nguyên thành một chuỗi"
+          ],
+          "rightAnswer": "B",
+          "quiz": "Trong Javascript hàm parseInt() dùng để làm gì?"
+        },
+        {
+          "quizNumber": "Câu 8",
+          "answers": [
+            "A. Chuyển một chuỗi thành số",
+            "B. Chuyển một chuỗi thành số thực",
+            "C. Chuyển một chuỗi thành số nguyên",
+            "D. Chuyển một số nguyên thành một chuỗi"
+          ],
+          "rightAnswer": "B",
+          "quiz": "Trong Javascript hàm parseFloat() dùng để làm gì?"
+        },
+        {
+          "quizNumber": "Câu 9",
+          "answers": [
+            "A. Hiện một thông báo nhập thông tin",
+            "B. Hiện một thông báo dạng Yes, No",
+            "C. Cả hai dạng trên",
+            "D. Không có lệnh nào đúng"
+          ],
+          "rightAnswer": "A",
+          "quiz": "Lệnh prompt trong Javascript để làm gì?"
+        },
+        {
+          "quizNumber": "Câu 10",
+          "answers": [
+            "A. Khi bắt đầu chương trình chạy",
+            "B. Khi click chuột",
+            "C. Khi kết thúc một chương trình",
+            "D. Khi di chuyển chuột qua"
+          ],
+          "rightAnswer": "A",
+          "quiz": "Trong Javascript sự kiện Onload thực hiện khi:"
+        },
+        {
+          "quizNumber": "Câu 11",
+          "answers": [
+            "A. if (i != 5)",
+            "B. if i <> 5",
+            "C. if i =! 5 then",
+            "D. if (i <> 5)"
+          ],
+          "rightAnswer": "A",
+          "quiz": "Thực hiện kiểm tra nếu biến “i” không bằng 5, câu lệnh nào là đúng?"
+        },
+        {
+          "quizNumber": "Câu 12",
+          "answers": [
+            "A. if (i == 5)",
+            "B. if i == 5 then",
+            "C. if i = 5 then",
+            "D. if i = 5"
+          ],
+          "rightAnswer": "A",
+          "quiz": "Cách viết câu lệnh IF nào sau đây là đúng?"
+        },
+        {
+          "quizNumber": "Câu 13",
+          "answers": [
+            "A. document.getElementById(\"demo\").innerHTML = \"Nội dung thay đổi\";",
+            "B. #demo.innerHTML = \"Nội dung thay đổi\";",
+            "C. document.getElement(\"p\").innerHTML = \"Nội dung thay đổi\";",
+            "D. document.getElementByName(\"p\").innerHTML = \"Nội dung thay đổi\";"
+          ],
+          "rightAnswer": "A",
+          "quiz": "Câu lệnh JavaScript nào là đúng để thực hiện thay đổi nội dung trong phần tử HTML bên dưới? <br> < p id=”demo”>Nội dung chưa thay đổi< /p >"
+        },
+        {
+          "quizNumber": "Câu 14",
+          "answers": [
+            "A. Không dấu được vì các kịch bản chạy phía client",
+            "B. Dấu được vì chương trình hoạt động độc lập với trình duyệt",
+            "C. Hai phát biểu trên đều sai",
+            "D. Hai phát biểu trên đều đúng"
+          ],
+          "rightAnswer": "A",
+          "quiz": "JavaScript là ngôn ngữ kịch bản có che dấu được mã nguồn không?"
+        },
+        {
+          "quizNumber": "Câu 15",
+          "answers": [
+            "A. Dùng để hiện một thông báo nhập",
+            "B. Dùng để chuyển đổi số sang chữ",
+            "C. Dùng để hiện một thông điệp",
+            "D. Tất cả các dạng trên"
+          ],
+          "rightAnswer": "C",
+          "quiz": "Hàm alert() dùng để làm gì?"
+        },
+        {
+          "quizNumber": "Câu 16",
+          "answers": [
+            "A. variable carName;",
+            "B. var carName;",
+            "C. v carName;",
+            "D. string carName"
+          ],
+          "rightAnswer": "B",
+          "quiz": "Câu lệnh nào khai báo một biến trong JavaScript?"
+        },
+        {
+          "quizNumber": "Câu 17",
+          "answers": [
+            "A. var colors = [\"red\", \"green\", \"blue\"]",
+            "B. var colors = \"red\", \"green\", \"blue\"",
+            "C. var colors = 1 = (\"red\"), 2 = (\"green\"), 3 = (\"blue\")",
+            "D. var colors = (1:\"red\", 2:\"green\", 3:\"blue\")"
+          ],
+          "rightAnswer": "A",
+          "quiz": "Cách khai báo mảng nào trong JavaScript là đúng?"
+        },
+        {
+          "quizNumber": "Câu 18",
+          "answers": [
+            "A. JavaScript ES7",
+            "B. JavaScript ES5",
+            "C. JavaScript ES6",
+            "D. JavaScript ES4"
+          ],
+          "rightAnswer": "C",
+          "quiz": "Promise đã được giới thiệu đến lập trình viên từ phiên bản nào?"
+        },
+        {
+          "quizNumber": "Câu 19",
+          "answers": [
+            "A. JavaScript ES7",
+            "B. JavaScript ES5",
+            "C. JavaScript ES6",
+            "D. JavaScript ES4"
+          ],
+          "rightAnswer": "A",
+          "quiz": "Async / Await đã được bổ sung trong phiên bản nào?"
+        },
+        {
+          "quizNumber": "Câu 20",
+          "answers": [
+            "A. Async/await là cách mới để viết code bất đồng bộ",
+            "B. Async/await là khái niệm được xây dựng ở tầng trên promise",
+            "C. Async/await cũng giống như promise, là non-blocking",
+            "D. Tất cả đáp án trên đều đúng"
+          ],
+          "rightAnswer": "D",
+          "quiz": "Chọn phương án đúng"
+        }
+      ]
+      },
+      "quiz4": {
+          "quizId":"quiz4",
+          "questionTitle": "Trắc nghiệm Java cơ bản",
+          "image": "https://codefresher.vn/wp-content/uploads/2019/12/core-java-1.jpg",
+          "category": "basic",
+          "search": "java",
+          "questions": [
+          {
+          "quizNumber": "Câu 1",
+          "answers": [
+            "A. Ngôn ngữ Java có phân biệt chữ hoa - chữ thường",
+            "B. Java là ngôn ngữ lập trình hướng đối tượng",
+            "C. Dấu chấm phẩy được sử dụng để kết thúc lệnh trong Java",
+            "D. Chương trình viết bằng Java chỉ có thể chạy trên hệ điều hành Window"
+          ],
+          "rightAnswer": "D",
+          "quiz": "Đâu là câu Sai về ngôn ngữ Java?",
+          "a": "A. Ngôn ngữ Java có phân biệt chữ hoa - chữ thường"
+        },
+        {
+          "quizNumber": "Câu 2",
+          "answers": ["A. double", "B. int", "C. long", "D. long float"],
+          "rightAnswer": "D",
+          "quiz": "Đâu không phải là một kiểu dữ liệu nguyên thuỷ trong Java"
+        },
+        {
+          "quizNumber": "Câu 3",
+          "answers": [
+            "A. Tên của chương trình",
+            "B. Số lượng tham số",
+            "C. Tham số đầu tiên trong danh sách tham số",
+            "D. Không câu nào đúng"
+          ],
+          "rightAnswer": "C",
+          "quiz": "Trong câu lệnh: public static void main(String[] args) thì phần tử agrs[0] chứa giá trị gì?"
+        },
+        {
+          "quizNumber": "Câu 4",
+          "answers": [
+            "A. Nhập một số nguyên",
+            "B. Nhập một ký tự",
+            "C. Nhập một chuỗi",
+            "D. Không có phương thức này"
+          ],
+          "rightAnswer": "C",
+          "quiz": "Phương thức next() của lớp Scanner dùng để làm gì?"
+        },
+        {
+          "quizNumber": "Câu 5",
+          "answers": ["A. Netbeans", "B. Eclipse", "C. JDK", "D. Java Platform"],
+          "rightAnswer": "C",
+          "quiz": "Muốn chạy được chương trình Java, chỉ cần cài phần mềm nào sau đây?"
+        },
+        {
+          "quizNumber": "Câu 6",
+          "answers": ["A", "B", "C", "D"],
+          "rightAnswer": "C",
+          "quiz": "Package nào có chức năng Date?"
+        },
+        {
+          "quizNumber": "Câu 7",
+          "answers": ["A. String", "B. Scanner", "C. Integer", "D. System"],
+          "rightAnswer": "B",
+          "quiz": "Phương thức nextLine() thuộc lớp nào?"
+        },
+        {
+          "quizNumber": "Câu 8",
+          "answers": ["A. Java", "B. Oak", "C. Cafe", "D. JAmes golings"],
+          "rightAnswer": "B",
+          "quiz": "Tên gọi đầu tiên của Java là gì?"
+        },
+        {
+          "quizNumber": "Câu 9",
+          "answers": [
+            "A. XX.display;",
+            "B. XX.display();",
+            "C. objX.display();",
+            "D. display();"
+          ],
+          "rightAnswer": "C",
+          "quiz": "Giả sử đã đĩnh nghĩa lớp XX với một phương thức thông thường là display, sau đó sinnh ra đối tượng objX từ lớp XX. Để gọi phương thức Display ta sử dụng cú pháp nào?"
+        },
+        {
+          "quizNumber": "Câu 10",
+          "answers": ["A. Tên lớp", "B. Thuộc tính", "C. Phương thức", "D. Biến"],
+          "rightAnswer": "D",
+          "quiz": "Đâu Không phải là thành phần trong cấu trúc lớp của Java"
+        },
+        {
+          "quizNumber": "Câu 11",
+          "answers": [
+            "A. Cả hai nhận định trên đều đúng",
+            "B. Cả hai nhận định trên đều sai",
+            "C. Nhận định 1 đúng, nhận định 2 sai",
+            "D. Nhận định 2 đúng, nhận định 1 sai"
+          ],
+          "rightAnswer": "C",
+          "quiz": "Nhận định 1: Từ khoá new kết hợp với hàm tạo để tạo ra đối tượng. Nhận định 2: Hàm tạo được sử dụng để huỷ đối tượng"
+        },
+        {
+          "quizNumber": "Câu 12",
+          "answers": ["A. 1994", "B. 1995", "C. 1996", "D. 2005"],
+          "rightAnswer": "B",
+          "quiz": "Java được phát hành vào năm nào?"
+        },
+        {
+          "quizNumber": "Câu 13",
+          "answers": [
+            "A. int x= 13; System.out.println(x);",
+            "B. int x= 13; System.out.println(\"x\");",
+            "C. int x= 13; System.out.println(\"13\");",
+            "D. int x= 13; System.out.println(\"\"+x);"
+          ],
+          "rightAnswer": "B"
+        },
+        {
+          "quizNumber": "Câu 14",
+          "answers": [
+            "A. Các lớp được tạo thể hiện từ đó",
+            "B. Một thể hiện của lớp",
+            "C. Một tham chiếu đến một thuộc tính",
+            "D. Một biến"
+          ],
+          "rightAnswer": "B"
+        },
+        {
+          "quizNumber": "Câu 15",
+          "answers": ["A. 123", "B. 124", "C. 12", "D. 13"],
+          "rightAnswer": "B",
+          "quiz": "Đâu là khai báo biến đúng trong Java? \n (1) rollNumber \n (2) $rearly_salary \n (3) double \n (4) $$_"
+        },
+        {
+          "quizNumber": "Câu 16",
+          "answers": ["A. 2", "B. 7", "C. 4", "D. 9"],
+          "rightAnswer": "D",
+          "quiz": "Với giá trị nào của x, biểu thức sau trả về giá trị true (x thuộc kiểu int): x%3==0"
+        },
+        {
+          "quizNumber": "Câu 17",
+          "answers": ["A. .java", "B. .jav", "C. .class", "D. .exe"],
+          "rightAnswer": "C",
+          "quiz": "File chứa mã nguồn java sau khi được biên dịch có đuôi là gì?"
+        },
+        {
+          "quizNumber": "Câu 18",
+          "answers": ["A. int", "B. byte", "C. char", "D. String"],
+          "rightAnswer": "D",
+          "quiz": "Kiểu dữ liệu nào  trong Java chứa  giá trị bao gồm cả chữ và số?"
+        },
+        {
+          "quizNumber": "Câu 19",
+          "answers": ["A. theOne", "B. the One", "C. 1the_One", "D. $the One"],
+          "rightAnswer": "A",
+          "quiz": "Đâu là khai bao biến hợp lệ?"
+        },
+        {
+          "quizNumber": "Câu 20",
+          "answers": ["A. 1", "B. 2", "C. 3", "D. 4"],
+          "rightAnswer": "B",
+          "quiz": "Có  mấy cách để truyền tham số vào cho một phương thức"
+        }
+        ]
+      },
+      "quiz5": {
+          "quizId":"quiz5", 
+          "questionTitle": "20 câu hỏi trắc nghiệm lập trình Python",
+          "image": "https://transang.me/content/images/2019/01/1200px-Python.svg.png",
+          "category": "basic",
+          "search": "python",
+          "questions":[
+          {
+          "quizNumber": "Câu 1",
+          "answers": [
+            "A. Python là một ngôn ngữ lập trình cấp cao",
+            "B. Python là một ngôn ngữ thông dịch",
+            "C. Python là ngôn ngữ lập trình hướng đối tượng",
+            "D. Tất cả các đáp án đều đúng"
+          ],
+          "rightAnswer": "D",
+          "quiz": "Khẳng định nào sau đây về Python là đúng?"
+        },
+        {
+          "quizNumber": "Câu 2",
+          "answers": [
+            "A. Dấu ngoặc nhọn { }",
+            "B. Dấu ngoặc vuông [ ]",
+            "C. Thụt lề",
+            "D. Dầu ngoặc đơn ( )"
+          ],
+          "rightAnswer": "C",
+          "quiz": "Kí hiệu nào dùng để xác định các khối lệnh (khối lệnh của hàm, vòng lặp,...) trong Python?"
+        },
+        {
+          "quizNumber": "Câu 3",
+          "answers": [
+            "A. Chú thích giúp cho các lập trình viên hiểu rõ hơn về chương trình",
+            "B. Trình thông dịch Python sẽ bỏ qua những chú thích",
+            "C. Có thể viết chú thích trên cùng một dòng với lệnh/biểu thức hoặc viết trên nhiều dòng mà không vấn đề gì",
+            "D. Tất cả các đáp án trên"
+          ],
+          "rightAnswer": "D",
+          "quiz": "Khẳng định nào là đúng về chú thích trong Python?"
+        },
+        {
+          "quizNumber": "Câu 4",
+          "answers": [
+            "A. Tên biến có thể bắt đầu bằng dấu gạch dưới _",
+            "B. Có thể sử dụng keyword làm tên biến",
+            "C. Tên biến có thể bắt đầu bằng một chữ số",
+            "D. Tên biến có thể có các ký hiệu như !, @, #, $, %,..."
+          ],
+          "rightAnswer": "A",
+          "quiz": "Đâu là quy tắc đúng khi đặt tên cho biến trong Python?"
+        },
+        {
+          "quizNumber": "Câu 5",
+          "answers": ["A. integer", "B. string", "C. tuple", "D. operator"],
+          "rightAnswer": "B",
+          "quiz": "n = '5'. n trong đoạn sau là kiểu dữ liệu nào?"
+        },
+        {
+          "quizNumber": "Câu 6",
+          "answers": ["A. 1 2 3 4", "B. 1234", "C. 1*2*3*4", "D. 24"],
+          "rightAnswer": "C",
+          "quiz": "print(1, 2, 3, 4, sep='*'). Output của lệnh sau là:"
+        },
+        {
+          "quizNumber": "Câu 7",
+          "answers": ["A. cin", "B. scanf()", "C. input()", "D. <>"],
+          "rightAnswer": "C",
+          "quiz": "Lệnh nào dùng để lấy dữ liệu đầu vào từ người dùng?"
+        },
+        {
+          "quizNumber": "Câu 8",
+          "answers": [
+            "A. ReferenceError",
+            "B. SystemError",
+            "C. RuntimeError",
+            "D. LookupError"
+          ],
+          "rightAnswer": "C",
+          "quiz": "Ngoại lệ nào xảy ra khi phát hiện thấy lỗi không thuộc bất kỳ danh mục nào khác?"
+        },
+        {
+          "quizNumber": "Câu 9",
+          "answers": [
+            "A. Cả hai toán hạng đều là TRUE",
+            "B. Cả hai toán hàng đều là FALSE",
+            "C. Một trong hai toán hạng là TRUE",
+            "D. Toán hạng đầu tiên là TRUE"
+          ],
+          "rightAnswer": "A",
+          "quiz": "Câu lệnh sử dụng toán tử and trả về kết quả TRUE khi nào?"
+        },
+        {
+          "quizNumber": "Câu 10",
+          "answers": ["A. 3 >= 3", "B. True", "C. False", "D. None"],
+          "rightAnswer": "B",
+          "quiz": "print(3 >= 3). Output của lệnh là:"
+        },
+        {
+          "quizNumber": "Câu 11",
+          "answers": [
+            "A. Lớp (class) là một kế hoạch chi tiết cho đối tượng",
+            "B. Chỉ có thể tạo một đối tượng duy nhất từ lớp đã cho",
+            "C. Cả hai đáp án trên đều đúng",
+            "D. Không có đáp án chính xác"
+          ],
+          "rightAnswer": "A",
+          "quiz": "Khẳng định nào sau đây là đúng?"
+        },
+        {
+          "quizNumber": "Câu 12",
+          "answers": [
+            "A. class Foo: Pass",
+            "B. class Foo(object): pass class Hoo(object) pass",
+            "C. class Foo: pass class Hoo(Foo): pass",
+            "D. Không có đáp án chính xác"
+          ],
+          "rightAnswer": "D",
+          "quiz": "Đoạn code nào sau đây sử dụng tính năng kế thừa của Python?"
+        },
+        {
+          "quizNumber": "Câu 13",
+          "answers": [
+            "A. Kế thừa đa cấp (Multilevel Inheritance)",
+            "B. Đa kế thừa (Multiple Inheritance)",
+            "C. Kế thừa phân cấp (Hierarchical Inheritance)",
+            "D. Kế thừa (Inheritance)"
+          ],
+          "rightAnswer": "B",
+          "quiz": "Một lớp được thừa hưởng thuộc tính từ hai lớp khác nhau được gọi là gì?"
+        },
+        {
+          "quizNumber": "Câu 14",
+          "answers": [
+            "A. Trong Python, một toán tử có thể có hoạt động khác nhau tùy thuộc vào toán hạng được sử dụng",
+            "B. Bạn có thể thay đổi cách các toán tử hoạt động trong Python",
+            "C. __add () __ được gọi khi toán tử ' + ' được sử dụng",
+            "D. Tất cả các đáp trên đều đúng"
+          ],
+          "rightAnswer": "D",
+          "quiz": "Khẳng định nào sau đây là đúng?",
+          "a": "A. Trong Python, một toán tử có thể có hoạt động khác nhau tùy thuộc vào toán hạng được sử dụng"
+        },
+        {
+          "quizNumber": "Câu 15",
+          "answers": [
+            "A. Mở file ở chế độ chỉ được phép đọc",
+            "B. Mở file ở chế độ ghi",
+            "C. Mở file chế độ ghi tiếp vào cuối file",
+            "D. Mở file để đọc và ghi"
+          ],
+          "rightAnswer": "C",
+          "quiz": "Mở file với chế độ mode ' a ' có ý nghĩa gì?"
+        },
+        {
+          "quizNumber": "Câu 16",
+          "answers": [
+            "A. Mở file test.txt được phép đọc và ghi vào file",
+            "B. Mở file test.txt và chỉ được phép đọc file",
+            "C. Mở file test.txt và được phép ghi đè vào file",
+            "D. Mở file test.txt và được phép ghi tiếp vào file"
+          ],
+          "rightAnswer": "B",
+          "quiz": "f = open('test.txt'). Đoạn code dưới đây có ý nghĩa gì?"
+        },
+        {
+          "quizNumber": "Câu 17",
+          "answers": [
+            "A.with open('test.txt', encoding = 'utf-8') as f:",
+            "B.try: f = open('test.txt',encoding = 'utf-8') finall f.close()",
+            "C. Không có đáp án chính xác",
+            "D. Cả A và B đều đúng"
+          ],
+          "rightAnswer": "D",
+          "quiz": "Đoạn code nào tự động đóng tệp khi có ngoại lệ xảy ra?"
+        },
+        {
+          "quizNumber": "Câu 18",
+          "answers": [
+            "A. Chương trình này đọc nội dung của file test.txt",
+            "B. Nếu test.txt có xuống dòng, hàm read() sẽ trả về kí hiệu bắt đầu dòng mới là '\n'",
+            "C. Bạn có thể truyền một tham số kiểu integer cho read()",
+            "D. Tất cả các đáp án trên đều đúng"
+          ],
+          "rightAnswer": "D",
+          "quiz": "f = open('test.txt', 'r', encoding = 'utf-8'). Khẳng định nào là đúng về đoạn code dưới đây?"
+        },
+        {
+          "quizNumber": "Câu 19",
+          "answers": [
+            "A. Ngoại lệ (Exception) là lỗi phát sinh khi đang thực thi chương trình (runtime error)",
+            "B. Lỗi cú pháp (syntax error) cũng là một ngoại lệ",
+            "C. Ngoại lệ được Python dùng để loại bỏ một khối code khỏi chương trình",
+            "D. Tất cả các đáp án trên đều đúng"
+          ],
+          "rightAnswer": "A",
+          "quiz": "Khẳng định nào về ngoại lệ là đúng nhất?"
+        },
+        {
+          "quizNumber": "Câu 20",
+          "answers": [
+            "A. Python tự động tạo một file mới dưới tên bạn đang gọi ra",
+            "B. Không có gì xảy ra vì file không tồn tại",
+            "C. Gây ra một ngoại lệ",
+            "D. Không có đáp án nào đúng"
+          ],
+          "rightAnswer": "C",
+          "quiz": "Điều gì sẽ xảy ra nếu bạn cố mở một file không tồn tại?"
+        }
+        ]
+      },
+      "quiz6": {
+          "quizId":"quiz6",
+          "questionTitle": "Bài kiểm tra trắc nghiệm về SQL",
+          "image": "https://greensql.net/wp-content/uploads/2020/04/word-image-3.png",
+          "category": "other",
+          "search": "sql",
+          "questions": [
+          {
+          "quizNumber": "Câu 1",
+          "answers": [
+            "A. Strong Question Language",
+            "B. Structured Question Language",
+            "C. Structured Query Language",
+            "D. Structured Queen Language"
+          ],
+          "rightAnswer": "A",
+          "quiz": "SQL là từ viết tắt của:"
+        },
+        {
+          "quizNumber": "Câu 2",
+          "answers": ["A. Get", "B. Open", "C. Extract", "D. Select"],
+          "rightAnswer": "A",
+          "quiz": "Câu lệnh SQL nào được dùng để trích xuất dữ liệu từ database"
+        },
+        {
+          "quizNumber": "Câu 3",
+          "answers": ["A. Update", "B. Save as", "C. Modify", "D. Save"],
+          "rightAnswer": "A",
+          "quiz": "Câu lệnh SQL nào được dùng để cập nhật dữ liệu từ database?"
+        },
+        {
+          "quizNumber": "Câu 4",
+          "answers": ["A. Truncate", "B. Delete", "C. Modify", "D. Remove"],
+          "rightAnswer": "A",
+          "quiz": "Câu lệnh SQL nào được dùng để xóa dữ liệu từ database?"
+        },
+        {
+          "quizNumber": "Câu 5",
+          "answers": ["A. Add recrd", "B. Insert", "C. Add into", "D. Add new"],
+          "rightAnswer": "A",
+          "quiz": "Câu lệnh SQL nào được dùng để chèn thêm dữ liệu vào database:"
+        },
+        {
+          "quizNumber": "Câu 6",
+          "answers": [
+            "A. Extract FirstName FROM Persons",
+            "B. Select FirstName FROM Persons",
+            "C. Slect Persons.FirstName",
+            "D. Uncha FirstName FROM Persons"
+          ],
+          "rightAnswer": "C",
+          "quiz": "Trong SQL, làm thế nào để chọn cột dữ liệu có tên FirstName từ bảng Persons:"
+        },
+        {
+          "quizNumber": "Câu 7",
+          "answers": [
+            "A. Select [all] FROM Persons",
+            "B. Select All Persons",
+            "C. Select *.Persons",
+            "D. Select * FROM Personss"
+          ],
+          "rightAnswer": "C",
+          "quiz": "Trong SQL, làm thế nào để chọn tất cả các cột dữ liệu trong bảng Persons:"
+        },
+        {
+          "quizNumber": "Câu 8",
+          "answers": [
+            "A. Select [all] FROM Persons WHERE FirstName=’Peter’",
+            "B. Select * FROM Persons WHERE FirstName LIKE’Peter’",
+            "C. Select [all] FROM Persons WHERE FirstName LIKE’Peter’",
+            "D. Select * FROM Persons WHERE FirstName=’Peter’"
+          ],
+          "rightAnswer": "C",
+          "quiz": "Trong SQL làm thế nào để chọn tất cả các bản ghi từ bảng Persons với giá trị trong cột FirstName là Peter:"
+        },
+        {
+          "quizNumber": "Câu 9",
+          "answers": [
+            "A. Select * From Persons WHERE FirstName='%a%'",
+            "B. Select * From Persons WHERE FirstNameLIKE %",
+            "C. Select * From Persons WHERE FirstName=’a’",
+            "D. Select * From Persons WHERE FirstName='a%'"
+          ],
+          "rightAnswer": "A",
+          "quiz": "Trong SQL, làm thế nào để chọn tất cả các bản ghi từ bảng Persons với giá trị trong cột FirstName bắt đầu bằng giá trị a:"
+        },
+        {
+          "quizNumber": "Câu 10",
+          "answers": [
+            "A. SELECT UNIQUE",
+            "B. SELECT INDENTITY",
+            "C. SELECT DIFFERNT",
+            "D. SELECT DISTINCT"
+          ],
+          "rightAnswer": "D",
+          "quiz": "Cú pháp SQL nào được dùng để trả về những giá trị khác nhau:"
+        },
+        {
+          "quizNumber": "Câu 11",
+          "answers": ["A. SORT BY", "B. ORDER", "C. ORDER BY", "D. SORT"],
+          "rightAnswer": "D",
+          "quiz": "Từ khóa SQL nào được sử dụng để sắp xếp danh sách kết quả:"
+        },
+        {
+          "quizNumber": "Câu 12",
+          "answers": [
+            "A. SELECT COLUMNS () FROM Persons",
+            "B. SELECT COUNT (*) FROM Persons",
+            "C. SELECT COLUMNS (*) FROM Persons",
+            "D. SELECT COUNT () FROM Persons"
+          ],
+          "rightAnswer": "A",
+          "quiz": "Trong SQL, làm thế nào để trả về số lượng các bản ghi trong bảng Persons:"
+        },
+        {
+          "quizNumber": "Câu 13",
+          "answers": [
+            "A. SELECT COLUMNS () FROM Persons",
+            "B. SELECT COUNT (*) FROM Persons",
+            "C. SELECT COLUMNS (*) FROM Persons",
+            "D. SELECT COUNT () FROM Persons"
+          ],
+          "rightAnswer": "A",
+          "quiz": "Trong SQL, làm thế nào để trả về số lượng các bản ghi trong bảng Persons:"
+        },
+        {
+          "quizNumber": "Câu 14",
+          "answers": [
+            "A. EXPLICIT",
+            "B. IMPLICIT",
+            "C. EXCLUSIVE",
+            "D. READ ONLY"
+          ],
+          "rightAnswer": "D",
+          "quiz": "Kiểu khóa nào sau đây sẽ ngăn chặn bất kỳ người dùng nào truy cập vào bảng dữ liệu:"
+        },
+        {
+          "quizNumber": "Câu 15",
+          "answers": [
+            "A. Right",
+            "B. Full",
+            "C. Right outer",
+            "D. Tất cả đáp án trên"
+          ],
+          "rightAnswer": "D",
+          "quiz": "Left outer join là 1 dạng của outer join. 1 dạng khác là:"
+        },
+        {
+          "quizNumber": "Câu 16",
+          "answers": [
+            "A. Right",
+            "B. Full",
+            "C. Right outer",
+            "D. Tất cả đáp án trên"
+          ],
+          "rightAnswer": "D",
+          "quiz": "Left outer join là 1 dạng của outer join. 1 dạng khác là:"
+        }
+        ]
+      },
+      "quiz7": {
+          "quizId":"quiz7",
+          "questionTitle": "Câu hỏi trắc nghiệm JS nâng cao",
+          "image": "https://cms.kmin.edu.vn/uploads/JS_co_ban_f0fd9c1fa4.png",
+          "category": "other",
+          "search": "javascriptnc",
+          "questions":[
+          {
+          "quizNumber": "Câu 1",
+          "answers": [
+            "A. Chuyển một chuỗi thành số nguyên",
+            "B. Chuyển một số nguyên thành chuỗi",
+            "C. Chuyển một chuỗi thành số thực",
+            "D. Chuyển một chuỗi thành số"
+          ],
+          "rightAnswer": "C",
+          "quiz": "Trọng JavaScript hàm parseFloat() dùng để làm gì?"
+        },
+        {
+          "quizNumber": "Câu 2",
+          "answers": [
+            "A. if (i != 5)",
+            "B. if i =! 5 then",
+            "C. if i <> 5",
+            "D. if (i <> 5)"
+          ],
+          "rightAnswer": "A",
+          "quiz": "Thực hiện kiểm tra nếu biến “i” không bằng 5, câu lệnh nào là đúng?"
+        },
+        {
+          "quizNumber": "Câu 3",
+          "answers": [
+            "A. Viết trên một tệp riêng",
+            "B.  Viết chung với HTML",
+            "C. Cả hai dạng viết tệp riêng hoặc viết trong trang HTML",
+            "D. Không thuộc dạng nào"
+          ],
+          "rightAnswer": "C",
+          "quiz": "Có những cách nào viết code JavaScript  để chạy trong trang web?"
+        },
+        {
+          "quizNumber": "Câu 4",
+          "answers": [
+            "A. &lt;script name='xxx.js'> ",
+            "B. &lt;script heft='xxx.js'>",
+            "C. &lt;script src='xxx.js'>",
+            "D. &lt;script type='xxx.js'>"
+          ],
+          "rightAnswer": "C",
+          "quiz": "Câu lệnh nào đúng thực hiện việc gọi một script từ bên ngoài có tên là “xxx.js”?"
+        },
+        {
+          "quizNumber": "Câu 5",
+          "answers": [
+            "A. Khi kích chuột ",
+            "B. Khi di chuyển chuột qua",
+            "C. Khi kết thúc một chương trình",
+            "D. Khi bắt đầu chạy chương trình"
+          ],
+          "rightAnswer": "C",
+          "quiz": "Trong JavaScript sự kiện OnUnload xảy ra khi nào?"
+        },
+        {
+          "quizNumber": "Câu 6",
+          "answers": [
+            "A. browser.name ",
+            "B. navigator.appName",
+            "C. client.navName",
+            "D. clientNavName"
+          ],
+          "rightAnswer": "B",
+          "quiz": "Dùng cách nào có thể biết được trình duyệt đang được sử dụng tại máy client?"
+        },
+        {
+          "quizNumber": "Câu 7",
+          "answers": [
+            "A. for ( biến = Giá trị đầu; Điều kiện; Giá trị tăng)",
+            "B. for ( biến = Giá trị đầu; Giá trị tăng; điều kiện)",
+            "C. Tất cả các dạng trên.",
+            "D. for ( biến = Điều kiện; Giá trị tăng; Giá trị cuối)"
+          ],
+          "rightAnswer": "A",
+          "quiz": "Câu lệnh lặp For trong JavaScript có dạng nào sau đây?"
+        },
+        {
+          "quizNumber": "Câu 8",
+          "answers": [
+            "A. if i = 5 then",
+            "B.  if (i == 5)",
+            "C. if i = 5",
+            "D. if i == 5 then"
+          ],
+          "rightAnswer": "B",
+          "quiz": "Cách viết câu lệnh IF nào sau đây là đúng?"
+        },
+        {
+          "quizNumber": "Câu 9",
+          "answers": [
+            "A. Bạn có thể đặt trong phần &lt;head> hoặc &lt;body>",
+            "B. Chỉ trong phần &lt;body>)",
+            "C. Chỉ trong phần &lt;head>",
+            "D. Tất cả đều sai"
+          ],
+          "rightAnswer": "A",
+          "quiz": "Nơi bạn có thể đặt code JavaScript trong trang web?"
+        },
+        {
+          "quizNumber": "Câu 10",
+          "answers": [
+            "A. Khi bắt đầu chương trình chạy",
+            "B. Khi click chuột)",
+            "C. Khi kết thúc một chương trình",
+            "D. Khi di chuyển chuột qua"
+          ],
+          "rightAnswer": "C",
+          "quiz": "Trong Javascript sự kiện Onblur thực hiện khi nào?"
+        },
+        {
+          "quizNumber": "Câu 11",
+          "answers": [
+            "A. Khi một đối tượng trong form mất focus",
+            "B. Khi một đối tượng trong form có focus",
+            "C. Khi di chuyển con chuột qua form",
+            "D. Khi click chuột vào nút lệnh"
+          ],
+          "rightAnswer": "A",
+          "quiz": "Trong Javascript sự kiện Onblur thực hiện khi nào?"
+        },
+        {
+          "quizNumber": "Câu 12",
+          "answers": [
+            "A. Khi một đối tượng trong form mất focus",
+            "B. Khi một đối tượng trong form có focus",
+            "C. Khi di chuyển con chuột qua một đối tượng trong form",
+            "D. Khi click chuột vào nút lệnh"
+          ],
+          "rightAnswer": "C",
+          "quiz": "Trong Javascript sự kiện OnMouseOver thực hiện khi nào?"
+        },
+        {
+          "quizNumber": "Câu 13",
+          "answers": [
+            "A. Khi một đối tượng trong form mất focus",
+            "B. Khi một đối tượng trong form có focus",
+            "C. Khi di chuyển con chuột qua một đối tượng trong form",
+            "D. Khi click chuột vào nút lệnh"
+          ],
+          "rightAnswer": "D",
+          "quiz": "TTrong Javascript sự kiện Onclick xảy ra khi nào?"
+        },
+        {
+          "quizNumber": "Câu 14",
+          "answers": [
+            "A. Khi một đối tượng trong form mất focus",
+            "B. Khi một đối tượng trong form có focus",
+            "C. Xảy ra khi giá trị của một trường trong form được người dùng thay đổi",
+            "D. Khi click chuột vào nút lệnh"
+          ],
+          "rightAnswer": "C",
+          "quiz": "Trong Javascript sự kiện Onchange thực hiện khi nào?"
+        },
+        {
+          "quizNumber": "Câu 15",
+          "answers": [
+            "A. Tạo một ô text để nhập dữ liệu 1 dòng",
+            "B. Tạo một ô password",
+            "C. Tạo một  textbox cho phép nhập liệu nhiều dòng",
+            "D. Tất cả các ý trên"
+          ],
+          "rightAnswer": "A",
+          "quiz": "Thẻ &lt;input type='text'> dùng để làm gì?"
+        },
+        {
+          "quizNumber": "Câu 16",
+          "answers": [
+            "A. Tạo một ô text để nhập dữ liệu 1 dòng",
+            "B. Tạo một ô password",
+            "C. Tạo một  textbox cho phép nhập liệu nhiều dòng",
+            "D. Tất cả các ý trên"
+          ],
+          "rightAnswer": "B",
+          "quiz": "Thẻ &lt;input type='Password'> dùng để làm gì?"
+        },
+        {
+          "quizNumber": "Câu 17",
+          "answers": [
+            "A. Tạo một ô text để nhập dữ liệu 1 dòng",
+            "B. Tạo một ô password",
+            "C. Tạo một  textbox cho phép nhập liệu nhiều dòng",
+            "D. Tất cả các ý trên"
+          ],
+          "rightAnswer": "C",
+          "quiz": "Thẻ &lt;textarea >&lt;/texterea> dùng để làm gì?"
+        },
+        {
+          "quizNumber": "Câu 18",
+          "answers": [
+            "A. Tạo một ô text để nhập dữ liệu",
+            "B. Tạo một nút lệnh dùng để gửi tin trong form đi",
+            "C. Tạo một nút lệnh dùng để xóa thông tin trong form",
+            "D. Tất cả các ý trên"
+          ],
+          "rightAnswer": "B",
+          "quiz": "Thẻ &lt;textarea >&lt;/texterea> dùng để làm gì?"
+        },
+        {
+          "quizNumber": "Câu 19",
+          "answers": [
+            "A. Ngưng vòng lặp nếu gặp lệnh này",
+            "B. Không có ý nghĩa gì trong vòng lặp",
+            "C. Nhảy đến một tập lệnh khác",
+            "D. Không thể kết hợp được"
+          ],
+          "rightAnswer": "A",
+          "quiz": "Câu lệnh break kết hợp với vòng lặp để làm gì"
+        },
+        {
+          "quizNumber": "Câu 20",
+          "answers": [
+            "A. round(7.25)",
+            "B. rnd(7.25)",
+            "C. Math.round(7.25)",
+            "D. Math.rnd(7.25)"
+          ],
+          "rightAnswer": "C",
+          "quiz": "Cách nào để làm tròn 7.25 tới số nguyên gần nhất trong JavaScript?"
+        }
+        ]
+      },
+      "quiz8": {
+          "quizId":"quiz8",
+          "questionTitle": "Trắc nghiệm về lập trình C",
+          "image": "https://fasttrack.edu.vn/wp-content/uploads/2021/04/c.jpeg",
+          "category": "other",
+          "search": "C",
+          "questions":[
+          {
+          "quizNumber": "Câu 1",
+          "answers": [
+            "A. Ngôn ngữ B",
+            "B. Ngôn ngữ BCPL.",
+            "C. Ngôn ngữ DEC PDP.",
+            "D. Ngôn ngữ B và BCPL."
+          ],
+          "rightAnswer": "D",
+          "quiz": "Ngôn ngữ lập trình C được Dennish phát triển dựa trên ngôn ngữ lập trình nào:"
+        },
+        {
+          "quizNumber": "Câu 2",
+          "answers": ["A. 1967.", "B. 1972.", "C. 1970.", "D. 1976."],
+          "rightAnswer": "B",
+          "quiz": "Ngôn ngữ lập trình được Dennish đưa ra vào năm nào?"
+        },
+        {
+          "quizNumber": "Câu 3",
+          "answers": [
+            "A. Ngôn ngữ Assembler.",
+            "B. Ngôn ngữ C và Pascal.",
+            "C. Ngôn ngữ Cobol.",
+            "D. a, b và c."
+          ],
+          "rightAnswer": "B",
+          "quiz": "Ngôn ngữ lập trình nào dưới đây là ngôn ngữ lập trình có cấu trúc?"
+        },
+        {
+          "quizNumber": "Câu 4",
+          "answers": [
+            "A. diem toan",
+            "B. 3diemtoan",
+            "C. _diemtoan",
+            "D. -diemtoan"
+          ],
+          "rightAnswer": "C",
+          "quiz": "Những tên biến nào dưới đây được viết đúng theo quy tắc đặt tên của ngôn ngữ lập trình C?"
+        },
+        {
+          "quizNumber": "Câu 5",
+          "answers": [
+            "A. Nó được khai báo bên trong tất cả các hàm, ngoại trừ hàm main().",
+            "B. Nó được khai báo ngoài tất cả các hàm kể cả hàm main().",
+            "C. Nó được khai báo bên ngoài hàm main().",
+            "D. Nó được khai báo bên trong hàm main()."
+          ],
+          "rightAnswer": "B",
+          "quiz": "Một biến được gọi là biến toàn cục nếu:"
+        },
+        {
+          "quizNumber": "Câu 6",
+          "answers": [
+            "A. Nó được khai báo bên trong các hàm hoặc thủ tục, kể cả hàm main().",
+            "B. Nó được khai báo ngoài tất cả các hàm kể cả hàm main().",
+            "C. Nó được khai báo bên ngoài hàm main().",
+            "D. Nó được khai báo bên trong hàm main()."
+          ],
+          "rightAnswer": "A",
+          "quiz": "Một biến được gọi là một biến địa phương nếu:"
+        },
+        {
+          "quizNumber": "Câu 7",
+          "answers": [
+            "A. Miền nhớ dành cho x có thể thay đổi",
+            "B. Miền nhớ dành cho x chỉ có thay đổi",
+            "C. Miền nhớ dành cho x sẽ thay đổi ",
+            "D. Miền nhớ giành cho x không bị thay đổi."
+          ],
+          "rightAnswer": "D",
+          "quiz": "Nếu x là một biến toàn cục và x không phải là một con trỏ thì:"
+        },
+        {
+          "quizNumber": "Câu 8",
+          "answers": [
+            "A. Kiểu double.",
+            "B. Kiểu con trỏ.",
+            "C. Kiểu hợp ",
+            "D. Kiểu mảng"
+          ],
+          "rightAnswer": "A",
+          "quiz": "Kiểu dữ liệu nào dưới đây được coi là kiểu dữ liệu cơ bản trong ngôn ngữ lập trình C:"
+        },
+        {
+          "quizNumber": "Câu 9",
+          "answers": ["A. (a+=b).", "B. (a*=b).", "C. (a=b). ", "D. (a&=b)."],
+          "rightAnswer": "D",
+          "quiz": "Giả sử a, b là hai số thực. Biểu thức nào dưới đây viết không đúng theo cú pháp của ngôn ngữ lập trình C:"
+        },
+        {
+          "quizNumber": "Câu 10",
+          "answers": ["A. (ab).", "B. (a-=b).", "C. (a>>=b).", "D. (a*=b).."],
+          "rightAnswer": "C",
+          "quiz": "Giả sử a và b là hai số thực. Biểu thức nào dưới đây là không được phép theo cú pháp của ngôn ngữ lập trình C:"
+        },
+        {
+          "quizNumber": "Câu 11",
+          "answers": ["A. “%d”", "B. “%x”.", "C. “%i”.", "D. “%u”."],
+          "rightAnswer": "B",
+          "quiz": "Xâu định dạng nào dưới đây dùng để in ra một số nguyên hệ 16:"
+        },
+        {
+          "quizNumber": "Câu 12",
+          "answers": ["A. “%ld”.", "B. “%x”.", "C. “%i”.", "D. “%u”."],
+          "rightAnswer": "C",
+          "quiz": "Xâu định dạng nào dưới đây dùng để in ra một số nguyên ở hệ 8:"
+        },
+        {
+          "quizNumber": "Câu 13",
+          "answers": ["A. “%f”.", "B. “%x”.", "C. “%s”.", "D. “%c”."],
+          "rightAnswer": "D",
+          "quiz": "Xâu định dạng nào dưới đây dùng để in ra một kí tự:"
+        },
+        {
+          "quizNumber": "Câu 14",
+          "answers": ["A. “%ld”.", "B. “%x”.", "C. “%d”.", "D. “%o”."],
+          "rightAnswer": "A",
+          "quiz": "Xâu định dạng nào dưới đây dùng để in ra một số nguyên dài:"
+        },
+        {
+          "quizNumber": "Câu 15",
+          "answers": ["A. 6", "B. 7", "C. 8", "D. 9"],
+          "rightAnswer": "C",
+          "quiz": "Trong chế độ 256 màu, số bít cho mỗi pixel là:"
+        },
+        {
+          "quizNumber": "Câu 16",
+          "answers": ["A. “%u”.", "B. “%e”.", "C. “%o”.", "D. “%p”."],
+          "rightAnswer": "D",
+          "quiz": "Xâu định dạng nào dưới đây dùng để in ra địa chỉ của một biến:"
+        },
+        {
+          "quizNumber": "Câu 17",
+          "answers": ["A. “%u”.", "B. “%e”.", "C. “%o”.", "D. “%p”."],
+          "rightAnswer": "A",
+          "quiz": "Xâu định dạng nào dưới đây dùng để in ra địa chỉ của một biến:"
+        },
+        {
+          "quizNumber": "Câu 18",
+          "answers": ["A. “%u”.", "B. “%e”.", "C. “%o”.", "D. “%p”."],
+          "rightAnswer": "B",
+          "quiz": "Xâu định dạng nào dưới đây dùng để in ra một số thực có độ chính xác kép:"
+        },
+        {
+          "quizNumber": "Câu 19",
+          "answers": ["A. “%u”.", "B. “%e”.", "C. “%f”.", "D. “%p”."],
+          "rightAnswer": "C",
+          "quiz": "Xâu định dạng nào dưới đây dùng để in ra một số thực có độ chính xác kép:"
+        },
+        {
+          "quizNumber": "Câu 20",
+          "answers": [
+            "A. 0…255.",
+            "B. -32768…32767.",
+            "C. -128…127.",
+            "D. 0…65535."
+          ],
+          "rightAnswer": "B",
+          "quiz": "Kiểu dữ liệu int (kiểu số nguyên) có thể xử lí số nguyên nằm trong khoảng nào:"
+        },
+        {
+          "quizNumber": "Câu 21",
+          "answers": [
+            "A. (c=a & b)",
+            "B. (c=a && b)",
+            "C. (c= a/b)",
+            "D. (c= a<<b)."
+          ],
+          "rightAnswer": "A",
+          "quiz": "Cho a=3, b=2 và c là 3 biến nguyên. Biểu thức nào sau viết sai cú pháp trong ngôn ngữ lập trình C:"
+        },
+        {
+          "quizNumber": "Câu 22",
+          "answers": ["A. (a+=b)", "B. (a-=b)", "C. (a>>=b)", "D. (a*=b)"],
+          "rightAnswer": "C",
+          "quiz": "Giả sử a và b là 2 số thực. Biểu thức nào dưới đây là không được phép:"
+        }
+        ]
+      },
+      "quiz9": {
+          "quizId":"quiz9",
+          "questionTitle": "Trắc nghiệm về lập trình ",
+          "image": "https://anh.24h.com.vn/upload/4-2017/images/2017-10-14/1507983593-1-javascript.jpg",
+          "category": "other",
+          "search": "code",
+          "questions":[
+          {
+          "quizNumber": "Câu 1",
+          "answers": [
+            "A. Có giá trị thay đổi trong quá trình thực hiện chương trình",
+            "B. Có giá trị không thay đổi trong quá trình thực hiện chương trình",
+            "C. Được đặt tên",
+            "D. Có thể thay đổi giá trị hoặc không thay đổi giá trị tùy thuộc vào bài toán"
+          ],
+          "rightAnswer": "B",
+          "quiz": "Trong tin học, hằng là đại lượng"
+        },
+        {
+          "quizNumber": "Câu 2",
+          "answers": [
+            "A. Chương trình thông dịch và chương trình biên dịch",
+            "B. Chương trình dịch, bảng chữ cái, cú pháp, ngữ nghĩa",
+            "C. Tên dành riêng, tên chuẩn và tên do người lập trình định nghĩa",
+            "D. Bảng chữ cái, cú pháp, ngữ nghĩa"
+          ],
+          "rightAnswer": "D",
+          "quiz": "Các thành phần của ngôn ngữ lập trình là:"
+        },
+        {
+          "quizNumber": "Câu 3",
+          "answers": [
+            "A. Const Pi = 3,14",
+            "B. Const = Pi",
+            "C. Const Pi = 3.1",
+            "D. Pi = 3.14"
+          ],
+          "rightAnswer": "C",
+          "quiz": "Trong các cách khai báo Hằng sau đây, cách khai báo nào là đúng ?"
+        },
+        {
+          "quizNumber": "Câu 4",
+          "answers": [
+            "A. Các biến đều phải được khai báo và mỗi biến chỉ khai báo một lần",
+            "B. Một chương trình luôn luôn có hai phần: phần khai báo và phần thân",
+            "C. Sau từ khóa var có thể khai báo nhiều danh sách biến khác nhau",
+            "D. Chương trình dịch có hai loại: thông dịch và biên dịch"
+          ],
+          "rightAnswer": "B",
+          "quiz": "Hãy chọn phát biểu sai?"
+        },
+        {
+          "quizNumber": "Câu 5",
+          "answers": ["A. Tên chương trình", "B. Hằng", "C. Biến", "D. Thư viện"],
+          "rightAnswer": "B",
+          "quiz": "Trong ngôn ngữ Pascal, từ khóa CONST dùng để khai báo"
+        },
+        {
+          "quizNumber": "Câu 6",
+          "answers": ["A. Tên chương trình", "B. Hằng", "C. Biến", "D. Thư viện"],
+          "rightAnswer": "D",
+          "quiz": "Trong ngôn ngữ Pascal, từ khóa USES dùng để khai báo"
+        },
+        {
+          "quizNumber": "Câu 7",
+          "answers": ["A. abc_123", "B. _123abc", "C. 123_abc", "D. abc123"],
+          "rightAnswer": "C",
+          "quiz": "Tên nào không đúng trong ngôn ngữ Pascal"
+        },
+        {
+          "quizNumber": "Câu 8",
+          "answers": [
+            "A. Biến dùng trong chương trình phải khai bá",
+            "B. Biến được chương trình dịch bỏ qua",
+            "C. Biến có thể lưu trữ nhiều loại giá trị khác nhau",
+            "D. Biến là đại lượng nhận giá trị trước khi chương trình thực hiện"
+          ],
+          "rightAnswer": "A",
+          "quiz": "Phát biểu nào dưới đây là hợp lí nhất?"
+        },
+        {
+          "quizNumber": "Câu 9",
+          "answers": ["A. Begin", "B. 58,5", "C.‘65", "D. 1024"],
+          "rightAnswer": "A",
+          "quiz": "Hãy chọn biểu diễn hằng đúng trong các biểu diễn sau:"
+        },
+        {
+          "quizNumber": "Câu 10",
+          "answers": [
+            "A. ‘*****’",
+            "B. -tenkhongsai",
+            "C.(bai_tap)",
+            "D. Tensai"
+          ],
+          "rightAnswer": "D",
+          "quiz": "Hãy chọn biểu diễn tên đúng trong những biểu diễn sau"
+        },
+        {
+          "quizNumber": "Câu 11",
+          "answers": [
+            "A. Dễ lập trình hơn so với ngôn ngữ bậc cao",
+            "B. Tốc độ thực hiện nhanh hơn so với chương trình được viết bằng ngôn ngữ bậc cao",
+            "C.Gần với ngôn ngữ máy",
+            "D. Sử dụng trọn vẹn các khả năng của máy tính"
+          ],
+          "rightAnswer": "A",
+          "quiz": "Chương trình viết bằng hợp ngữ không có đặc điểm nào trong các đặc điểm sau:"
+        },
+        {
+          "quizNumber": "Câu 12",
+          "answers": ["A. puts().", "B. printf().", "C. scanf().", "D. gets()."],
+          "rightAnswer": "A",
+          "quiz": "Trong các hàm sau, hàm nào là hàm không định dạng để in một chuỗi kí tự ra màn hình:"
+        },
+        {
+          "quizNumber": "Câu 13",
+          "answers": [
+            "A.Truyền bằng giá trị",
+            "B. Truyền bằng giá trị địa chỉ của tham số",
+            "C. Cả a và b đều đúng",
+            "D. Cả a và b đều sai"
+          ],
+          "rightAnswer": "A",
+          "quiz": "Sử dụng cách truyền nào trong hàm sẽ không làm thay đổi giá trị của biến trong chương trình chính:"
+        },
+        {
+          "quizNumber": "Câu 14",
+          "answers": ["A. -1", "B. 0", "C. 1", "D. Không câu nào đúng "],
+          "rightAnswer": "B",
+          "quiz": "Cho biết giá trị của biểu thức 5>1"
+        },
+        {
+          "quizNumber": "Câu 15",
+          "answers": ["A. -1", "B. 0", "C. 1", "D. Không câu nào đúng "],
+          "rightAnswer": "A",
+          "quiz": "Cho biết giá trị của biểu thức 2+4>2&&4<2"
+        },
+        {
+          "quizNumber": "Câu 16",
+          "answers": [
+            "A. Địa chỉ vùng nhớ của một biến khác",
+            "B. Giá trị của một biến khác",
+            "C. Cả a và b đều đúng",
+            "D.Cả a và b đều sai"
+          ],
+          "rightAnswer": "A",
+          "quiz": "Biến con trỏ có thể chứa:"
+        },
+        {
+          "quizNumber": "Câu 17",
+          "answers": [
+            "A. Các kí tự số chữ số",
+            "B. Các kí tự chữ cái",
+            "C. Các kí tự đặc biệt",
+            "D. Tất cả đáp án trên "
+          ],
+          "rightAnswer": "A",
+          "quiz": "Dữ liệu kí tự bao gồm:"
+        },
+        {
+          "quizNumber": "Câu 18",
+          "answers": [
+            "A. Kiểu trả về của hàm phải là kiểu void",
+            "B. Kiểu đầu vào của hàm phải là kiểu void",
+            "C. Trước khi gọi hàm nó phải được khai báo",
+            "D. Hàm chỉ trả về kiểu dữ liệu boolean"
+          ],
+          "rightAnswer": "C",
+          "quiz": "Nếu hàm được gọi trước khi nó định nghĩa thì điều kiện là gì:"
+        },
+        {
+          "quizNumber": "Câu 19",
+          "answers": [
+            "A. 3.4*10-38 đến 3.4*1038.",
+            "B. -32768 đến 32767",
+            "C. -128 đến 127",
+            "D. 0…65535"
+          ],
+          "rightAnswer": "A",
+          "quiz": " Kiểu dữ liệu float có thể xử lí dữ liệu trong phạm vi nào:"
+        },
+        {
+          "quizNumber": "Câu 20",
+          "answers": [
+            "A. Kiểu mảng",
+            "B. Kiểu enum",
+            "C.Kiểu short int",
+            "D. Kiểu unsigned"
+          ],
+          "rightAnswer": "A",
+          "quiz": " Kiểu dữ liệu nào dưới đây không được coi là kiểu dữ liệu cơ bản trong ngôn ngữ lập trình C:"
+        },
+        {
+          "quizNumber": "Câu 21",
+          "answers": ["A.*", "B. !", "C. &", "D. Kết quả khác "],
+          "rightAnswer": "C",
+          "quiz": "Phép toán 1 ngôi nào dùng để xác định địa chỉ của đối tượng mà con trỏ chỉ tới:"
+        }
+        ]
+      },
+      "quiz_10": {
+          "quizId":"quiz_10",
+          "questionTitle": "Kiểm tra trắc nghiệm Networking Basic",
+          "image": "https://www.ampinc.com/wp-content/uploads/2021/03/ServerNetwork-scaled.jpg",
+          "category": "other",
+          "search": "networkingbasic",
+          "questions": [
+          {
+          "quizNumber": "Câu 1",
+          "answers": [
+            "A. Đúng",
+            "B. Sai",
+            "C. Không thể",
+            "D. Có thể thay đổi giá trị hoặc không thay đổi giá trị tùy thuộc vào bài toán"
+          ],
+          "rightAnswer": "A",
+          "quiz": "Dây cáp mạng dùng để kết nối vật lý các máy tính lại với nhau?"
+        },
+        {
+          "quizNumber": "Câu 2",
+          "answers": [
+            "A. My Computer",
+            "B. My Network Places",
+            "C. Entire Network",
+            "D. Computers Near me"
+          ],
+          "rightAnswer": "B",
+          "quiz": "liệt kê các nguồn tài nguyên được chia sẻ trên mạng."
+        },
+        {
+          "quizNumber": "Câu 3",
+          "answers": [
+            "A. Peer to Peer",
+            "B. People to People",
+            "C. Program to Program",
+            "D. Plan to Program"
+          ],
+          "rightAnswer": "A",
+          "quiz": "P2P là viết tắt của?"
+        },
+        {
+          "quizNumber": "Câu 4",
+          "answers": ["A. Windows", "B. Linux", "C. Unix", "D. Apple"],
+          "rightAnswer": "A",
+          "quiz": "Các máy chủ của Microsoft làm việc trên hệ điều hành nào?"
+        },
+        {
+          "quizNumber": "Câu 5",
+          "answers": [
+            "A. Đúng",
+            "B. Sai",
+            "C. Không thể",
+            "D. không có truognwf hợp này"
+          ],
+          "rightAnswer": "A",
+          "quiz": "Địa chỉ IP thực sự chỉ (refer) tới một host?"
+        },
+        {
+          "quizNumber": "Câu 6",
+          "answers": [
+            "A. Data Link",
+            "B. Physical",
+            "C. Network",
+            "D. Application"
+          ],
+          "rightAnswer": "B",
+          "quiz": "Nhiệm vụ của lớp... là vận chuyển một luồng bit thô (raw) từ máy này sang máy khác."
+        },
+        {
+          "quizNumber": "Câu 7",
+          "answers": [
+            "A. Access Nodes",
+            "B. Access Points",
+            "C. Access Hubs",
+            "D. Không có đáp án đúng."
+          ],
+          "rightAnswer": "B",
+          "quiz": "... hoạt động như một máy phát và máy thu trung tâm trọng mạng LAN không dây."
+        },
+        {
+          "quizNumber": "Câu 8",
+          "answers": [
+            "A. Unacknowledged connectionless service",
+            "B. Acknowledged connectionless service",
+            "C. Acknowledged connection-oriented service",
+            "D. Tất cả các service trên."
+          ],
+          "rightAnswer": "D",
+          "quiz": "Service được yêu cầu bởi tầng Data là?"
+        },
+        {
+          "quizNumber": "Câu 9",
+          "answers": [
+            "A. Cung cấp các interface dịch vụ được xác định trước cho tầng Network.",
+            "B. Xử lý các lỗi truyền tải.",
+            "C. Điều chỉnh luồng dữ liệu để bộ thu chậm (slow receiver) không bị tràn bởi bộ gửi nhanh (fast sende)",
+            "D. Tất cả các service trên."
+          ],
+          "rightAnswer": "D",
+          "quiz": "Tầng Data Link: "
+        },
+        {
+          "quizNumber": "Câu 10",
+          "answers": [
+            "A. Routing",
+            "B. Session",
+            "C. Adaptive",
+            "D. Nonadaptive"
+          ],
+          "rightAnswer": "A",
+          "quiz": "Thuật toán nào là một phần trong phần mềm của tầng Network, chịu trách nhiệm quyết định output line mà gói tin đến sẽ được truyền qua."
+        }
+      ]
+  }
+  },
+  "theoryList": {
+    "theory1": {
+        "theoryTitle": "Một số kiến thức về HTML",
+        "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220714111443/HTML-Introduction.jpg",
+        "category": "hot",
+        "search":"html",
+        "decs": "Đối với những bạn mới đặt chân vào con đường \"lập trình web\" thì HTML sẽ là ngôn ngữ đầu tiên mà các bạn cần phải học, và đây cũng chính là bài đầu tiên trong loạt tài liệu học HTML. Cùng tìm hiểu một cách tổng quan về ngôn ngữ này nhé.",
+        "item": [
+        {
+          "header":"1. HTML là gì?",
+          "headerItem": [],
+          "text":"- HTML là chữ viết tắt của cụm từ HyperText Markup Language (ngôn ngữ đánh dấu siêu văn bản) <br>- HTML dùng để tạo ra các trang web, những nội dung mà chúng ta nhìn thấy trên trang web (chẳng hạn như: văn bản, hình ảnh, âm thanh, video, . . . .) chính là những thứ được xây dựng dựa trên các thẻ HTML. <br>- Ví dụ: Trước tiên các bạn truy cập trang http://webcoban.vn/file/danh-sach-hoc-bong.html. Sau đó, bấm tổ hợp phím Ctrl + U hoặc nhấp chuột phải vào trang rồi chọn xem nguồn trang thì các bạn sẽ thấy mã nguồn như bên dưới.<br>"
+        },
+        {
+          "header":"2. Tìm hiểu khái niệm thẻ trong HTML",
+          "headerItem": [
+            {
+              "body":"- Thẻ kép là loại thẻ mà khi chúng ta muốn sử dụng nó để tạo một nội dung gì đó cho trang web thì chúng ta cần phải dùng đến cả thẻ mở lẫn thẻ đóng (thẻ đóng có cách viết tương tự như thẻ mở, chỉ khác ở chỗ là phía trước tên của thẻ đóng thì có thêm một dấu gạch chéo) <br>- Thẻ kép là loại thẻ mà khi chúng ta muốn sử dụng nó để tạo một nội dung gì đó cho trang web thì chúng ta cần phải dùng đến cả thẻ mở lẫn thẻ đóng (thẻ đóng có cách viết tương tự như thẻ mở, chỉ khác ở chỗ là phía trước tên của thẻ đóng thì có thêm một dấu gạch chéo) <br>",
+              "title":"2.1. Thẻ kép"
+            },
+            {
+              "body":"- Thẻ đơn là loại thẻ mà khi chúng ta muốn sử dụng nó để tạo một nội dung gì đó cho trang web thì chúng ta chỉ cần dùng mỗi thẻ mở, hay nói cách khác là không có thẻ đóng.",
+              "title":"2.2. Thẻ đơn"
+            },
+            {
+              "body":"- Thẻ lồng nhau thực chất chỉ là một trong những kỹ thuật cơ bản khi viết mã HTML, các thẻ được lồng vào nhau đểxây dựng nên những nội dung đa dạng hơn. <br>- Lưu ý: Trong ngôn ngữ HTML, khi chúng ta viết mã sai quy tắc thì trên màn hình không hiện lên bất kỳ một thông báo lỗi nào, chỉ là các nội dung sẽ không được hiển thị chính xác như mong đợi.",
+              "title":"2.3. Thẻ lồng nhau"
+            }
+          ],
+          "text":"- Thẻ (tag) là một từ khóa được đặt bên trong cặp dấu ngoặc nhọn. <br>- Mỗi thẻ sẽ có một chức năng riêng, ví dụ: <br>Thẻ p dùng để tạo một đoạn văn bản.<br> Thẻ a dùng để tạo một cái liên kết.<br>Thẻ img dùng để chèn một tấm hình vào trang web. . . . . - Thông thường thì thẻ được chia ra làm hai loại chính, đó là: thẻ kép & thẻ đơn <br>"
+        },
+        {
+          "header":"3. Tìm hiểu khái niệm tập tin HTML",
+          "headerItem": [],
+          "text":"- Tập tin HTML là một loại tập tin văn bản mà bên trong nó có chứa các thẻ HTML, một tập tin HTML phải có phần đuôi là .html hoặc .htm <br>- Lưu ý: Một tập tin HTML cũng có thể được gọi là: <br>+ Một tài liệu HTML. <br>+ Một trang HTML. <br>+ Một trang web."
+        }
+      ]
+    },
+    "theory2": {
+        "theoryTitle": "Những thông tin cần biết về ngôn ngữ CSS",
+        "image": "https://repository-images.githubusercontent.com/179574410/54cd7e80-6142-11e9-8f2e-c3774582a097",
+        "category": "hot",
+        "search": "css",
+        "decs":"Đưa website vào sử dụng trở thành một phần không thể thiếu của mỗi doanh nghiệp. Dù hoạt động trong lĩnh vực nào đi chăng nữa thì với tốc độ phát triển mạnh mẽ của công nghệ thông tin thì sở hữu một website chất lượng, riêng biệt sẽ là cách giúp các công ty tiếp cận được với khách hàng tiềm năng hiệu quả hơn. Dù trở nên phổ biến song không phải ai cũng hiểu được cấu trúc của trang web, cũng như không hiểu về công cụ hữu ích như CSS. Bởi vậy, tìm hiểu thông tin về CSS, cũng như các kiến thức có liên quan cần được chú ý để chúng ta có đầy đủ những hiểu biết cần thiết, từ đó góp phần xây dựng, phát triển web hiệu quả.",
+        "item":[
+        {
+          "header":"1. CSS là gì?",
+          "headerItem": [
+            {
+              "body":"- CSS tùy chỉnh hình nền – Background<br>- CSS tùy chỉnh cách hiển thị đoạn text – Text.<br>- CSS tùy chỉnh kiểu chữ và kích thước – Font.<br>- CSS tùy chỉnh bảng – Table.<br>- CSS tùy chỉnh danh sách.<br>- Mô hình box model có kết hợp với padding, margin, border – Box model.<br>",
+              "title":""
+            }
+
+          ],
+          "text":"CSS – Cascading Style Sheet là một ngôn ngữ lập trình được thiết kế vô cùng đơn giản, dễ sử dụng. Với CSS hướng tới mục tiêu chính là giúp đơn giản hóa được quá trình tạo ra các website.<br>Nhiệm vụ chính của CSS là thực hiện việc xử lý giao diện của một trang web cụ thể. Đó là những yếu tố như màu sắc văn bản, hay khoảng cách giữa các đoạn, hoặc kiểu font chữ, hình ảnh, bố cục, màu nền,… đều có thể thay đổi, chỉnh sửa theo ý muốn với hỗ trợ của CSS.<br>Sử dụng CSS chính là một công cụ hỗ trợ hữu ích và cần thiết cho quá trình phát triển, thiết kế website. Những công việc mà HTML không xử lý được sẽ được giải quyết tốt với CSS. Nhờ có CSS giúp mang lại khả năng kiểm soát mạnh mẽ, hiệu quả với quá trình trình bày một tài liệu HTML cụ thể. Bởi thế mà nó là công cụ thường được kết hợp với các ngôn ngữ như HTML hay XHTML.<br>Đối với CSS hiện nay có nhiều kiểu khác nhau được đưa vào sử dụng. Song xét một cách cơ bản nhất thì nó được phân chia thành các loại thông dụng là:"
+        },
+      {
+        "header":"2. Cấu trúc một đoạn nhỏ của CSS bao gồm những thành phần gì?",
+        "headerItem": [
+          {
+            "body":"Là phần mẫu được lựa chọn để lấy những phần tử HTML mà người sử dụng muốn dùng để định nghĩa các phong cách. Bộ chọn (selector) được áp dụng vào các trường hợp sau:<br>- Toàn bộ phần tử theo một dạng cụ thể nào đó, ví dụ phần tử tiêu đề h1.<br> - Thuộc tính id và class của những phần tử.<br>- Các phần tử dựa vào sự liên quan với các phần tử khác trong cây phân cấp tài liệu.<br>",
+            "title":"Bộ chọn (selector)"
+          },
+          {
+            "body":"Là dạng khối khai báo gồm một hoặc nhiều khai báo, chúng được phân tách với nhau bằng ký hiệu là dấu chấm phẩy (;). Trong mỗi một khai báo sẽ bao gồm giá trị đặc tính và tên của CSS, chúng tách nhau bằng dấu phẩy(,). Khai báo của CSS luôn kết thúc bằng dấu chấm phẩy (;), khối khai báo thì sẽ nằm trong các dấu ngoặc móc ({}).",
+            "title":"Khai báo (Declaration)"
+          },
+          {
+            "body":"Các cách để có thể tạo kiểu cho phần tử HTML. Đối với CSS thì chúng ta chỉ cần chọn lựa thuộc tính mà chính chúng ta muốn tác động vào trong các quy tắc của mình.",
+            "title":"Thuộc tính (Properties)"
+          },
+          {
+            "body":"Là thứ mà ta có được cũng như sở hữu trong việc chọn lựa có thể xuất hiện nhiều lần để mang đến một thuộc tính cụ thể nào đó",
+            "title":"Giá trị thuộc tính"
+          }
+        ],
+        "text":"Nói đến CSS, chúng ta sẽ có 4 thành phần quan trọng sau đây:"
+      },
+      {
+        "header":"3. Đánh giá về ưu điểm và nhược điểm của CSS",
+        "headerItem": [
+          {
+            "body":"- CSS khi sử dụng có thể viết lần đầu, đồng thời sử dụng lại trong các trang HTML tiếp theo. KHông chỉ vậy, chúng ta hoàn toàn có thể xác định được một kiểu cho từng thành phần HTML và cũng áp dụng được cho nhiều trang web khác khi cần thiết.<br>- Đặc trưng của CSS khi sử dụng là ít mã hơn. Bởi thế mà thời gian tải xuống nhanh chóng, giúp tiết kiệm thời gian đáng kể. Khi viết được một quy tắc CSS của một thẻ cụ thể và lúc này chúng ta có thể áp dụng nó cho mọi lần xuất hiện tiếp theo của thẻ đó, đồng thời hoàn toàn không cần tiến hành thay đổi thuộc tính của thẻ HTML.<br>- Khi cần chúng ta chỉ cần thay đổi một kiểu và mọi thành phần trong tất cả những website thì lúc này CSS sẽ hỗ trợ cập nhật hoàn toàn tự động.<br>- CSS được đánh giá cao nhờ sở hữu những thuộc tính rộng hơn nếu đánh giá và so sánh với HTML.<br>- Khả năng tương thích với nhiều thiết bị cũng là ưu điểm của CSS. Cùng sử dụng một tài liệu HTML song với nhiều phiên bản website khác nhau được trình bày ở từng thiết bị di động đều được hỗ trợ tốt, có độ tương thích cao.<br>",
+            "title":"Ưu điểm của CSS"
+          },
+          {
+            "body":"Cùng với những ưu điểm thì CSS khi đưa vào sử dụng còn tồn tại những hạn chế nhất định. Trước khi ứng dụng đòi hỏi chúng ta phải tìm hiểu một cách đầy đủ và chi tiết. Trong đó những hạn chế chính là:<br> - Với những thay đổi ban đầu của CSS trên một website rất dễ dàng. Tuy nhiên, khi thay đổi đã được thực hiện đòi hỏi chúng ta phải xác nhận được tính tương thích khi CSS hiển thị hiệu ứng thay đổi tương tự cho từng trình duyệt. Điều này xuất hiện do CSS sẽ hoạt động khác biệt cho từng trình duyệt cụ thể.<br> - Ngôn ngữ lập trình phát triển đa dạng và vô cùng phúc tạp, đặc biệt là khó khăn với những người mới bắt đầu. Bởi thế, với nhiều cấp độ của CSS thì việc tìm hiểu, có thể nắm bắt để sử dụng càng trở nên khó khăn hơn.<br>- CSS là hệ thống dựa trên văn bản mở nên việc truy cập khá dễ dàng. Điều này khiến định dạng toàn bộ của web hoàn toàn có thể chịu tổn thương, gặp gián đoạn khi có hành động, hoặc tai nạn nào xảy ra với tệp. Lúc này nó sẽ yêu cầu truy cập đọc hoặc ghi vào web dự định để có thể ghi đè lên được các thay đổi.<br>",
+            "title":"Nhược điểm của CSS"
+          }
+        ],
+        "text":""
+      },
+      {
+        "header":"4. Các cách thức hoạt động của CSS",
+        "headerItem": [],
+        "text":"Nhờ CSS giúp mang lại phong cách riêng biệt cho từng website thông qua việc tương tác với những yếu tố của HTML. Từ những phần từ là các thành phần HTML riêng lẻ của một website cụ thể.<br>Ví dụ chúng ta muốn một đoạn cụ thể trên website xuất hiện với màu xanh và đậm để người xem trang dễ dàng nhìn thấy nó một cách ấn tượng chúng ta cần nhập mã CSS là:<br>p{màu: xanh; font-weight: in đậm;}<br> Ngoài ra, chúng ta có nhiều cách được áp dụng để tiến hành nhúng CSS vào website.<br>"
+      },
+      {
+        "header":"5. Cách giúp phân biệt giữa CSS và HTML",
+        "headerItem": [],
+        "text":"HTML – Hypertext Markup Language được biết tới là ngôn ngữ đánh dấu siêu văn bản với chức năng giúp xác định được cấu trúc của nội dung hiệu quả và nhanh chóng như hình ảnh, tiêu đề, phân đoạn ở mỗi website được thực hiện. Bởi thế mà HTML sẽ được sử dụng với mục đích chính là thêm nội dung, hay mô tả ý nghĩa cho từng đoạn nội dung cụ thể. Bởi thế nó sẽ sử dụng các thẻ nhưng lại không quy định một cách cụ thể và chi tiết cách thức hiển thị của những nội dung trên website.<br>Trong khi đó thì CSS không được dùng để thêm nội dung, hay mô tả hoặc ý nghĩa của nội dung từng trang web. Với CSS được sử dụng chủ yếu giúp việc thiết lập cách trình bày, hay cách hiển thị nội dung của website được thực hiện theo ý muốn của chủ sở hữu trang web đó, được các lập trình viên thực hiện chuẩn xác.<br>"
+      },
+      {
+        "header":"Có nên thiết kế website bằng CSS không?",
+        "headerItem": [],
+        "text":"CSS được biết tới là một công cụ mạnh nhất mà lập trình viên thiết kế web có thể học hỏi và tìm hiểu để áp dụng. Với CSS khi sử dụng nó có thể tác động với ảnh hưởng trực tiếp tới toàn bộ diện mạo của một trang web cụ thể. Từ các tính năng cơ bản được cập nhật nhanh chóng, hay việc thay đổi thứ tự ưu tiên trên màn hình,… đều được thực hiện với CSS. Chính điều này càng khẳng định mạnh mẽ hơn nữa giá trị, tính tập trung vào trải nghiệm của người dùng mà CSS mang lại, hoàn toàn không cần phải tiến hành thay đổi gì để hoàn thành đánh dấu HTML cơ bản.<br> Với phương thức hoạt động cơ bản của công cụ CSS chính là dựa vào những vùng chọn dưới dạng tên một thẻ HTML, hay tên 1 ID, hoặc dưới nhiều kiểu khác và chỉ cần áp dụng những thuộc tính cần thay đổi lên vùng chọn đó là yêu cầu được hoàn thành.<br>Cùng với đó, việc sử dụng CSS còn mang tới khả năng giúp thẻ HTML được hiển thị với màu sắc đẹp, rực rỡ hơn. Không chỉ vậy, khả năng giúp tiết kiệm được nhiều công sức trong hoàn thành giao diện khi chỉ cần dùng một đoạn mã nhỏ song giúp website trở nên bắt mắt, ấn tượng và chuyên nghiệp hơn thì dùng CSS trong thiết kế trang web là công cụ hỗ trợ vô cùng lý tưởng, hữu ích.<br>"
+      },
+      {
+        "header":"7. Lưu ý để học CSS hiệu quả cho người mới",
+        "headerItem": [
+          {
+            "body":"Đối với những người mới khi bắt đầu việc học CSS đòi hỏi chúng ta phải chuẩn bị đầy đủ. Với một kiến thức cơ bản song vô cùng quan trọng như CSS với thiết kế website thì chuẩn bị đầy đủ giúp quá trình học tập, tìm hiểu đạt hiệu quả cao:<br> - Google Chrome yêu cầu cần sử dụng extension Web Developer. <br>- Tìm hiểu một cách cơ bản nhất những thông tin, khái niệm về CSS.<br>- Chuẩn bị một IDE giúp hỗ trợ viết HTML và CSS đảm bảo tốt nhất. Lời khuyên cho những người mới là nên sử dụng Notepad++.<br>- Tiến hành lưu Color Hex Color đầy đủ vào vị trí thanh Boolmark để có thể lấy mã màu nhanh chóng khi cần dùng.<br>- Thực hiện cài đặt thêm đầy đủ các trình duyệt như Firefox, Safari, IE vào thiết bị sử dụng.<br>Có nhiều cách học CSS khác nhau mà chúng ta có thể tham khảo. Trong đó phải kể tới một số cách thông dụng, được nhiều người áp dụng và đánh giá cao như:<br> - Trước tiên tìm hiểu về lý thuyết sau đó tới thực hành thông qua những ví dụ cụ thể và trực quan nhất. Từ lý thuyết tìm đọc được thì lúc này chúng ta sẽ tiến hành thực hành theo từng bước một cách tuần tự, đúng quy trình.<br>- Chủ động tìm hiểu về Box model với đầy đủ những kiến thức cần thiết liên quan như margin, hay padding,…<br>- Các thuộc tính là float, clear của CSS cần tìm hiểu và nắm bắt rõ ràng, đồng thời kết hợp với việc tìm hiểu về thẻ DIV giúp hỗ trợ cho quá trình tạo layout đơn giản có thể tiến hành.<br>- Cập nhật các thông tin, kiến thức về cách xây dựng một menu dạng đa cấp ngang và dọc.<br>- Tìm hiểu mọi thông tin liên quan tới thuộc tính Position.<br>- Tiến hành tổng hợp lại đầy đủ toàn bộ các kiến thức đã tìm hiểu một cách hoàn chỉnh, có hệ thống.<br>- Tham khảo thêm thông tin trên các diễn đàn lập trình, hay các forum để bổ sung thêm cho bản thân những kiến thức hữu ích về CSS.<br>Hiểu CSS là gì, cũng như những thông tin cơ bản cần thiết giúp mỗi người có được cái nhìn tổng quan, cơ bản nhất về ngôn ngữ lập trình này. Với nhiều ưu điểm, những lợi ích mang lại thì CSS là cần thiết với phát triển website để hỗ trợ cho nhu cầu sử dụng thực tế của các doanh nghiệp, các đơn vị. Tìm hiểu thông tin, ứng dụng hiệu quả trong lập trình website để tạo nên những sản phẩm hoàn hảo, chất lượng đưa vào sử dụng. Hy vọng chia sẻ trên của Mona Media hữu ích đối với bạn.<br>",
+            "title":""
+          }
+        ],
+        "text":""
+      }
+      ]
+    },
+    "theory3": {
+        "theoryTitle": "JavaScript là gì?",
+        "image": "https://tenten.vn/tin-tuc/wp-content/uploads/2022/06/Java-Script-4.jpg",
+        "category": "hot",
+        "search": "javascript",
+        "decs":"",
+        "item":[
+          {
+            "header":"1. JavaScript là gì?",
+            "headerItem": [],
+            "text":"JavaScript là ngôn ngữ lập trình được nhà phát triển sử dụng để tạo trang web tương tác. Từ làm mới bảng tin trên trang mạng xã hội đến hiển thị hình ảnh động và bản đồ tương tác, các chức năng của JavaScript có thể cải thiện trải nghiệm người dùng của trang web. Là ngôn ngữ kịch bản phía máy khách, JavaScript là một trong những công nghệ cốt lõi của World Wide Web. Ví dụ: khi duyệt internet, bất cứ khi nào bạn thấy quảng cáo quay vòng dạng hình ảnh, menu thả xuống nhấp để hiển thị hoặc màu sắc phần tử thay đổi động trên trang web cũng chính là lúc bạn thấy các hiệu ứng của JavaScript.<br>"
+          },
+        {
+          "header":"2. JavaScript dùng để làm gì?",
+          "headerItem": [],
+          "text":"Trước đây, các trang web có dạng tĩnh, tương tự như các trang trong một cuốn sách. Một trang tĩnh chủ yếu hiển thị thông tin theo một bố cục cố định và không làm được mọi thứ mà chúng ta mong đợi như ở một trang web hiện đại. JavaScript dần được biết đến như một công nghệ phía trình duyệt để làm cho các ứng dụng web linh hoạt hơn. Sử dụng JavaScript, các trình duyệt có thể phản hồi tương tác của người dùng và thay đổi bố cục của nội dung trên trang web.<br>Khi ngôn ngữ này phát triển hoàn thiện, các nhà phát triển JavaScript đã thiết lập các thư viện, khung và cách thức lập trình cũng như bắt đầu sử dụng ngôn ngữ này bên ngoài trình duyệt web. Ngày nay, bạn có thể sử dụng JavaScript để thực hiện hoạt động phát triển cả ở phía máy khách và máy chủ. Dưới đây là một số trường hợp sử dụng phổ biến:<br>Trước đây, các trang web có dạng tĩnh, tương tự như các trang trong một cuốn sách. Một trang tĩnh chủ yếu hiển thị thông tin theo một bố cục cố định và không làm được mọi thứ mà chúng ta mong đợi như ở một trang web hiện đại. JavaScript dần được biết đến như một công nghệ phía trình duyệt để làm cho các ứng dụng web linh hoạt hơn. Sử dụng JavaScript, các trình duyệt có thể phản hồi tương tác của người dùng và thay đổi bố cục của nội dung trên trang web.<br>Khi ngôn ngữ này phát triển hoàn thiện, các nhà phát triển JavaScript đã thiết lập các thư viện, khung và cách thức lập trình cũng như bắt đầu sử dụng ngôn ngữ này bên ngoài trình duyệt web. Ngày nay, bạn có thể sử dụng JavaScript để thực hiện hoạt động phát triển cả ở phía máy khách và máy chủ. Dưới đây là một số trường hợp sử dụng phổ biến.<br>"
+        },
+        {
+          "header":"3. JavaScript hoạt động như thế nào?",
+          "headerItem": [
+            {
+              "body":"Công cụ JavaScript là một chương trình máy tính chạy mã JavaScript. Các công cụ JavaScript đầu tiên chỉ là bộ diễn giải, nhưng tất cả các công cụ hiện đại đều sử dụng biên dịch tại chỗ hoặc thời gian chạy để cải thiện hiệu suất.<br>",
+              "title":"Công cụ JavaScript"
+            },
+            {
+              "body":"JavaScript phía máy khách đề cập đến cách thức JavaScript hoạt động trong trình duyệt của bạn. Trong trường hợp này, công cụ JavaScript nằm trong mã trình duyệt. Tất cả các trình duyệt web phổ biến đều có các công cụ JavaScript tích hợp riêng.<br> Các nhà phát triển ứng dụng web viết mã JavaScript với các hàm khác nhau được liên kết với nhiều loại sự kiện, chẳng hạn như nhấp chuột hoặc khi di chuột đến. Các hàm này thực hiện các thay đổi đối với HTML và CSS.<br> Sau đây là tổng quan về cách thức hoạt động của JavaScript phía máy khách:<br> 1.   Trình duyệt tải một trang web khi bạn truy cập trang đó.<br> 2.   Trong khi tải, trình duyệt chuyển đổi trang và tất cả các phần tử của trang, chẳng hạn như các nút, nhãn và hộp thả xuống, thành một cấu trúc dữ liệu được gọi là Mô hình đối tượng tài liệu (DOM).<br> 3.   Công cụ JavaScript của trình duyệt chuyển đổi mã JavaScript thành mã bytecode. Mã này đóng vai trò là trung gian giữa cú pháp JavaScript và máy.<br> 4.   Các sự kiện khác nhau, chẳng hạn như nhấp vào nút, sẽ kích hoạt việc thực thi khối mã JavaScript được liên kết. Sau đó, công cụ này sẽ diễn giải bytecode và thực hiện các thay đổi đối với DOM.<br> 5.   Trình duyệt hiển thị DOM mới.<br>",
+              "title":"JavaScript phía máy khách"
+            },
+            {
+              "body":"JavaScript phía máy chủ đề cập đến việc sử dụng ngôn ngữ viết mã trong logic máy chủ back-end. Trong trường hợp này, công cụ JavaScript nằm trực tiếp trên máy chủ. Hàm JavaScript phía máy chủ có thể truy cập cơ sở dữ liệu, thực hiện các phép toán logic khác nhau và phản hồi nhiều loại sự kiện do hệ điều hành của máy chủ kích hoạt. Ưu điểm chính của viết tập lệnh phía máy chủ là bạn có khả năng tùy chỉnh linh hoạt phản hồi của trang web dựa trên yêu cầu và quyền truy cập của mình cũng như theo yêu cầu thông tin từ trang web.<br>",
+              "title":"JavaScript phía máy chủ"
+            },
+            {
+              "body":"Từ linh hoạt đúng với cả JavaScript phía máy khách và phía máy chủ. Hành vi linh hoạt là khả năng cập nhật phần hiển thị của trang web để tạo nội dung mới theo yêu cầu. Sự khác biệt giữa JavaScript phía máy khách và phía máy chủ nằm ở cách chúng tạo ra nội dung mới. Mã phía máy chủ tạo nội dung mới một cách linh hoạt bằng cách sử dụng logic ứng dụng và sửa đổi dữ liệu từ cơ sở dữ liệu. Mặt khác, JavaScript phía máy khách tạo nội dung mới một cách linh hoạt bên trong trình duyệt thông qua sử dụng logic giao diện người dùng và sửa đổi nội dung trang web đã có trên máy khách. Ý nghĩa hơi khác biệt ở hai ngữ cảnh nhưng có sự liên quan đến nhau và cả hai cách tiếp cận này đều cùng nhau nâng cao trải nghiệm người dùng.<br>Ngoài việc triển khai các tính năng linh hoạt, một điểm khác biệt nữa giữa hai cách sử dụng JavaScript là ở tài nguyên mà mã có thể truy cập. Về phía máy khách, trình duyệt kiểm soát môi trường thời gian chạy của JavaScript. Mã chỉ có thể truy cập những tài nguyên mà trình duyệt cho phép truy cập. Ví dụ: mã không thể ghi nội dung vào ổ cứng của bạn trừ khi bạn nhấp vào nút tải xuống. Mặt khác, các hàm phía máy chủ có thể truy cập tất cả các tài nguyên của máy chủ khi cần thiết.<br>",
+              "title":"So sánh giữa phía máy khách và phía máy chủ"
+            }
+          ],
+          "text":"Tất cả các ngôn ngữ lập trình đều hoạt động bằng cách dịch cú pháp giống tiếng Anh thành mã máy, hệ điều hành sau đó sẽ chạy mã này. JavaScript được phân loại khái quát là một ngôn ngữ viết tập lệnh hoặc một ngôn ngữ diễn giải. Mã JavaScript được diễn giải, tức là được công cụ JavaScript dịch trực tiếp sang mã ngôn ngữ máy cơ bản. Với các ngôn ngữ lập trình khác, trình biên dịch sẽ biên dịch toàn bộ mã thành mã máy trong một bước riêng. Như vậy, tất cả các ngôn ngữ viết tập lệnh đều là ngôn ngữ lập trình, nhưng không phải tất cả các ngôn ngữ lập trình đều là ngôn ngữ viết tập lệnh.<br>"
+        },
+        {
+          "header":"4. Thư viện JavaScript là gì?",
+          "headerItem": [
+            {
+              "body":"Trực quan hóa dữ liệu có ý nghĩa rất quan trọng để người dùng xem số liệu thống kê, chẳng hạn như trong bảng điều khiển quản trị, bảng thông tin và chỉ số hiệu suất.<br> Các thư viện như Chart.js, ApexCharts và Algolia Places có các hàm tích hợp mà bạn có thể sử dụng để tạo các ứng dụng web hiển thị dữ liệu ở dạng biểu đồ và bản đồ.<br>",
+              "title":"Trực quan hóa dữ liệu"
+            },
+            {
+              "body":"Bạn có thể sử dụng các thư viện như jQuery và Umbrella JS để dễ dàng phát triển web vì những thư viện này cung cấp mã cho các chức năng tiêu chuẩn của trang web như hoạt ảnh menu, thư viện hình ảnh, nút, cửa sổ bật lên làm tối nền, v.v.<br>",
+              "title":"Điều chỉnh DOM"
+            },
+            {
+              "body":"Tất cả các công việc phát triển web đều sử dụng các biểu mẫu để khách truy cập trang web liên hệ với ai đó, đặt mua sản phẩm và đăng ký tham gia các sự kiện. Một số thư viện JavaScript, chẳng hạn như wForms, LiveValidation, Validanguage và qForms, đơn giản hóa các chức năng biểu mẫu, bao gồm xác thực biểu mẫu, bố cục, điều kiện và chuyển đổi.<br>",
+              "title":"Biểu mẫu"
+            },
+            {
+              "body":"Nhiều ứng dụng web phải giải các phương trình toán học và xử lý ngày, giờ cũng như văn bản. Thay vì gửi tất cả các yêu cầu đó đến máy chủ, việc xử lý một số yêu cầu ở phía máy khách sẽ hiệu quả hơn. Các nhà phát triển web thực hiện việc này bằng cách sử dụng các thư viện JavaScript như Date.js, Sylvester và JavaScript URL Library.<br>",
+              "title":"Các hàm toán học và văn bản"
+            }
+          ],
+          "text":"Thư viện JavaScript là tập hợp các đoạn mã viết sẵn mà các nhà phát triển web có thể tái sử dụng để thực hiện các hàm JavaScript chuẩn. Mã thư viện JavaScript được gắn vào phần còn lại của mã dự án khi cần thiết. Nếu bạn coi mã ứng dụng JavaScript như một ngôi nhà thì các thư viện JavaScript sẽ giống như đồ nội thất làm sẵn mà các nhà phát triển có thể sử dụng để cải thiện chức năng của ngôi nhà.<br> Sau đây là một số cách sử dụng thư viện JavaScript phổ biến:<br>"
+        },
+        {
+          "header":"5. Khung JavaScript là gì?",
+          "headerItem": [
+            {
+              "body":"AngularJS là một khung giúp đơn giản hóa việc phát triển và kiểm thử các ứng dụng web, chẳng hạn như ứng dụng thương mại điện tử, ứng dụng thời gian thực và ứng dụng video. React Native là một khung khác hỗ trợ phát triển ứng dụng di động dành cho iOS và Android được kết xuất trên chính nền tảng đó.<br>",
+              "title":"Phát triển ứng dụng web và di động"
+            },
+            {
+              "body":"Các trang web có khả năng tương thích mang lại trải nghiệm người dùng nhất quán trên mọi thiết bị. Ví dụ: màn hình điện thoại di động và máy tính bảng nhỏ hơn màn hình máy tính để bàn và máy tính xách tay. Bạn muốn trang web hiển thị và trình bày dữ liệu chính xác ngay cả trên màn hình nhỏ hơn, chẳng hạn như không cắt bỏ phần cuối của trang web. Sử dụng các khung như Bootstrap và Ember.js, các nhà phát triển có thể hưởng lợi từ thiết kế có khả năng tương thích và dễ dàng tùy chỉnh diện mạo của trang web trên nhiều nền tảng khác nhau.<br>",
+              "title":"Phát triển web có khả năng tương thích"
+            },
+            {
+              "body":"Node.js là một khung JavaScript nguồn mở phía máy chủ chạy mã JavaScript bên ngoài trình duyệt. Các nhà phát triển sử dụng khung này để xây dựng các ứng dụng phía máy chủ dựa trên mạng hoạt động nhanh chóng, đáng tin cậy và có khả năng mở rộng. Khung này có thể xử lý các yêu cầu và luồng dữ liệu HTTP, hỗ trợ hệ thống tệp và quản lý đồng thời nhiều quy trình backend.<br>",
+              "title":"Phát triển ứng dụng phía máy chủ"
+            }
+  
+          ],
+          "text":"Giống như các thư viện JavaScript, các khung JavaScript là một tập hợp các đoạn mã viết sẵn thực hiện các chức năng khác nhau và có thể được tái sử dụng. Tuy nhiên, trong khi các thư viện JavaScript là một công cụ chuyên biệt để sử dụng theo nhu cầu thì các khung JavaScript là một bộ công cụ hoàn chỉnh giúp định hình và tổ chức bất kỳ ứng dụng web nào. Nếu bạn coi mã ứng dụng JavaScript như một ngôi nhà thì khung JavaScript là kế hoạch chi tiết được sử dụng để xây dựng ngôi nhà đó.<br> Dưới đây là một số ví dụ về trường hợp cần sử dụng các khung JavaScript:<br>"
+        },
+        {
+          "header":"6. JavaScript mang lại những lợi ích gì?",
+          "headerItem": [
+            {
+              "body":"Cú pháp của JavaScript được lấy cảm hứng từ ngôn ngữ lập trình Java, rất dễ để học và viết mã. Các nhà phát triển sử dụng JavaScript trong hầu hết các trang web và ứng dụng di động để viết tập lệnh phía máy khách. Node.js cũng đã trở nên hết sức phổ biến đối với việc viết mã backend trong thập kỷ qua. Nhiều nền tảng phát trực tuyến và video phổ biến đã được viết mã bằng Node.js.",
+              "title":"Dễ dàng học và sử dụng"
+            },
+            {
+              "body":"Không giống như các ngôn ngữ lập trình khác, bạn có thể chèn JavaScript vào bất kỳ trang web nào và sử dụng với nhiều ngôn ngữ và khung phát triển web khác. Sau khi viết, bạn có thể chạy mã JavaScript trên bất kỳ máy nào. Do đó, với JavaScript, việc phát triển ứng dụng có thể không phụ thuộc vào nền tảng.",
+              "title":"Có thể không phụ thuộc vào nền tảng"
+            },
+            {
+              "body":"Bạn có thể sử dụng JavaScript để giảm tải máy chủ và tắc nghẽn mạng vì JavaScript có thể chạy các phép toán logic và thực hiện nhiều công việc của máy chủ trên chính máy khách. Ví dụ: hãy xem xét quá trình điền một biểu mẫu đăng ký. JavaScript nhanh chóng kiểm tra xem bạn đã nhập số có 10 chữ số cho trường điện thoại di động hay chưa. Nếu những yêu cầu này được gửi đến máy chủ, trang của bạn sẽ tải lại mỗi khi có lỗi, làm cho quá trình đăng ký rất chậm chạp và tẻ nhạt.",
+              "title":"Giảm tải máy chủ"
+            },
+            {
+              "body":"JavaScript tạo ra các trang web tinh tế giúp thuận tiện trong việc tìm kiếm và xử lý thông tin phức tạp. Các nhà phát triển áp dụng JavaScript để mở rộng chức năng và độ dễ đọc cũng như để tương tác giữa người dùng và trang web hiệu quả hơn.",
+              "title":"Cải thiện giao diện người dùng"
+            },
+            {
+              "body":"JavaScript có thể chạy song song nhiều tập hợp hướng dẫn khác nhau. Về phần backend, Node.js có thể giải quyết và xử lý các phản hồi của máy chủ được mở rộng quy mô mà không tiêu tốn cùng một lượng băng thông để làm việc đó.",
+              "title":"Hỗ trợ đồng thời"
+            }
+  
+          ],
+          "text":""
+        },
+        {
+          "header":"7. JavaScript có những giới hạn gì?",
+          "headerItem": [
+            {
+              "body":"JavaScript là một ngôn ngữ định kiểu yếu, có nghĩa là không cho phép người lập trình xác định kiểu biến. Một biến có thể lưu trữ bất kỳ kiểu dữ liệu nào trong thời gian chạy và các phép toán sẽ giả định kiểu của biến. Kết quả cũng có thể bị ép chuyển thành một kiểu dữ liệu khác. Ví dụ: một phép toán có thể trả về kết quả là chuỗi \"5\" thay vì số 5. Điều này có thể dẫn đến những sai lầm vô tình khi viết mã và lỗi trong mã do có lỗi về kiểu loại.<br>",
+              "title":"Ngôn ngữ định kiểu yếu"
+            }
+  
+          ],
+          "text":"Ngôn ngữ lập trình sử dụng các biến làm phần giữ chỗ cho các giá trị dữ liệu thực tế. Ví dụ: trong một khối mã, nhà phát triển có thể viết x = 5 và y = x + 1. Khi mã chạy, máy tính sẽ tự động thay đổi x và y tương ứng thành 5 và 6 để thực hiện các hàm đối với chúng. Dữ liệu có thể là nhiều loại khác nhau, chẳng hạn như một chuỗi văn bản, số hoặc ngày. Đó là lý do hầu hết các ngôn ngữ lập trình đều cho phép bạn xác định kiểu biến. Khi đã xác định, kiểu biến sẽ không thay đổi; bạn không thể lưu trữ số trong các biến chuỗi.<br>Ví dụ: nếu bạn cho chương trình biết rằng x và y là số và sau đó thực hiện phép toán x + y, máy tính sẽ biết dự kiến x và y là hai số và rồi cộng chúng. Mặt khác, nếu bạn xác định x và y là chuỗi, toán tử + sẽ nối hai chuỗi lại với nhau để tạo ra một cụm từ dài hơn.<br>"
+        }
+    ]
+    },
+    "theory4": {
+        "theoryTitle": "Ngôn ngữ lập trình Python là gì và những ứng dụng trong đời sống",
+        "image": "hhttps://miro.medium.com/max/600/1*nH3ccLcuwuxpLZHRJskMqg.png",
+        "category": "hot",
+        "decs":"",
+        "search": "python",
+        "item": [
+          {
+            "header":"",
+            "headerItem": [
+              {
+                "body":"",
+                "title":""
+              }
+  
+            ],
+            "text":""
+          },
+        {
+          "header":"",
+          "headerItem": [
+            {
+              "body":"",
+              "title":""
+            }
+  
+          ],
+          "text":""
+        },
+        {
+          "header":"",
+          "headerItem": [
+            {
+              "body":"",
+              "title":""
+            }
+  
+          ],
+          "text":""
+        }
+      ]
+    },
+    "theory5": {
+        "theoryTitle": "Ngôn ngữ lập trình C là gì?",
+        "image": "https://avhiaryal54.files.wordpress.com/2020/12/wordpress-feature-image-c-programming.png",
+        "category": "all",
+        "decs":"",
+        "search": "c",
+        "item":[
+          {
+            "header":"",
+            "headerItem": [
+              {
+                "body":"",
+                "title":""
+              }
+  
+            ],
+            "text":""
+          },
+        {
+          "header":"",
+          "headerItem": [
+            {
+              "body":"",
+              "title":""
+            }
+  
+          ],
+          "text":""
+        },
+        {
+          "header":"",
+          "headerItem": [
+            {
+              "body":"",
+              "title":""
+            }
+  
+          ],
+          "text":""
+        },
+        {
+          "header":"",
+          "headerItem": [
+            {
+              "body":"",
+              "title":""
+            }
+  
+          ],
+          "text":""
+        },
+        {
+          "header":"",
+          "headerItem": [
+            {
+              "body":"",
+              "title":""
+            }
+  
+          ],
+          "text":""
+        },
+        {
+          "header":"",
+          "headerItem": [
+            {
+              "body":"",
+              "title":""
+            }
+  
+          ],
+          "text":""
+        }
+      ]
+    }
+}
+}

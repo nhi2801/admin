@@ -1,0 +1,359 @@
+{
+  "theoryList": {
+    "theory1": {
+        "theoryTitle": "Một số kiến thức về HTML",
+        "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220714111443/HTML-Introduction.jpg",
+        "category": "hot",
+        "search":"html",
+        "decs": "Đối với những bạn mới đặt chân vào con đường \"lập trình web\" thì HTML sẽ là ngôn ngữ đầu tiên mà các bạn cần phải học, và đây cũng chính là bài đầu tiên trong loạt tài liệu học HTML. Cùng tìm hiểu một cách tổng quan về ngôn ngữ này nhé.",
+        "item": [
+        {
+          "header":"1. HTML là gì?",
+          "headerItem": [],
+          "text":"- HTML là chữ viết tắt của cụm từ HyperText Markup Language (ngôn ngữ đánh dấu siêu văn bản) <br>- HTML dùng để tạo ra các trang web, những nội dung mà chúng ta nhìn thấy trên trang web (chẳng hạn như: văn bản, hình ảnh, âm thanh, video, . . . .) chính là những thứ được xây dựng dựa trên các thẻ HTML. <br>- Ví dụ: Trước tiên các bạn truy cập trang http://webcoban.vn/file/danh-sach-hoc-bong.html. Sau đó, bấm tổ hợp phím Ctrl + U hoặc nhấp chuột phải vào trang rồi chọn xem nguồn trang thì các bạn sẽ thấy mã nguồn như bên dưới.<br>"
+        },
+        {
+          "header":"2. Tìm hiểu khái niệm thẻ trong HTML",
+          "headerItem": [
+            {
+              "body":"- Thẻ kép là loại thẻ mà khi chúng ta muốn sử dụng nó để tạo một nội dung gì đó cho trang web thì chúng ta cần phải dùng đến cả thẻ mở lẫn thẻ đóng (thẻ đóng có cách viết tương tự như thẻ mở, chỉ khác ở chỗ là phía trước tên của thẻ đóng thì có thêm một dấu gạch chéo) <br>- Thẻ kép là loại thẻ mà khi chúng ta muốn sử dụng nó để tạo một nội dung gì đó cho trang web thì chúng ta cần phải dùng đến cả thẻ mở lẫn thẻ đóng (thẻ đóng có cách viết tương tự như thẻ mở, chỉ khác ở chỗ là phía trước tên của thẻ đóng thì có thêm một dấu gạch chéo) <br>",
+              "title":"2.1. Thẻ kép"
+            },
+            {
+              "body":"- Thẻ đơn là loại thẻ mà khi chúng ta muốn sử dụng nó để tạo một nội dung gì đó cho trang web thì chúng ta chỉ cần dùng mỗi thẻ mở, hay nói cách khác là không có thẻ đóng.",
+              "title":"2.2. Thẻ đơn"
+            },
+            {
+              "body":"- Thẻ lồng nhau thực chất chỉ là một trong những kỹ thuật cơ bản khi viết mã HTML, các thẻ được lồng vào nhau đểxây dựng nên những nội dung đa dạng hơn. <br>- Lưu ý: Trong ngôn ngữ HTML, khi chúng ta viết mã sai quy tắc thì trên màn hình không hiện lên bất kỳ một thông báo lỗi nào, chỉ là các nội dung sẽ không được hiển thị chính xác như mong đợi.",
+              "title":"2.3. Thẻ lồng nhau"
+            }
+          ],
+          "text":"- Thẻ (tag) là một từ khóa được đặt bên trong cặp dấu ngoặc nhọn. <br>- Mỗi thẻ sẽ có một chức năng riêng, ví dụ: <br>Thẻ p dùng để tạo một đoạn văn bản.<br> Thẻ a dùng để tạo một cái liên kết.<br>Thẻ img dùng để chèn một tấm hình vào trang web. . . . . - Thông thường thì thẻ được chia ra làm hai loại chính, đó là: thẻ kép & thẻ đơn <br>"
+        },
+        {
+          "header":"3. Tìm hiểu khái niệm tập tin HTML",
+          "headerItem": [],
+          "text":"- Tập tin HTML là một loại tập tin văn bản mà bên trong nó có chứa các thẻ HTML, một tập tin HTML phải có phần đuôi là .html hoặc .htm <br>- Lưu ý: Một tập tin HTML cũng có thể được gọi là: <br>+ Một tài liệu HTML. <br>+ Một trang HTML. <br>+ Một trang web."
+        }
+      ]
+    },
+    "theory2": {
+        "theoryTitle": "Những thông tin cần biết về ngôn ngữ CSS",
+        "image": "https://repository-images.githubusercontent.com/179574410/54cd7e80-6142-11e9-8f2e-c3774582a097",
+        "category": "hot",
+        "search": "css",
+        "decs":"Đưa website vào sử dụng trở thành một phần không thể thiếu của mỗi doanh nghiệp. Dù hoạt động trong lĩnh vực nào đi chăng nữa thì với tốc độ phát triển mạnh mẽ của công nghệ thông tin thì sở hữu một website chất lượng, riêng biệt sẽ là cách giúp các công ty tiếp cận được với khách hàng tiềm năng hiệu quả hơn. Dù trở nên phổ biến song không phải ai cũng hiểu được cấu trúc của trang web, cũng như không hiểu về công cụ hữu ích như CSS. Bởi vậy, tìm hiểu thông tin về CSS, cũng như các kiến thức có liên quan cần được chú ý để chúng ta có đầy đủ những hiểu biết cần thiết, từ đó góp phần xây dựng, phát triển web hiệu quả.",
+        "item":[
+        {
+          "header":"1. CSS là gì?",
+          "headerItem": [
+            {
+              "body":"- CSS tùy chỉnh hình nền – Background<br>- CSS tùy chỉnh cách hiển thị đoạn text – Text.<br>- CSS tùy chỉnh kiểu chữ và kích thước – Font.<br>- CSS tùy chỉnh bảng – Table.<br>- CSS tùy chỉnh danh sách.<br>- Mô hình box model có kết hợp với padding, margin, border – Box model.<br>",
+              "title":""
+            }
+
+          ],
+          "text":"CSS – Cascading Style Sheet là một ngôn ngữ lập trình được thiết kế vô cùng đơn giản, dễ sử dụng. Với CSS hướng tới mục tiêu chính là giúp đơn giản hóa được quá trình tạo ra các website.<br>Nhiệm vụ chính của CSS là thực hiện việc xử lý giao diện của một trang web cụ thể. Đó là những yếu tố như màu sắc văn bản, hay khoảng cách giữa các đoạn, hoặc kiểu font chữ, hình ảnh, bố cục, màu nền,… đều có thể thay đổi, chỉnh sửa theo ý muốn với hỗ trợ của CSS.<br>Sử dụng CSS chính là một công cụ hỗ trợ hữu ích và cần thiết cho quá trình phát triển, thiết kế website. Những công việc mà HTML không xử lý được sẽ được giải quyết tốt với CSS. Nhờ có CSS giúp mang lại khả năng kiểm soát mạnh mẽ, hiệu quả với quá trình trình bày một tài liệu HTML cụ thể. Bởi thế mà nó là công cụ thường được kết hợp với các ngôn ngữ như HTML hay XHTML.<br>Đối với CSS hiện nay có nhiều kiểu khác nhau được đưa vào sử dụng. Song xét một cách cơ bản nhất thì nó được phân chia thành các loại thông dụng là:"
+        },
+      {
+        "header":"2. Cấu trúc một đoạn nhỏ của CSS bao gồm những thành phần gì?",
+        "headerItem": [
+          {
+            "body":"Là phần mẫu được lựa chọn để lấy những phần tử HTML mà người sử dụng muốn dùng để định nghĩa các phong cách. Bộ chọn (selector) được áp dụng vào các trường hợp sau:<br>- Toàn bộ phần tử theo một dạng cụ thể nào đó, ví dụ phần tử tiêu đề h1.<br> - Thuộc tính id và class của những phần tử.<br>- Các phần tử dựa vào sự liên quan với các phần tử khác trong cây phân cấp tài liệu.<br>",
+            "title":"Bộ chọn (selector)"
+          },
+          {
+            "body":"Là dạng khối khai báo gồm một hoặc nhiều khai báo, chúng được phân tách với nhau bằng ký hiệu là dấu chấm phẩy (;). Trong mỗi một khai báo sẽ bao gồm giá trị đặc tính và tên của CSS, chúng tách nhau bằng dấu phẩy(,). Khai báo của CSS luôn kết thúc bằng dấu chấm phẩy (;), khối khai báo thì sẽ nằm trong các dấu ngoặc móc ({}).",
+            "title":"Khai báo (Declaration)"
+          },
+          {
+            "body":"Các cách để có thể tạo kiểu cho phần tử HTML. Đối với CSS thì chúng ta chỉ cần chọn lựa thuộc tính mà chính chúng ta muốn tác động vào trong các quy tắc của mình.",
+            "title":"Thuộc tính (Properties)"
+          },
+          {
+            "body":"Là thứ mà ta có được cũng như sở hữu trong việc chọn lựa có thể xuất hiện nhiều lần để mang đến một thuộc tính cụ thể nào đó",
+            "title":"Giá trị thuộc tính"
+          }
+        ],
+        "text":"Nói đến CSS, chúng ta sẽ có 4 thành phần quan trọng sau đây:"
+      },
+      {
+        "header":"3. Đánh giá về ưu điểm và nhược điểm của CSS",
+        "headerItem": [
+          {
+            "body":"- CSS khi sử dụng có thể viết lần đầu, đồng thời sử dụng lại trong các trang HTML tiếp theo. KHông chỉ vậy, chúng ta hoàn toàn có thể xác định được một kiểu cho từng thành phần HTML và cũng áp dụng được cho nhiều trang web khác khi cần thiết.<br>- Đặc trưng của CSS khi sử dụng là ít mã hơn. Bởi thế mà thời gian tải xuống nhanh chóng, giúp tiết kiệm thời gian đáng kể. Khi viết được một quy tắc CSS của một thẻ cụ thể và lúc này chúng ta có thể áp dụng nó cho mọi lần xuất hiện tiếp theo của thẻ đó, đồng thời hoàn toàn không cần tiến hành thay đổi thuộc tính của thẻ HTML.<br>- Khi cần chúng ta chỉ cần thay đổi một kiểu và mọi thành phần trong tất cả những website thì lúc này CSS sẽ hỗ trợ cập nhật hoàn toàn tự động.<br>- CSS được đánh giá cao nhờ sở hữu những thuộc tính rộng hơn nếu đánh giá và so sánh với HTML.<br>- Khả năng tương thích với nhiều thiết bị cũng là ưu điểm của CSS. Cùng sử dụng một tài liệu HTML song với nhiều phiên bản website khác nhau được trình bày ở từng thiết bị di động đều được hỗ trợ tốt, có độ tương thích cao.<br>",
+            "title":"Ưu điểm của CSS"
+          },
+          {
+            "body":"Cùng với những ưu điểm thì CSS khi đưa vào sử dụng còn tồn tại những hạn chế nhất định. Trước khi ứng dụng đòi hỏi chúng ta phải tìm hiểu một cách đầy đủ và chi tiết. Trong đó những hạn chế chính là:<br> - Với những thay đổi ban đầu của CSS trên một website rất dễ dàng. Tuy nhiên, khi thay đổi đã được thực hiện đòi hỏi chúng ta phải xác nhận được tính tương thích khi CSS hiển thị hiệu ứng thay đổi tương tự cho từng trình duyệt. Điều này xuất hiện do CSS sẽ hoạt động khác biệt cho từng trình duyệt cụ thể.<br> - Ngôn ngữ lập trình phát triển đa dạng và vô cùng phúc tạp, đặc biệt là khó khăn với những người mới bắt đầu. Bởi thế, với nhiều cấp độ của CSS thì việc tìm hiểu, có thể nắm bắt để sử dụng càng trở nên khó khăn hơn.<br>- CSS là hệ thống dựa trên văn bản mở nên việc truy cập khá dễ dàng. Điều này khiến định dạng toàn bộ của web hoàn toàn có thể chịu tổn thương, gặp gián đoạn khi có hành động, hoặc tai nạn nào xảy ra với tệp. Lúc này nó sẽ yêu cầu truy cập đọc hoặc ghi vào web dự định để có thể ghi đè lên được các thay đổi.<br>",
+            "title":"Nhược điểm của CSS"
+          }
+        ],
+        "text":""
+      },
+      {
+        "header":"4. Các cách thức hoạt động của CSS",
+        "headerItem": [],
+        "text":"Nhờ CSS giúp mang lại phong cách riêng biệt cho từng website thông qua việc tương tác với những yếu tố của HTML. Từ những phần từ là các thành phần HTML riêng lẻ của một website cụ thể.<br>Ví dụ chúng ta muốn một đoạn cụ thể trên website xuất hiện với màu xanh và đậm để người xem trang dễ dàng nhìn thấy nó một cách ấn tượng chúng ta cần nhập mã CSS là:<br>p{màu: xanh; font-weight: in đậm;}<br> Ngoài ra, chúng ta có nhiều cách được áp dụng để tiến hành nhúng CSS vào website.<br>"
+      },
+      {
+        "header":"5. Cách giúp phân biệt giữa CSS và HTML",
+        "headerItem": [],
+        "text":"HTML – Hypertext Markup Language được biết tới là ngôn ngữ đánh dấu siêu văn bản với chức năng giúp xác định được cấu trúc của nội dung hiệu quả và nhanh chóng như hình ảnh, tiêu đề, phân đoạn ở mỗi website được thực hiện. Bởi thế mà HTML sẽ được sử dụng với mục đích chính là thêm nội dung, hay mô tả ý nghĩa cho từng đoạn nội dung cụ thể. Bởi thế nó sẽ sử dụng các thẻ nhưng lại không quy định một cách cụ thể và chi tiết cách thức hiển thị của những nội dung trên website.<br>Trong khi đó thì CSS không được dùng để thêm nội dung, hay mô tả hoặc ý nghĩa của nội dung từng trang web. Với CSS được sử dụng chủ yếu giúp việc thiết lập cách trình bày, hay cách hiển thị nội dung của website được thực hiện theo ý muốn của chủ sở hữu trang web đó, được các lập trình viên thực hiện chuẩn xác.<br>"
+      },
+      {
+        "header":"Có nên thiết kế website bằng CSS không?",
+        "headerItem": [],
+        "text":"CSS được biết tới là một công cụ mạnh nhất mà lập trình viên thiết kế web có thể học hỏi và tìm hiểu để áp dụng. Với CSS khi sử dụng nó có thể tác động với ảnh hưởng trực tiếp tới toàn bộ diện mạo của một trang web cụ thể. Từ các tính năng cơ bản được cập nhật nhanh chóng, hay việc thay đổi thứ tự ưu tiên trên màn hình,… đều được thực hiện với CSS. Chính điều này càng khẳng định mạnh mẽ hơn nữa giá trị, tính tập trung vào trải nghiệm của người dùng mà CSS mang lại, hoàn toàn không cần phải tiến hành thay đổi gì để hoàn thành đánh dấu HTML cơ bản.<br> Với phương thức hoạt động cơ bản của công cụ CSS chính là dựa vào những vùng chọn dưới dạng tên một thẻ HTML, hay tên 1 ID, hoặc dưới nhiều kiểu khác và chỉ cần áp dụng những thuộc tính cần thay đổi lên vùng chọn đó là yêu cầu được hoàn thành.<br>Cùng với đó, việc sử dụng CSS còn mang tới khả năng giúp thẻ HTML được hiển thị với màu sắc đẹp, rực rỡ hơn. Không chỉ vậy, khả năng giúp tiết kiệm được nhiều công sức trong hoàn thành giao diện khi chỉ cần dùng một đoạn mã nhỏ song giúp website trở nên bắt mắt, ấn tượng và chuyên nghiệp hơn thì dùng CSS trong thiết kế trang web là công cụ hỗ trợ vô cùng lý tưởng, hữu ích.<br>"
+      },
+      {
+        "header":"7. Lưu ý để học CSS hiệu quả cho người mới",
+        "headerItem": [
+          {
+            "body":"Đối với những người mới khi bắt đầu việc học CSS đòi hỏi chúng ta phải chuẩn bị đầy đủ. Với một kiến thức cơ bản song vô cùng quan trọng như CSS với thiết kế website thì chuẩn bị đầy đủ giúp quá trình học tập, tìm hiểu đạt hiệu quả cao:<br> - Google Chrome yêu cầu cần sử dụng extension Web Developer. <br>- Tìm hiểu một cách cơ bản nhất những thông tin, khái niệm về CSS.<br>- Chuẩn bị một IDE giúp hỗ trợ viết HTML và CSS đảm bảo tốt nhất. Lời khuyên cho những người mới là nên sử dụng Notepad++.<br>- Tiến hành lưu Color Hex Color đầy đủ vào vị trí thanh Boolmark để có thể lấy mã màu nhanh chóng khi cần dùng.<br>- Thực hiện cài đặt thêm đầy đủ các trình duyệt như Firefox, Safari, IE vào thiết bị sử dụng.<br>Có nhiều cách học CSS khác nhau mà chúng ta có thể tham khảo. Trong đó phải kể tới một số cách thông dụng, được nhiều người áp dụng và đánh giá cao như:<br> - Trước tiên tìm hiểu về lý thuyết sau đó tới thực hành thông qua những ví dụ cụ thể và trực quan nhất. Từ lý thuyết tìm đọc được thì lúc này chúng ta sẽ tiến hành thực hành theo từng bước một cách tuần tự, đúng quy trình.<br>- Chủ động tìm hiểu về Box model với đầy đủ những kiến thức cần thiết liên quan như margin, hay padding,…<br>- Các thuộc tính là float, clear của CSS cần tìm hiểu và nắm bắt rõ ràng, đồng thời kết hợp với việc tìm hiểu về thẻ DIV giúp hỗ trợ cho quá trình tạo layout đơn giản có thể tiến hành.<br>- Cập nhật các thông tin, kiến thức về cách xây dựng một menu dạng đa cấp ngang và dọc.<br>- Tìm hiểu mọi thông tin liên quan tới thuộc tính Position.<br>- Tiến hành tổng hợp lại đầy đủ toàn bộ các kiến thức đã tìm hiểu một cách hoàn chỉnh, có hệ thống.<br>- Tham khảo thêm thông tin trên các diễn đàn lập trình, hay các forum để bổ sung thêm cho bản thân những kiến thức hữu ích về CSS.<br>Hiểu CSS là gì, cũng như những thông tin cơ bản cần thiết giúp mỗi người có được cái nhìn tổng quan, cơ bản nhất về ngôn ngữ lập trình này. Với nhiều ưu điểm, những lợi ích mang lại thì CSS là cần thiết với phát triển website để hỗ trợ cho nhu cầu sử dụng thực tế của các doanh nghiệp, các đơn vị. Tìm hiểu thông tin, ứng dụng hiệu quả trong lập trình website để tạo nên những sản phẩm hoàn hảo, chất lượng đưa vào sử dụng. Hy vọng chia sẻ trên của Mona Media hữu ích đối với bạn.<br>",
+            "title":""
+          }
+        ],
+        "text":""
+      }
+      ]
+    },
+    "theory3": {
+        "theoryTitle": "JavaScript là gì?",
+        "image": "https://tenten.vn/tin-tuc/wp-content/uploads/2022/06/Java-Script-4.jpg",
+        "category": "hot",
+        "search": "javascript",
+        "decs":"",
+        "item":[
+          {
+            "header":"1. JavaScript là gì?",
+            "headerItem": [],
+            "text":"JavaScript là ngôn ngữ lập trình được nhà phát triển sử dụng để tạo trang web tương tác. Từ làm mới bảng tin trên trang mạng xã hội đến hiển thị hình ảnh động và bản đồ tương tác, các chức năng của JavaScript có thể cải thiện trải nghiệm người dùng của trang web. Là ngôn ngữ kịch bản phía máy khách, JavaScript là một trong những công nghệ cốt lõi của World Wide Web. Ví dụ: khi duyệt internet, bất cứ khi nào bạn thấy quảng cáo quay vòng dạng hình ảnh, menu thả xuống nhấp để hiển thị hoặc màu sắc phần tử thay đổi động trên trang web cũng chính là lúc bạn thấy các hiệu ứng của JavaScript.<br>"
+          },
+        {
+          "header":"2. JavaScript dùng để làm gì?",
+          "headerItem": [],
+          "text":"Trước đây, các trang web có dạng tĩnh, tương tự như các trang trong một cuốn sách. Một trang tĩnh chủ yếu hiển thị thông tin theo một bố cục cố định và không làm được mọi thứ mà chúng ta mong đợi như ở một trang web hiện đại. JavaScript dần được biết đến như một công nghệ phía trình duyệt để làm cho các ứng dụng web linh hoạt hơn. Sử dụng JavaScript, các trình duyệt có thể phản hồi tương tác của người dùng và thay đổi bố cục của nội dung trên trang web.<br>Khi ngôn ngữ này phát triển hoàn thiện, các nhà phát triển JavaScript đã thiết lập các thư viện, khung và cách thức lập trình cũng như bắt đầu sử dụng ngôn ngữ này bên ngoài trình duyệt web. Ngày nay, bạn có thể sử dụng JavaScript để thực hiện hoạt động phát triển cả ở phía máy khách và máy chủ. Dưới đây là một số trường hợp sử dụng phổ biến:<br>Trước đây, các trang web có dạng tĩnh, tương tự như các trang trong một cuốn sách. Một trang tĩnh chủ yếu hiển thị thông tin theo một bố cục cố định và không làm được mọi thứ mà chúng ta mong đợi như ở một trang web hiện đại. JavaScript dần được biết đến như một công nghệ phía trình duyệt để làm cho các ứng dụng web linh hoạt hơn. Sử dụng JavaScript, các trình duyệt có thể phản hồi tương tác của người dùng và thay đổi bố cục của nội dung trên trang web.<br>Khi ngôn ngữ này phát triển hoàn thiện, các nhà phát triển JavaScript đã thiết lập các thư viện, khung và cách thức lập trình cũng như bắt đầu sử dụng ngôn ngữ này bên ngoài trình duyệt web. Ngày nay, bạn có thể sử dụng JavaScript để thực hiện hoạt động phát triển cả ở phía máy khách và máy chủ. Dưới đây là một số trường hợp sử dụng phổ biến.<br>"
+        },
+        {
+          "header":"3. JavaScript hoạt động như thế nào?",
+          "headerItem": [
+            {
+              "body":"Công cụ JavaScript là một chương trình máy tính chạy mã JavaScript. Các công cụ JavaScript đầu tiên chỉ là bộ diễn giải, nhưng tất cả các công cụ hiện đại đều sử dụng biên dịch tại chỗ hoặc thời gian chạy để cải thiện hiệu suất.<br>",
+              "title":"Công cụ JavaScript"
+            },
+            {
+              "body":"JavaScript phía máy khách đề cập đến cách thức JavaScript hoạt động trong trình duyệt của bạn. Trong trường hợp này, công cụ JavaScript nằm trong mã trình duyệt. Tất cả các trình duyệt web phổ biến đều có các công cụ JavaScript tích hợp riêng.<br> Các nhà phát triển ứng dụng web viết mã JavaScript với các hàm khác nhau được liên kết với nhiều loại sự kiện, chẳng hạn như nhấp chuột hoặc khi di chuột đến. Các hàm này thực hiện các thay đổi đối với HTML và CSS.<br> Sau đây là tổng quan về cách thức hoạt động của JavaScript phía máy khách:<br> 1.   Trình duyệt tải một trang web khi bạn truy cập trang đó.<br> 2.   Trong khi tải, trình duyệt chuyển đổi trang và tất cả các phần tử của trang, chẳng hạn như các nút, nhãn và hộp thả xuống, thành một cấu trúc dữ liệu được gọi là Mô hình đối tượng tài liệu (DOM).<br> 3.   Công cụ JavaScript của trình duyệt chuyển đổi mã JavaScript thành mã bytecode. Mã này đóng vai trò là trung gian giữa cú pháp JavaScript và máy.<br> 4.   Các sự kiện khác nhau, chẳng hạn như nhấp vào nút, sẽ kích hoạt việc thực thi khối mã JavaScript được liên kết. Sau đó, công cụ này sẽ diễn giải bytecode và thực hiện các thay đổi đối với DOM.<br> 5.   Trình duyệt hiển thị DOM mới.<br>",
+              "title":"JavaScript phía máy khách"
+            },
+            {
+              "body":"JavaScript phía máy chủ đề cập đến việc sử dụng ngôn ngữ viết mã trong logic máy chủ back-end. Trong trường hợp này, công cụ JavaScript nằm trực tiếp trên máy chủ. Hàm JavaScript phía máy chủ có thể truy cập cơ sở dữ liệu, thực hiện các phép toán logic khác nhau và phản hồi nhiều loại sự kiện do hệ điều hành của máy chủ kích hoạt. Ưu điểm chính của viết tập lệnh phía máy chủ là bạn có khả năng tùy chỉnh linh hoạt phản hồi của trang web dựa trên yêu cầu và quyền truy cập của mình cũng như theo yêu cầu thông tin từ trang web.<br>",
+              "title":"JavaScript phía máy chủ"
+            },
+            {
+              "body":"Từ linh hoạt đúng với cả JavaScript phía máy khách và phía máy chủ. Hành vi linh hoạt là khả năng cập nhật phần hiển thị của trang web để tạo nội dung mới theo yêu cầu. Sự khác biệt giữa JavaScript phía máy khách và phía máy chủ nằm ở cách chúng tạo ra nội dung mới. Mã phía máy chủ tạo nội dung mới một cách linh hoạt bằng cách sử dụng logic ứng dụng và sửa đổi dữ liệu từ cơ sở dữ liệu. Mặt khác, JavaScript phía máy khách tạo nội dung mới một cách linh hoạt bên trong trình duyệt thông qua sử dụng logic giao diện người dùng và sửa đổi nội dung trang web đã có trên máy khách. Ý nghĩa hơi khác biệt ở hai ngữ cảnh nhưng có sự liên quan đến nhau và cả hai cách tiếp cận này đều cùng nhau nâng cao trải nghiệm người dùng.<br>Ngoài việc triển khai các tính năng linh hoạt, một điểm khác biệt nữa giữa hai cách sử dụng JavaScript là ở tài nguyên mà mã có thể truy cập. Về phía máy khách, trình duyệt kiểm soát môi trường thời gian chạy của JavaScript. Mã chỉ có thể truy cập những tài nguyên mà trình duyệt cho phép truy cập. Ví dụ: mã không thể ghi nội dung vào ổ cứng của bạn trừ khi bạn nhấp vào nút tải xuống. Mặt khác, các hàm phía máy chủ có thể truy cập tất cả các tài nguyên của máy chủ khi cần thiết.<br>",
+              "title":"So sánh giữa phía máy khách và phía máy chủ"
+            }
+          ],
+          "text":"Tất cả các ngôn ngữ lập trình đều hoạt động bằng cách dịch cú pháp giống tiếng Anh thành mã máy, hệ điều hành sau đó sẽ chạy mã này. JavaScript được phân loại khái quát là một ngôn ngữ viết tập lệnh hoặc một ngôn ngữ diễn giải. Mã JavaScript được diễn giải, tức là được công cụ JavaScript dịch trực tiếp sang mã ngôn ngữ máy cơ bản. Với các ngôn ngữ lập trình khác, trình biên dịch sẽ biên dịch toàn bộ mã thành mã máy trong một bước riêng. Như vậy, tất cả các ngôn ngữ viết tập lệnh đều là ngôn ngữ lập trình, nhưng không phải tất cả các ngôn ngữ lập trình đều là ngôn ngữ viết tập lệnh.<br>"
+        },
+        {
+          "header":"4. Thư viện JavaScript là gì?",
+          "headerItem": [
+            {
+              "body":"Trực quan hóa dữ liệu có ý nghĩa rất quan trọng để người dùng xem số liệu thống kê, chẳng hạn như trong bảng điều khiển quản trị, bảng thông tin và chỉ số hiệu suất.<br> Các thư viện như Chart.js, ApexCharts và Algolia Places có các hàm tích hợp mà bạn có thể sử dụng để tạo các ứng dụng web hiển thị dữ liệu ở dạng biểu đồ và bản đồ.<br>",
+              "title":"Trực quan hóa dữ liệu"
+            },
+            {
+              "body":"Bạn có thể sử dụng các thư viện như jQuery và Umbrella JS để dễ dàng phát triển web vì những thư viện này cung cấp mã cho các chức năng tiêu chuẩn của trang web như hoạt ảnh menu, thư viện hình ảnh, nút, cửa sổ bật lên làm tối nền, v.v.<br>",
+              "title":"Điều chỉnh DOM"
+            },
+            {
+              "body":"Tất cả các công việc phát triển web đều sử dụng các biểu mẫu để khách truy cập trang web liên hệ với ai đó, đặt mua sản phẩm và đăng ký tham gia các sự kiện. Một số thư viện JavaScript, chẳng hạn như wForms, LiveValidation, Validanguage và qForms, đơn giản hóa các chức năng biểu mẫu, bao gồm xác thực biểu mẫu, bố cục, điều kiện và chuyển đổi.<br>",
+              "title":"Biểu mẫu"
+            },
+            {
+              "body":"Nhiều ứng dụng web phải giải các phương trình toán học và xử lý ngày, giờ cũng như văn bản. Thay vì gửi tất cả các yêu cầu đó đến máy chủ, việc xử lý một số yêu cầu ở phía máy khách sẽ hiệu quả hơn. Các nhà phát triển web thực hiện việc này bằng cách sử dụng các thư viện JavaScript như Date.js, Sylvester và JavaScript URL Library.<br>",
+              "title":"Các hàm toán học và văn bản"
+            }
+          ],
+          "text":"Thư viện JavaScript là tập hợp các đoạn mã viết sẵn mà các nhà phát triển web có thể tái sử dụng để thực hiện các hàm JavaScript chuẩn. Mã thư viện JavaScript được gắn vào phần còn lại của mã dự án khi cần thiết. Nếu bạn coi mã ứng dụng JavaScript như một ngôi nhà thì các thư viện JavaScript sẽ giống như đồ nội thất làm sẵn mà các nhà phát triển có thể sử dụng để cải thiện chức năng của ngôi nhà.<br> Sau đây là một số cách sử dụng thư viện JavaScript phổ biến:<br>"
+        },
+        {
+          "header":"5. Khung JavaScript là gì?",
+          "headerItem": [
+            {
+              "body":"AngularJS là một khung giúp đơn giản hóa việc phát triển và kiểm thử các ứng dụng web, chẳng hạn như ứng dụng thương mại điện tử, ứng dụng thời gian thực và ứng dụng video. React Native là một khung khác hỗ trợ phát triển ứng dụng di động dành cho iOS và Android được kết xuất trên chính nền tảng đó.<br>",
+              "title":"Phát triển ứng dụng web và di động"
+            },
+            {
+              "body":"Các trang web có khả năng tương thích mang lại trải nghiệm người dùng nhất quán trên mọi thiết bị. Ví dụ: màn hình điện thoại di động và máy tính bảng nhỏ hơn màn hình máy tính để bàn và máy tính xách tay. Bạn muốn trang web hiển thị và trình bày dữ liệu chính xác ngay cả trên màn hình nhỏ hơn, chẳng hạn như không cắt bỏ phần cuối của trang web. Sử dụng các khung như Bootstrap và Ember.js, các nhà phát triển có thể hưởng lợi từ thiết kế có khả năng tương thích và dễ dàng tùy chỉnh diện mạo của trang web trên nhiều nền tảng khác nhau.<br>",
+              "title":"Phát triển web có khả năng tương thích"
+            },
+            {
+              "body":"Node.js là một khung JavaScript nguồn mở phía máy chủ chạy mã JavaScript bên ngoài trình duyệt. Các nhà phát triển sử dụng khung này để xây dựng các ứng dụng phía máy chủ dựa trên mạng hoạt động nhanh chóng, đáng tin cậy và có khả năng mở rộng. Khung này có thể xử lý các yêu cầu và luồng dữ liệu HTTP, hỗ trợ hệ thống tệp và quản lý đồng thời nhiều quy trình backend.<br>",
+              "title":"Phát triển ứng dụng phía máy chủ"
+            }
+  
+          ],
+          "text":"Giống như các thư viện JavaScript, các khung JavaScript là một tập hợp các đoạn mã viết sẵn thực hiện các chức năng khác nhau và có thể được tái sử dụng. Tuy nhiên, trong khi các thư viện JavaScript là một công cụ chuyên biệt để sử dụng theo nhu cầu thì các khung JavaScript là một bộ công cụ hoàn chỉnh giúp định hình và tổ chức bất kỳ ứng dụng web nào. Nếu bạn coi mã ứng dụng JavaScript như một ngôi nhà thì khung JavaScript là kế hoạch chi tiết được sử dụng để xây dựng ngôi nhà đó.<br> Dưới đây là một số ví dụ về trường hợp cần sử dụng các khung JavaScript:<br>"
+        },
+        {
+          "header":"6. JavaScript mang lại những lợi ích gì?",
+          "headerItem": [
+            {
+              "body":"Cú pháp của JavaScript được lấy cảm hứng từ ngôn ngữ lập trình Java, rất dễ để học và viết mã. Các nhà phát triển sử dụng JavaScript trong hầu hết các trang web và ứng dụng di động để viết tập lệnh phía máy khách. Node.js cũng đã trở nên hết sức phổ biến đối với việc viết mã backend trong thập kỷ qua. Nhiều nền tảng phát trực tuyến và video phổ biến đã được viết mã bằng Node.js.",
+              "title":"Dễ dàng học và sử dụng"
+            },
+            {
+              "body":"Không giống như các ngôn ngữ lập trình khác, bạn có thể chèn JavaScript vào bất kỳ trang web nào và sử dụng với nhiều ngôn ngữ và khung phát triển web khác. Sau khi viết, bạn có thể chạy mã JavaScript trên bất kỳ máy nào. Do đó, với JavaScript, việc phát triển ứng dụng có thể không phụ thuộc vào nền tảng.",
+              "title":"Có thể không phụ thuộc vào nền tảng"
+            },
+            {
+              "body":"Bạn có thể sử dụng JavaScript để giảm tải máy chủ và tắc nghẽn mạng vì JavaScript có thể chạy các phép toán logic và thực hiện nhiều công việc của máy chủ trên chính máy khách. Ví dụ: hãy xem xét quá trình điền một biểu mẫu đăng ký. JavaScript nhanh chóng kiểm tra xem bạn đã nhập số có 10 chữ số cho trường điện thoại di động hay chưa. Nếu những yêu cầu này được gửi đến máy chủ, trang của bạn sẽ tải lại mỗi khi có lỗi, làm cho quá trình đăng ký rất chậm chạp và tẻ nhạt.",
+              "title":"Giảm tải máy chủ"
+            },
+            {
+              "body":"JavaScript tạo ra các trang web tinh tế giúp thuận tiện trong việc tìm kiếm và xử lý thông tin phức tạp. Các nhà phát triển áp dụng JavaScript để mở rộng chức năng và độ dễ đọc cũng như để tương tác giữa người dùng và trang web hiệu quả hơn.",
+              "title":"Cải thiện giao diện người dùng"
+            },
+            {
+              "body":"JavaScript có thể chạy song song nhiều tập hợp hướng dẫn khác nhau. Về phần backend, Node.js có thể giải quyết và xử lý các phản hồi của máy chủ được mở rộng quy mô mà không tiêu tốn cùng một lượng băng thông để làm việc đó.",
+              "title":"Hỗ trợ đồng thời"
+            }
+  
+          ],
+          "text":""
+        },
+        {
+          "header":"7. JavaScript có những giới hạn gì?",
+          "headerItem": [
+            {
+              "body":"JavaScript là một ngôn ngữ định kiểu yếu, có nghĩa là không cho phép người lập trình xác định kiểu biến. Một biến có thể lưu trữ bất kỳ kiểu dữ liệu nào trong thời gian chạy và các phép toán sẽ giả định kiểu của biến. Kết quả cũng có thể bị ép chuyển thành một kiểu dữ liệu khác. Ví dụ: một phép toán có thể trả về kết quả là chuỗi \"5\" thay vì số 5. Điều này có thể dẫn đến những sai lầm vô tình khi viết mã và lỗi trong mã do có lỗi về kiểu loại.<br>",
+              "title":"Ngôn ngữ định kiểu yếu"
+            }
+  
+          ],
+          "text":"Ngôn ngữ lập trình sử dụng các biến làm phần giữ chỗ cho các giá trị dữ liệu thực tế. Ví dụ: trong một khối mã, nhà phát triển có thể viết x = 5 và y = x + 1. Khi mã chạy, máy tính sẽ tự động thay đổi x và y tương ứng thành 5 và 6 để thực hiện các hàm đối với chúng. Dữ liệu có thể là nhiều loại khác nhau, chẳng hạn như một chuỗi văn bản, số hoặc ngày. Đó là lý do hầu hết các ngôn ngữ lập trình đều cho phép bạn xác định kiểu biến. Khi đã xác định, kiểu biến sẽ không thay đổi; bạn không thể lưu trữ số trong các biến chuỗi.<br>Ví dụ: nếu bạn cho chương trình biết rằng x và y là số và sau đó thực hiện phép toán x + y, máy tính sẽ biết dự kiến x và y là hai số và rồi cộng chúng. Mặt khác, nếu bạn xác định x và y là chuỗi, toán tử + sẽ nối hai chuỗi lại với nhau để tạo ra một cụm từ dài hơn.<br>"
+        }
+    ]
+    },
+    "theory4": {
+        "theoryTitle": "Ngôn ngữ lập trình Python là gì và những ứng dụng trong đời sống",
+        "image": "hhttps://miro.medium.com/max/600/1*nH3ccLcuwuxpLZHRJskMqg.png",
+        "category": "hot",
+        "decs":"",
+        "search": "python",
+        "item": [
+          {
+            "header":"",
+            "headerItem": [
+              {
+                "body":"",
+                "title":""
+              }
+  
+            ],
+            "text":""
+          },
+        {
+          "header":"",
+          "headerItem": [
+            {
+              "body":"",
+              "title":""
+            }
+  
+          ],
+          "text":""
+        },
+        {
+          "header":"",
+          "headerItem": [
+            {
+              "body":"",
+              "title":""
+            }
+  
+          ],
+          "text":""
+        }
+      ]
+    },
+    "theory5": {
+        "theoryTitle": "Ngôn ngữ lập trình C là gì?",
+        "image": "https://avhiaryal54.files.wordpress.com/2020/12/wordpress-feature-image-c-programming.png",
+        "category": "all",
+        "decs":"",
+        "search": "c",
+        "item":[
+          {
+            "header":"",
+            "headerItem": [
+              {
+                "body":"",
+                "title":""
+              }
+  
+            ],
+            "text":""
+          },
+        {
+          "header":"",
+          "headerItem": [
+            {
+              "body":"",
+              "title":""
+            }
+  
+          ],
+          "text":""
+        },
+        {
+          "header":"",
+          "headerItem": [
+            {
+              "body":"",
+              "title":""
+            }
+  
+          ],
+          "text":""
+        },
+        {
+          "header":"",
+          "headerItem": [
+            {
+              "body":"",
+              "title":""
+            }
+  
+          ],
+          "text":""
+        },
+        {
+          "header":"",
+          "headerItem": [
+            {
+              "body":"",
+              "title":""
+            }
+  
+          ],
+          "text":""
+        },
+        {
+          "header":"",
+          "headerItem": [
+            {
+              "body":"",
+              "title":""
+            }
+  
+          ],
+          "text":""
+        }
+      ]
+    }
+}
+}

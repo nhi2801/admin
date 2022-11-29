@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap  -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"> -->
+
+    <!-- <link rel="stylesheet" href="./css/test.css"> -->
+    <link rel="stylesheet" href="./css/side-bar.css">
+    <link rel="stylesheet" href="./css/leaderboard.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style2.css">
+    <link rel="stylesheet" href="./css/loading.css">
+    <link rel="stylesheet" href="./css/quiz-info-card.css">
+    <link rel="stylesheet" href="./css/responsive/header.css">
+    <link rel="stylesheet" href="./css/newheader.css">
+    <title>Quản trị viên - Quiz</title>
+</head>
+
+<body>
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+
+
+    <nav class="menu">
+        <div class="container">
+            <div class="main-menu">
+                <a class="logo" href="admin.html"> Quiz </a>
+                <li class="main-menu__item">
+                    <a href="/adminUser.html">Quản lý người dùng </a>
+                    <div class="sub-menu">
+                        <div class="container">
+                            <ul>
+                                <li>
+                                    <a class="link-drop-down" href="./library.html?id=data">Tất cả đề thi của
+                                        website</a>
+                                </li>
+                                <li>
+                                    <a class="link-drop-down" href="./library.html?id=user">Tất cả đề thi đã
+                                        làm</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="main-menu__item">
+                    <a href="/adminTest.html">Quản lý bài thi </a>
+                    
+                </li>
+                <li class="main-menu__item">
+                    <a href="/adminDocument.html">Quản lý tài liệu </a>
+                    
+                </li>
+
+
+
+                <li class="main-menu__item">
+                    <a href="./about.html">Giới thiệu <span></span></a>
+                </li>
+                <li class="main-menu__item nav-icon user-palette">
+                    <a class="login" href="./login.html">Đăng nhập</a>
+                </li>
+                <li class="main-menu__item nav-icon user-notification">
+                    <a href="">
+                        <i class="fas fa-bell"></i>
+                    </a>
+                </li>
+                <a href="" id="nav" class="icon" >
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div id="main">
+        <!-- <nav class="main-navigation mt-5">
+            <div class="main-navigation-inner">
+
+            </div>
+        </nav> -->
+        <article class="mt-5 article">
+            <div class="page-inner">
+                <div class="view-container">
+                    <!-- content  -->
+                    <div class="home-hero-wrapper">
+                        <section class="clearfix">
+                            <div class="home-hero">
+                                <div class="container">
+                                    <div class="home-hero__wrap clearfix">
+                                        <div class="home-hero__col-left">
+                                            <h1 class="home-hero__title">Bạn có muốn biết <strong>điểm IELTS của mình?</strong>
+                                            </h1>
+                                            <p class="home-hero__caption">Thi thử <strong>miễn phí</strong> và biết điểm ngay
+                                                tức thì, không cần đi lại, tất cả đều trực tuyến</p>
+                                            <div class="home-hero__more-info">và hàng triệu học viên khác đang sử dụng kho tài
+                                                liệu <strong>MIỄN PHÍ</strong> của chúng tôi</div>
+                                            <!-- <a href="" class="home-hero__button iot-bt">
+                                                BẮT ĐẦU THÔI
+                                            </a> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+
+    </div>
+
+    <script>
+        const btn = document.querySelector('.dropbtn');
+        const content = document.querySelector('.dropdown-content');
+        btn.addEventListener('click', () => {
+            if (content.classList.contains('show')) {
+                content.classList.remove('show');
+            } else {
+                content.classList.add('show');
+            }
+
+        })
+    </script>
+</body>
+
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-firestore.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-auth.js"></script>
+
+<script>
+    // Your first web app's Firebase configuration: Auth
+    var firebaseConfig = {
+        apiKey: "AIzaSyCp2hPBaQq5Z7aDmZSrB1TwY7pxQNiZSsk",
+        authDomain: "web-thi-thu.firebaseapp.com",
+        projectId: "web-thi-thu",
+        storageBucket: "web-thi-thu.appspot.com",
+        messagingSenderId: "1073206614083",
+        appId: "1:1073206614083:web:20cdc5d35e7d38fbf75cf6",
+        measurementId: "G-W2J21MKQ5C"
+    };
+
+    // Your second web app's Firebase configuration: Data
+    const secondFirebaseConfig = {
+        apiKey: "AIzaSyCp2hPBaQq5Z7aDmZSrB1TwY7pxQNiZSsk",
+        authDomain: "web-thi-thu.firebaseapp.com",
+        projectId: "web-thi-thu",
+        storageBucket: "web-thi-thu.appspot.com",
+        messagingSenderId: "1073206614083",
+        appId: "1:1073206614083:web:20cdc5d35e7d38fbf75cf6",
+        measurementId: "G-W2J21MKQ5C"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+
+    // Initialize Firebase
+    let secondaryApp = firebase.initializeApp(secondFirebaseConfig, "secondary");
+    let db = secondaryApp.firestore();
+</script>
+
+<!-- Thu vien sweet alert  -->
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script type="module" src="./js/user-info.js"></script>
+<script type="module" src="./js/leaderboard.js"></script>
+<script src="./js/loading.js"></script>
+<script type="module" src="./js/entercode.js"></script>
+
+</html>
