@@ -31,14 +31,14 @@
 
             var quizNo=0;
 
-            function addItemtoList(category,questionTitle,search,image,questions){
+            function addItemtoList(category,questionTitle,search,imageURL,questions){
                 var ul=document.getElementById('list');
                 var header = document.createElement('h2');
 
                 var _category = document.createElement('li');
                 var _questionTitle = document.createElement('li');
                 var _search = document.createElement('li');
-                var _image = document.createElement('li');
+                var _imageURL = document.createElement('li');
                 var _questions = document.createElement('li');
 
                 header.innerHTML='User: +' (++quizNo);
@@ -46,14 +46,14 @@
                 _category.innerHTML='Category: '+category;
                 _questionTitle.innerHTML='QuestionTitle: '+_questionTitle;
                 _search.innerHTML='Search: '+search;
-                _image.innerHTML='Image: '+search;
+                _imageURL.innerHTML='ImageURL: '+search;
                 _questions.innerHTML='Questions: '+search;
 
                 ul.appendChild(header);
                 ul.appendChild(_category);
                 ul.appendChild(_questionTitle);
                 ul.appendChild(_search);
-                ul.appendChild(_image);
+                ul.appendChild(_imageURL);
                 ul.appendChild(_questions);
             }
 
@@ -64,9 +64,9 @@
                             let category = ChildSnapshot.val().category;
                             let questionTitle = ChildSnapshot.val().questionTitle;
                             let search = ChildSnapshot.val().search;
-                            let image = ChildSnapshot.val().image;
+                            let imageURL = ChildSnapshot.val().imageURL;
                             let questions = ChildSnapshot.val().questions;
-                            addItemtoList(category,questionTitle,search,image,questions);
+                            addItemtoList(category,questionTitle,search,imageURL,questions);
                         }
                     );
                 });

@@ -16,7 +16,7 @@
 
         <label>Mã bài thi</label> <input id="Idbox" type="text"> <br><br>
         <label>Tên bài thi</label> <input id="Namebox" type="text"> <br><br>
-        <label>Hình ảnh</label> <input id="Imagebox" type="text"> <br><br>
+        <label>Hình ảnh</label> <input id="imageURLbox" type="text"> <br><br>
         <label>Tìm kiếm</label> <input id="Searchbox" type="text"> <br><br>
         <label>Phân loại</label> 
         <select id="Categorybox">
@@ -63,7 +63,7 @@
             // references
             var idbox = document.getElementById("Idbox");
             var namebox = document.getElementById("Namebox");
-            var imagebox = document.getElementById("Imagebox");
+            var imageURLbox = document.getElementById("imageURLbox");
             var searchbox = document.getElementById("Searchbox");
             var categorybox = document.getElementById("Categorybox");
 
@@ -78,7 +78,7 @@
                 set(ref(db, "quizList/"+idbox.value),{
                     quizId: idbox.value,
                     questionTitle:  namebox.value,
-                    image: imagebox.value,
+                    imageURL: imageURLbox.value,
                     search: searchbox.value,
                     category: categorybox.value
                 })
@@ -98,7 +98,7 @@
                 get(child(dbref,"quizList/"+ idbox.value)).then((snapshot)=>{
                     if(snapshot.exists()){
                         namebox.value = snapshot.val().questionTitle;
-                        imagebox.value = snapshot.val().image;
+                        imageURLbox.value = snapshot.val().imageURL;
                         searchbox.value = snapshot.val().search;
                         categorybox.value = snapshot.val().category;
                     }
@@ -117,7 +117,7 @@
             function UpdateData(){
                 update(ref(db, "quizList/"+idbox.value),{
                     questionTitle:  namebox.value,
-                    image: imagebox.value,
+                    imageURL: imagebox.value,
                     search: searchbox.value,
                     category: categorybox.value
                 })
