@@ -3,7 +3,7 @@
       "quiz1": {
           "quizId":"quiz1",
           "questionTitle": "Trắc nghiệm HTML cơ bản",
-          "image": "https://codelearn.io/Upload/Blog/html-la-gi-no-co-quan-trong-khong-63715266434.3958.jpg",
+          "imageURL": "https://codelearn.io/Upload/Blog/html-la-gi-no-co-quan-trong-khong-63715266434.3958.jpg",
           "category": "basic",
           "search": "html",
           "questions": [
@@ -212,7 +212,7 @@
       "quiz2": {
           "quizId":"quiz2",
           "questionTitle": "Trắc nghiệm CSS cơ bản",
-          "image": "https://tltvietnam.vn/upload/images/css-la-gi-4.jpg",
+          "imageURL": "https://tltvietnam.vn/upload/images/css-la-gi-4.jpg",
           "category": "basic",
           "search": "css",
           "questions":[
@@ -426,7 +426,7 @@
       "quiz3": {
           "quizId":"quiz3",
           "questionTitle": "Trắc nghiệm Javascript cơ bản",
-          "image": "https://tuandc.com/wp-content/uploads/2017/07/laptrinh-javascript.jpg",
+          "imageURL": "https://tuandc.com/wp-content/uploads/2017/07/laptrinh-javascript.jpg",
           "category": "basic",
           "search": "javascript",
           "questions":[
@@ -655,7 +655,7 @@
       "quiz4": {
           "quizId":"quiz4",
           "questionTitle": "Trắc nghiệm Java cơ bản",
-          "image": "https://codefresher.vn/wp-content/uploads/2019/12/core-java-1.jpg",
+          "imageURL": "https://codefresher.vn/wp-content/uploads/2019/12/core-java-1.jpg",
           "category": "basic",
           "search": "java",
           "questions": [
@@ -818,7 +818,7 @@
       "quiz5": {
           "quizId":"quiz5", 
           "questionTitle": "20 câu hỏi trắc nghiệm lập trình Python",
-          "image": "https://transang.me/content/images/2019/01/1200px-Python.svg.png",
+          "imageURL": "https://transang.me/content/images/2019/01/1200px-Python.svg.png",
           "category": "basic",
           "search": "python",
           "questions":[
@@ -1028,7 +1028,7 @@
       "quiz6": {
           "quizId":"quiz6",
           "questionTitle": "Bài kiểm tra trắc nghiệm về SQL",
-          "image": "https://greensql.net/wp-content/uploads/2020/04/word-image-3.png",
+          "imageURL": "https://greensql.net/wp-content/uploads/2020/04/word-image-3.png",
           "category": "other",
           "search": "sql",
           "questions": [
@@ -1188,7 +1188,7 @@
       "quiz7": {
           "quizId":"quiz7",
           "questionTitle": "Câu hỏi trắc nghiệm JS nâng cao",
-          "image": "https://cms.kmin.edu.vn/uploads/JS_co_ban_f0fd9c1fa4.png",
+          "imageURL": "https://cms.kmin.edu.vn/uploads/JS_co_ban_f0fd9c1fa4.png",
           "category": "other",
           "search": "javascriptnc",
           "questions":[
@@ -1417,7 +1417,7 @@
       "quiz8": {
           "quizId":"quiz8",
           "questionTitle": "Trắc nghiệm về lập trình C",
-          "image": "https://fasttrack.edu.vn/wp-content/uploads/2021/04/c.jpeg",
+          "imageURL": "https://fasttrack.edu.vn/wp-content/uploads/2021/04/c.jpeg",
           "category": "other",
           "search": "C",
           "questions":[
@@ -1603,7 +1603,7 @@
       "quiz9": {
           "quizId":"quiz9",
           "questionTitle": "Trắc nghiệm về lập trình ",
-          "image": "https://anh.24h.com.vn/upload/4-2017/images/2017-10-14/1507983593-1-javascript.jpg",
+          "imageURL": "https://anh.24h.com.vn/upload/4-2017/images/2017-10-14/1507983593-1-javascript.jpg",
           "category": "other",
           "search": "code",
           "questions":[
@@ -1803,7 +1803,7 @@
       "quiz_10": {
           "quizId":"quiz_10",
           "questionTitle": "Kiểm tra trắc nghiệm Networking Basic",
-          "image": "https://www.ampinc.com/wp-content/uploads/2021/03/ServerNetwork-scaled.jpg",
+          "imageURL": "https://www.ampinc.com/wp-content/uploads/2021/03/ServerNetwork-scaled.jpg",
           "category": "other",
           "search": "networkingbasic",
           "questions": [
@@ -1918,7 +1918,7 @@
   "theoryList": {
     "theory1": {
         "theoryTitle": "Một số kiến thức về HTML",
-        "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220714111443/HTML-Introduction.jpg",
+        "imageURL": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220714111443/HTML-Introduction.jpg",
         "category": "hot",
         "search":"html",
         "decs": "Đối với những bạn mới đặt chân vào con đường \"lập trình web\" thì HTML sẽ là ngôn ngữ đầu tiên mà các bạn cần phải học, và đây cũng chính là bài đầu tiên trong loạt tài liệu học HTML. Cùng tìm hiểu một cách tổng quan về ngôn ngữ này nhé.",
@@ -1955,7 +1955,7 @@
     },
     "theory2": {
         "theoryTitle": "Những thông tin cần biết về ngôn ngữ CSS",
-        "image": "https://repository-images.githubusercontent.com/179574410/54cd7e80-6142-11e9-8f2e-c3774582a097",
+        "imageURL": "https://repository-images.githubusercontent.com/179574410/54cd7e80-6142-11e9-8f2e-c3774582a097",
         "category": "hot",
         "search": "css",
         "decs":"Đưa website vào sử dụng trở thành một phần không thể thiếu của mỗi doanh nghiệp. Dù hoạt động trong lĩnh vực nào đi chăng nữa thì với tốc độ phát triển mạnh mẽ của công nghệ thông tin thì sở hữu một website chất lượng, riêng biệt sẽ là cách giúp các công ty tiếp cận được với khách hàng tiềm năng hiệu quả hơn. Dù trở nên phổ biến song không phải ai cũng hiểu được cấu trúc của trang web, cũng như không hiểu về công cụ hữu ích như CSS. Bởi vậy, tìm hiểu thông tin về CSS, cũng như các kiến thức có liên quan cần được chú ý để chúng ta có đầy đủ những hiểu biết cần thiết, từ đó góp phần xây dựng, phát triển web hiệu quả.",
@@ -2036,7 +2036,7 @@
     },
     "theory3": {
         "theoryTitle": "JavaScript là gì?",
-        "image": "https://tenten.vn/tin-tuc/wp-content/uploads/2022/06/Java-Script-4.jpg",
+        "imageURL": "https://tenten.vn/tin-tuc/wp-content/uploads/2022/06/Java-Script-4.jpg",
         "category": "hot",
         "search": "javascript",
         "decs":"",
@@ -2156,7 +2156,7 @@
     },
     "theory4": {
         "theoryTitle": "Ngôn ngữ lập trình Python là gì và những ứng dụng trong đời sống",
-        "image": "hhttps://miro.medium.com/max/600/1*nH3ccLcuwuxpLZHRJskMqg.png",
+        "imageURL": "hhttps://miro.medium.com/max/600/1*nH3ccLcuwuxpLZHRJskMqg.png",
         "category": "hot",
         "decs":"",
         "search": "python",
@@ -2198,7 +2198,7 @@
     },
     "theory5": {
         "theoryTitle": "Ngôn ngữ lập trình C là gì?",
-        "image": "https://avhiaryal54.files.wordpress.com/2020/12/wordpress-feature-image-c-programming.png",
+        "imageURL": "https://avhiaryal54.files.wordpress.com/2020/12/wordpress-feature-image-c-programming.png",
         "category": "all",
         "decs":"",
         "search": "c",

@@ -61,7 +61,7 @@
             <label class="labs">Mã bài thi</label> <input id="Idbox" type="text"> <br><br>
             <label class="labs">Tên bài thi</label> <input id="Namebox" type="text"> <br><br>
             <label class="labs">Tìm kiếm</label> <input id="Searchbox" type="text"> <br><br> 
-            <label class="labs">Hình ảnh</label> <input id="Imagebox" type="text"> <br><br>
+            <label class="labs">Hình ảnh</label> <input id="imageURLbox" type="text"> <br><br>
             <label class="labs">Phân loại</label>
             <select id="Categorybox">
                 <option value="basic">Cơ bản</option>
@@ -87,7 +87,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     
     
-    <script type="module">
+    <script>
         var firebaseConfig = {
             apiKey: "AIzaSyCp2hPBaQq5Z7aDmZSrB1TwY7pxQNiZSsk",
             authDomain: "web-thi-thu.firebaseapp.com",
@@ -120,8 +120,8 @@
                         var Namebox = childSnapshot.val().questionTitle;
                         var Categorybox = childSnapshot.val().category;
                         var Searchbox = childSnapshot.val().search;
-                        var Imagebox = childSnapshot.val().image;
-                        AddItemToTable(Idbox, Namebox,Categorybox,Searchbox,Imagebox);
+                        var imageURLbox = childSnapshot.val().imageURL;
+                        AddItemToTable(Idbox, Namebox,Categorybox,Searchbox,imageURLbox);
                 });
             });
         }
@@ -131,7 +131,7 @@
         var quizNo = 0;
         var quizList = [];
         
-        function AddItemToTable(quizId,questionTitle,category,search,image){
+        function AddItemToTable(quizId,questionTitle,category,search,imageURL){
             var tbody1 = document.getElementById('tbody1');
             var trow = document.createElement("tr");
             var td0 = document.createElement('td');
@@ -141,19 +141,19 @@
             var td4 = document.createElement('td');
             var td5 = document.createElement('td');
 
-            quizList.push([quizId,questionTitle,category,search,image]);
+            quizList.push([quizId,questionTitle,category,search,imageURL]);
             td0.innerHTML= ++quizNo;
             td1.innerHTML= quizId;
             td2.innerHTML= questionTitle;
             td3.innerHTML= category;
             td4.innerHTML= search;
-            td5.innerHTML= image;
+            td5.innerHTML= imageURL;
 
             td1.classList +="quizIdField";
             td2.classList +="questionTitleField";
             td3.classList +="categoryField";
             td4.classList +="searchField";
-            td5.classList +="imageField";
+            td5.classList +="imageURLField";
 
             trow.appendChild(td0); 
             trow.appendChild(td1); 
@@ -163,13 +163,13 @@
             trow.appendChild(td5);
 
             var ControlDiv = document.createElement("div");
-            ControlDiv.innerHTML = '<button type="button" class="create btn btn-primary my-2" data-toggle="modal" data-target="#exampleModalCenter">Tạo bài thi</button>'
+            ControlDiv.innerHTML = '<button type="button" class="create btn btn-primary my-2" data-toggle="modal" data-target="#exampleModalCenter" onclick="FillTboxes(null)">Tạo bài thi</button>'
             ControlDiv.innerHTML += '<button type="button" class="edit btn btn-primary my-2 m1-2" data-toggle="modal" data-target="#exampleModalCenter" onclick="FillTboxes('+quizNo+')">Sửa bài thi </button>'
 
 
-            var createBtn = document.querySelector(".create")
-            // console.log(addBtn);
-            createBtn?.addEventListener('click', FillTboxes(null));
+            // var createBtn = document.querySelector(".create")
+            // // console.log(addBtn);
+            // createBtn?.addEventListener('click', FillTboxes(null));
 
             // var editBtn = document.querySelector(".edit")
             // var tr = tbody.getElementsByTagName("tr");
@@ -186,7 +186,7 @@
         var Namebox = document.getElementById('Namebox');
         var Categorybox = document.getElementById('Categorybox');
         var Searchbox = document.getElementById('Searchbox');
-        var Imagebox = document.getElementById('Imagebox');
+        var imageURLbox = document.getElementById('imageURLbox');
 
         var BTNmodAdd = document.getElementById('AddModbtn');
         var BTNmodUpd = document.getElementById('UpdModbtn');
@@ -203,7 +203,7 @@
                 Namebox.value = "";
                 Categorybox.value = "";
                 Searchbox.value = "";
-                Imagebox.value = "";
+                imageURLbox.value = "";
 
                 Idbox.disabled=false;
 
@@ -218,7 +218,7 @@
                 Namebox.value = quizList[index][1];
                 Categorybox.value = quizList[index][2];
                 Searchbox.value = quizList[index][3];
-                Imagebox.value = quizList[index][4];
+                imageURLbox.value = quizList[index][4];
 
                 Idbox.disabled=true;
 
@@ -232,10 +232,10 @@
             firebase.database().ref("quizList/"+Idbox.value).set(
                 {
                     quizId: Idbox.value,
-                    questionTitle:  namebox.value,
-                    search: searchbox.value,
-                    category: categorybox.value,
-                    image: imagebox.value
+                    questionTitle:  Namebox.value,
+                    search: Searchbox.value,
+                    category: Categorybox.value,
+                    imageURL: imageURLbox.value
                 },
                 (error) =>{
                     if(error){
@@ -243,7 +243,7 @@
                     }
                     else{
                         alert("Đã tạo bài thi");
-                        Selec_AllData();
+                        Select_AllData();
                         $("#exampleModalCenter").modal('hide');
                     }
                 }
@@ -254,10 +254,11 @@
         function UpdQuiz(){
             firebase.database().ref("quizList/"+Idbox.value).update(
                 {
-                    questionTitle:  namebox.value,
-                    search: searchbox.value,
-                    category: categorybox.value,
-                    image: imagebox.value,
+                    quizId: Idbox.value,
+                    questionTitle:  Namebox.value,
+                    search: Searchbox.value,
+                    category: Categorybox.value,
+                    imageURL: imageURLbox.value,
                 },
                 (error) =>{
                     if(error){
@@ -265,7 +266,7 @@
                     }
                     else{
                         alert("Đã cập nhật bài thi");
-                        Selec_AllData();
+                        Select_AllData();
                         $("#exampleModalCenter").modal('hide');
                     }
                 }
@@ -277,7 +278,7 @@
             firebase.database().ref("quizList/"+Idbox.value).remove().then(
                 function(){
                     alert("Đã xóa bài thi");
-                        Selec_AllData();
+                        Select_AllData();
                         $("#exampleModalCenter").modal('hide');
                 }
             )
@@ -332,7 +333,7 @@
             SearchTable("searchField");
             
             else if(category.value==5)
-            SearchTable("imageField");
+            SearchTable("imageURLField");
         }
         // tim chinh xac 
         function SearchTableByExactValues(Category){
@@ -378,7 +379,7 @@
             SearchTableByExactValues("searchField");
 
             else if(category.value==5)
-            SearchTable("imageField");
+            SearchTable("imageURLField");
         }
 
         searchbar.onkeypress = function(event){

@@ -44,7 +44,7 @@
             <label class="labs">Mã bài thi</label> <input id="Idbox" type="text"> <br><br>
             <label class="labs">Tên bài thi</label> <input id="Namebox" type="text"> <br><br>
             <label class="labs">Tìm kiếm</label> <input id="Searchbox" type="text"> <br><br> 
-            <label class="labs">Hình ảnh</label> <input id="Imagebox" type="text"> <br><br>
+            <label class="labs">Hình ảnh</label> <input id="imageURLbox" type="text"> <br><br>
             <label class="labs">Phân loại</label>
             <select id="Categorybox">
                 <option value="basic">Cơ bản</option>
@@ -100,10 +100,10 @@
                     var Namebox = childSnapshot.val().questionTitle;
                     var Categorybox = childSnapshot.val().category;
                     var Searchbox = childSnapshot.val().search;
-                    var Imagebox = childSnapshot.val().image;
-                    AddItemToTable(Namebox,Searchbox,Categorybox,Imagebox);
+                    var imageURLbox = childSnapshot.val().imageURL;
+                    AddItemToTable(Namebox,Searchbox,Categorybox,imageURLbox);
                     // return{
-                    //     Namebox,Searchbox,Categorybox,Imagebox
+                    //     Namebox,Searchbox,Categorybox,imageURLbox
                     // }
                 });
             });
@@ -115,7 +115,7 @@
         var quizNo = 0;
         var quizList = [];
         
-        function AddItemToTable(questionTitle,category,search,image){
+        function AddItemToTable(questionTitle,category,search,imageURL){
             var tbody1 = document.getElementById('tbody1');
             var trow = document.createElement("tr");
             var td0 = document.createElement('td');
@@ -124,12 +124,12 @@
             var td3 = document.createElement('td');
             var td4 = document.createElement('td');
 
-            quizList.push([questionTitle,category,search,image]);
+            quizList.push([questionTitle,category,search,imageURL]);
             td0.innerHTML= ++quizNo;
             td1.innerHTML= questionTitle;
             td2.innerHTML= search;
             td3.innerHTML= category;
-            td4.innerHTML= image;
+            td4.innerHTML= imageURL;
 
             trow.appendChild(td0); 
             trow.appendChild(td1); 
@@ -157,7 +157,7 @@
         var Namebox = document.getElementById('Namebox');
         var Categorybox = document.getElementById('Categorybox');
         var Searchbox = document.getElementById('Searchbox');
-        var Imagebox = document.getElementById('Imagebox');
+        var imageURLbox = document.getElementById('imageURLbox');
 
         var BTNmodAdd = document.getElementById('AddModbtn');
         var BTNmodUpd = document.getElementById('UpdModbtn');
@@ -170,7 +170,7 @@
                 Namebox.value = "";
                 Categorybox.value = "";
                 Searchbox.value = "";
-                Imagebox.value = "";
+                imageURLbox.value = "";
 
                 Idbox.disabled=false;
 
@@ -185,7 +185,7 @@
                 Namebox.value = quizList[index][1];
                 Categorybox.value = quizList[index][2];
                 Searchbox.value = quizList[index][3];
-                Imagebox.value = quizList[index][5];
+                imageURLbox.value = quizList[index][5];
 
                 Idbox.disabled=true;
 
@@ -202,7 +202,7 @@
                     questionTitle:  namebox.value,
                     search: searchbox.value,
                     category: categorybox.value,
-                    image: imagebox.value
+                    imageURL: imageURLbox.value
                 },
                 (error) =>{
                     if(error){
@@ -224,7 +224,7 @@
                     questionTitle:  namebox.value,
                     search: searchbox.value,
                     category: categorybox.value,
-                    image: imagebox.value,
+                    imageURL: imagebox.value,
                 },
                 (error) =>{
                     if(error){
