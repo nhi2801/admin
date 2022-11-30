@@ -2,6 +2,16 @@
     background-color: #461A42;
 }
 
+.logo{
+    font-size: 15px;
+    float: left;
+    line-height: 50px;
+    margin-right: 40px;
+}
+.main-menu a.logo:hover{
+    color: black;
+}
+
 .menu{
     margin: 0 0 0 0;
     height: 50px;
@@ -224,6 +234,7 @@ a {
     max-width: 90%;
 }
 
+<<<<<<< HEAD
 .updbtn, .delbtn{
     margin-left: 15px;
 }
@@ -246,3 +257,7 @@ a {
     align-items: center;
     justify-content: center;
 }
+=======
+
+
+>>>>>>> ab3e932c3b5266869e1c4643bfc5b6e7ddf8e57a
