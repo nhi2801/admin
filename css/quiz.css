@@ -2,6 +2,16 @@
     background-color: #461A42;
 }
 
+.logo{
+    font-size: 15px;
+    float: left;
+    line-height: 50px;
+    margin-right: 40px;
+}
+.main-menu a.logo:hover{
+    color: black;
+}
+
 .menu{
     margin: 0 0 0 0;
     height: 50px;
@@ -220,4 +230,6 @@ a {
 .container-quiz{
     max-width: 90%;
 }
+
+
 

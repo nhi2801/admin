@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quản lý Bài thi trên hệ thống</title>
+    <title>Trang chủ - Quản trị viên</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <style>
         .labs{
@@ -18,53 +18,36 @@
 
 <body>
 
-        <!-- search starts-->
-        <!-- <div class="input-group mb-3 mt-3">
-            <input id="SearchBar" type="text" class="form-control" placeholder="Tìm kiếm bài thi" aria-label="Recipient's username" aria-describedby="basic-addon2">
-            <div class="input-group-append">
-                <select class="custom-select" id="CategorySelected">
-                    <option selected value="1">Mã bài thi</option>
-                    <option value="2">Tên bài thi</option>
-                    <option value="3">Phân loại</option>
-                    <option value="4">Từ khóa tìm kiếm</option>
-                    <option value="5">Hình ảnh</option>
-                  </select>
-              <button id="SearchBtn" class="btn btn-outline-primary ml-1" type="button">Tìm kiếm</button>
-            </div>
-        </div> -->
-
-        
-
         <div class="home-page">
             <nav class="menu">
                 <div class="container">
                     <div class="main-menu">
-                        <a class="logo" href="index.html"> <i class="fas fa-home"></i></a>
+                        <a class="logo" href="admin.html"> Home <i class="fas fa-home"></i></a>
                         <li class="main-menu__item">
-                            <a href="./quizMng.html">Quản lý bài thi<i class="fas fa-chevron-down"></i></a>
+                            <a href="/firebaseCollection/quizMng.html">Quản lý bài thi<i class="fas fa-chevron-down"></i></a>
                             <div class="sub-menu">
                                 <div class="container">
                                     <ul>
                                         <li>
-                                            <a class="link-drop-down" href="./quizList.html">Danh sách bài thi</a>
+                                            <a class="link-drop-down" href="/firebaseCollection/quizList.html">Danh sách bài thi</a>
                                         </li>
                                         <li>
-                                            <a class="link-drop-down" href="./quizMng.html">Chỉnh sửa danh sách bài thi</a>
+                                            <a class="link-drop-down" href="/firebaseCollection//quizMng.html">Chỉnh sửa danh sách bài thi</a>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
                         </li>
                         <li class="main-menu__item">
-                            <a href="./theoryMng.html">Quản lý tài liệu<i class="fas fa-chevron-down"></i></a>
+                            <a href="/firebaseCollection/theoryMng.html">Quản lý tài liệu<i class="fas fa-chevron-down"></i></a>
                             <div class="sub-menu">
                                 <div class="container">
                                     <ul>
                                         <li>
-                                            <a class="link-drop-down" href="./theoryList.html">Danh sách tài liệu</a>
+                                            <a class="link-drop-down" href="/firebaseCollection/theoryList.html">Danh sách tài liệu</a>
                                         </li>
                                         <li>
-                                            <a class="link-drop-down" href="./theoryMng.html">Chỉnh sửa danh sách tài liệu</a>
+                                            <a class="link-drop-down" href="/firebaseCollection/theoryMng.html">Chỉnh sửa danh sách tài liệu</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -72,15 +55,15 @@
                         </li>
     
                         <li class="main-menu__item">
-                            <a href="./userMng.html">Quản lý người dùng<i class="fas fa-chevron-down"></i></a>
+                            <a href="/firebaseCollection/userMng.html">Quản lý người dùng<i class="fas fa-chevron-down"></i></a>
                             <div class="sub-menu">
                                 <div class="container">
                                     <ul>
                                         <li>
-                                            <a class="link-drop-down" href="./userMng.html">Danh sách người dùng</a>
+                                            <a class="link-drop-down" href="/firebaseCollection/userList.html">Danh sách người dùng</a>
                                         </li>
                                         <li>
-                                            <a class="link-drop-down" href="./userMng.html">Chỉnh sửa danh sách người dùng</a>
+                                            <a class="link-drop-down" href="/firebaseCollection/userMng.html">Chỉnh sửa danh sách người dùng</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -89,110 +72,14 @@
     
                         <li class="main-menu__item">
                             <a
-                                href="https://for-sitde.vercel.app/main.html">Trang chủ dành người dùng<span></span></a>
+                                href="https://for-sitde.vercel.app/main.html">Trang chủ dành cho người dùng<span></span></a>
                         </li>
                     </div>
                 </div>
             </div>
-        
-        <div class="heading">DANH SÁCH BÀI THI TRÊN HỆ THỐNG</div>
-
-        <div class="input-group mb-3 mt-3">
-            <input id="SearchBar" type="text" class="form-control" placeholder="Tìm kiếm bài thi" aria-label="Recipient's username" aria-describedby="basic-addon2">
-            <div class="input-group-append">
-                <select class="custom-select" id="CategorySelected">
-                    <option selected value="1">Mã bài thi</option>
-                    <option value="2">Tên bài thi</option>
-                    <option value="3">Phân loại</option>
-                    <option value="4">Từ khóa tìm kiếm</option>
-                    <option value="5">Hình ảnh</option>
-                  </select>
-              <button id="SearchBtn" class="btn btn-outline-primary ml-1" type="button">Tìm kiếm</button>
-            </div>
-        </div>
-
-
-        <div class="container container-quiz">
-        <!-- search ends -->
-
-        <!-- <label>Mã bài thi</label> <input id="Idbox" type="text"> 
-        <label>Tên bài thi</label> <input id="Namebox" type="text"> 
-        <label>Hình ảnh</label> <input id="imageURLbox" type="text"> 
-        <label>Tìm kiếm</label> <input id="Searchbox" type="text"> 
-        <label>Phân loại</label> 
-        <select id="Categorybox">
-            <option value="basic">Cơ bản</option>
-            <option value="other">Nâng cao</option>
-        </select>
-        
-        <hr>
-        <button id="Insbtn">Thêm</button>
-        <button id="Updbtn">Sửa</button>
-        <button id="Delbtn">Xóa</button> -->
-
-        <table class="table table-quiz table-striped">
-            <thead>
-                <th>STT</th>
-                <th>Mã bài thi</th>
-                <th>Tên bài thi</th>
-                <th>Phân loại</th>
-                <th>Từ khóa tìm kiếm</th>
-                <th>Hình ảnh</th>
-                <th>Số lượng câu hỏi</th>
-            </thead>
-            <tbody id="tbody1"></tbody>
-        </table>
-    </div>
 
 
     <script type="module">
-
-        var quizNo = 0;
-        var tbody1 = document.getElementById('tbody1');
-
-        function AddItemsToTable(quizId,questionTitle,category,search,imageURL, questions){
-            let trow = document.createElement("tr");
-            let td1 = document.createElement('td');
-            let td2 = document.createElement('td');
-            let td3 = document.createElement('td');
-            let td4 = document.createElement('td');
-            let td5 = document.createElement('td');
-            let td6 = document.createElement('td');
-            let td7 = document.createElement('td');
-
-
-            td1.innerHTML= ++quizNo;
-            td2.innerHTML= quizId;
-            td3.innerHTML= questionTitle;
-            td4.innerHTML= category;
-            td5.innerHTML= search;
-            td6.innerHTML= imageURL;
-            td7.innerHTML= questions;
-
-            td2.classList +="quizIdField";
-            td3.classList +="questionTitleField";
-            td4.classList +="categoryField";
-            td5.classList +="searchField";
-            td6.classList +="imageURLField";
-
-            trow.appendChild(td1); 
-            trow.appendChild(td2); 
-            trow.appendChild(td3); 
-            trow.appendChild(td4);
-            trow.appendChild(td5);
-            trow.appendChild(td6);
-
-            tbody1.appendChild(trow);
-        }
-        
-        function AddAllItemsToTable(quiz){
-            quizNo=0;
-            tbody1.innerHTML="";
-            quiz.forEach(element => {
-                AddItemsToTable(element.quizId,element.questionTitle,element.category,element.search,element.imageURL,element.questions);
-            });
-        }
-
             // Import the functions you need from the SDKs you need
             import { initializeApp } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js";
             import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-analytics.js";
@@ -220,204 +107,6 @@
             from "https://www.gstatic.com/firebasejs/9.14.0/firebase-firestore.js";
 
             const db = getFirestore();
-
-
-        async function GetAllDataOnce(){
-            const querrySnapshot = await getDocs(collection(db, "quizList"));
-
-            var quiz = [];
-
-            querrySnapshot.forEach(doc =>{
-                quiz.push(doc.data());
-
-            });
-
-            AddAllItemsToTable(quiz);
-        }
-
-        window.onload = GetAllDataOnce;
-
-        let idbox = document.getElementById("Idbox");
-        let namebox = document.getElementById("Namebox");
-        let imageURLbox = document.getElementById("imageURLbox");
-        let searchbox = document.getElementById("Searchbox");
-        let categorybox = document.getElementById("Categorybox");
-
-        // let insBtn = document.getElementById("Insbtn");
-        // let updBtn = document.getElementById("Updbtn");
-        // let delBtn = document.getElementById("Delbtn");
-
-        // thêm dữ liệu
-        async function AddQuiz(){
-            var ref = doc(db, "quizList", idbox.value);
-
-            await setDoc(
-                ref,{
-                quizId: idbox.value,
-                questionTitle:  namebox.value,
-                imageURL: imageURLbox.value,
-                search: searchbox.value,
-                category: categorybox.value
-                }
-            )
-            .then(()=>{
-                alert("Lưu dữ liệu thành công");
-            })
-            .catch((error)=>{
-                alert("Không thành công, lỗi"+error);
-            });
-        }
-
-        // sửa dữ liệu
-
-        async function UpdQuiz(){
-            var ref = doc(db, "quizList", idbox.value);
-
-            await updateDoc(
-                ref,{
-                questionTitle:  namebox.value,
-                imageURL: imageURLbox.value,
-                search: searchbox.value,
-                category: categorybox.value
-                }
-            )
-            .then(()=>{
-                alert("Sửa dữ liệu thành công");
-            })
-            .catch((error)=>{
-                alert("Không thành công, lỗi"+error);
-            });
-        }
-
-        //xóa dữ liệu
-
-        async function DelQuiz(){
-            var ref = doc(db, "quizList", idbox.value);
-            const docSnap = await getDoc(ref);
-
-            if(!docSnap.exists()){
-                alert("Không tồn tại dữ liệu");
-                return;
-            }
-            await deleteDoc(ref)
-            .then(()=>{
-                alert("Xoá dữ liệu thành công");
-            })
-            .catch((error)=>{
-                alert("Xóa dữ liệu thất bại, error:"+error);
-            });
-        }
-
-        //tạo event
-
-        // insBtn.addEventListener('click', AddQuiz);
-        // updBtn.addEventListener('click', UpdQuiz);
-        // delBtn.addEventListener('click', DelQuiz);
-
-        // tìm kiếm
-
-        let searchbar = document.getElementById("SearchBar");
-        let searchBtn = document.getElementById("SearchBtn");
-        let category = document.getElementById("CategorySelected");
-        var tbody1 = document.getElementById("tbody1");
-
-        function SearchTable(Category){
-
-            let filter = searchbar.value.toUpperCase();
-            let tr = tbody1.getElementsByTagName("tr");
-            var found;
-
-            for (var i = 0; i <tr.length; i++){
-
-                let td = tr[i].getElementsByClassName(Category);
-
-                for (var j=0; j<td.length; j++){
-
-                    if(td[j].innerHTML.toUpperCase().indexOf(filter) > -1) { //tim duoc ban ghi phu hop tren thanh search
-                        found=true;
-                    }
-                }
-
-                if(found){
-                    tr[i].style.display="";
-                    found=false;
-                }
-                else{
-                    tr[i].style.display="none";
-                }
-            }
-        }
-
-        searchBtn.onclick = function(){
-            if(searchbar.value=="");
-
-            else if(category.value==1)
-            SearchTable("quizIdField");
-
-            else if(category.value==2)
-            SearchTable("questionTitleField");
-
-            else if(category.value==3)
-            SearchTable("categoryField");
-            
-            else if(category.value==4)
-            SearchTable("searchField");
-            
-            else if(category.value==5)
-            SearchTable("imageURLField");
-        }
-        // tim chinh xac 
-        function SearchTableByExactValues(Category){
-
-            let filter = searchbar.value.toUpperCase();
-            let tr = tbody1.getElementsByTagName("tr");
-            var found;
-
-            for (var i = 0; i <tr.length;i++){
-
-                var td = tr[i].getElementsByClassName(Category);
-
-                for (var j=0; j<td.length; j++){
-
-                    if(td[j].innerHTML.toUpperCase() == filter) { //tim duoc ban ghi phu hop tren thanh search
-                        found=true;
-                    }
-                }
-
-                if(found){
-                    tr[i].style.display="";
-                    found=false;
-                }
-                else{
-                    tr[i].style.display="none";
-                }
-            }
-        }
-
-        searchBtn.onclick = function(){
-            if(searchbar.value=="");
-
-            else if(category.value==1)
-            SearchTableByExactValues("quizIdField");
-
-            else if(category.value==2)
-            SearchTable("questionTitleField");
-
-            else if(category.value==3)
-            SearchTableByExactValues("categoryField");
-
-            else if(category.value==4)
-            SearchTableByExactValues("searchField");
-
-            else if(category.value==5)
-            SearchTable("imageURLField");
-        }
-
-        searchbar.onkeypress = function(event){
-            if(event.keyCode==13){
-                searchBtn.click();
-            }
-        }
 
     </script>
 
