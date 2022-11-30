@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xem dữ liệu bài thi</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&display=swap"
+    rel="stylesheet">
+    <style>
+        .labs{
+            display: inline-block;
+            width: 100px;
+        }
+    </style>
+    <link rel="stylesheet" href="../css/quiz.css">
+    <!-- icon  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="home-page">
+        <nav class="menu">
+            <div class="container">
+                <div class="main-menu">
+                    <a class="logo" href="../admin.html"> <i class="fas fa-home"></i></a>
+                    <li class="main-menu__item">
+                        <a href="./quizMng.html">Quản lý bài thi<i class="fas fa-chevron-down"></i></a>
+                        <div class="sub-menu">
+                            <div class="container">
+                                <ul>
+                                    <li>
+                                        <a class="link-drop-down" href="./quizList.html">Danh sách bài thi</a>
+                                    </li>
+                                    <li>
+                                        <a class="link-drop-down" href="./quizMng.html">Chỉnh sửa danh sách bài thi</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main-menu__item">
+                        <a href="./theoryMng.html">Quản lý tài liệu<i class="fas fa-chevron-down"></i></a>
+                        <div class="sub-menu">
+                            <div class="container">
+                                <ul>
+                                    <li>
+                                        <a class="link-drop-down" href="./theoryList.html">Danh sách tài liệu</a>
+                                    </li>
+                                    <li>
+                                        <a class="link-drop-down" href="./theoryMng.html">Chỉnh sửa danh sách tài liệu</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="main-menu__item">
+                        <a href="./userMng.html">Quản lý người dùng<i class="fas fa-chevron-down"></i></a>
+                        <div class="sub-menu">
+                            <div class="container">
+                                <ul>
+                                    <li>
+                                        <a class="link-drop-down" href="./userList.html">Danh sách người dùng</a>
+                                    </li>
+                                    <li>
+                                        <a class="link-drop-down" href="./userMng.html">Chỉnh sửa danh sách người dùng</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="main-menu__item">
+                        <a
+                            href="https://for-sitde.vercel.app/main.html">Trang chủ dành cho người dùng<span></span></a>
+                    </li>
+                    <button class="btn-outline-primary menu-btn menu-btn-login" id="Insbtn">Đăng nhập</button>
+                    <button class="btn-outline-primary menu-btn menu-btn-logout" id="Updbtn">Đăng xuất</button>
+                </div>
+            </div>
+        </div>
+        
+        <div id="main">
+            <nav class="main-navigation mt-5">
+                <div class="main-navigation-inner">
+    
+                </div>
+            </nav>
+        <article class="mt-5 article">
+            <div class="page-inner">
+                <div class="view-container">
+                    <div class="listing-header">
+                        <div class="filter-wrapper">
+                            <div class="dropdown">
+                                <button class="dropbtn d-flex justify-content-between align-items-center">Tên bài thi<i
+                                        class="fas fa-caret-down"></i></button>
+                                <div class="dropdown-content">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="quiz-title">questionTitle</div>
+                    </div>
+                    <table>
+                        <thead class="table-head">
+                            <tr class="table-head-list">
+                                <th class="col-1">STT</th>
+                                <th class="col-2">Mã bài thi</th>
+                                <th class="col-3">Tên bài thi</th>
+                                <th class="col-4">Phân loại</th>
+                                <th class="col-5">Từ khóa tìm kiếm</th>
+                                <th class="col-6">Hình ảnh</th>
+                            </tr>
+                        </thead>
+                        <tbody id="table-body" class="table-body">
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </article>
+    </div>
+
+    <script>
+        const btn = document.querySelector('.dropbtn');
+        const content = document.querySelector('.dropdown-content');
+        btn.addEventListener('click', () => {
+            if (content.classList.contains('show')) {
+                content.classList.remove('show');
+            } else {
+                content.classList.add('show');
+            }
+
+        })
+    </script>
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-firestore.js"></script>
+
+    <script>
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+              apiKey: "AIzaSyCp2hPBaQq5Z7aDmZSrB1TwY7pxQNiZSsk",
+              authDomain: "web-thi-thu.firebaseapp.com",
+              databaseURL: "https://web-thi-thu-default-rtdb.asia-southeast1.firebasedatabase.app",
+              projectId: "web-thi-thu",
+              storageBucket: "web-thi-thu.appspot.com",
+              messagingSenderId: "1073206614083",
+              appId: "1:1073206614083:web:20cdc5d35e7d38fbf75cf6",
+              measurementId: "G-W2J21MKQ5C"
+        };
+
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        let db = firebase.firestore();
+</script>
+
+<script type="module" src="/js/questionQuiz.js"></script>
+
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</body>
+
