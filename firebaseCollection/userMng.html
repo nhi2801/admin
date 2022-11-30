@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quản lý Tài liệu trên hệ thống</title>
+    <title>Quản lý Người dùng trên hệ thống</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <style>
         .labs{
@@ -17,7 +17,6 @@
 </head>
 
 <body>
-
     <div class="home-page">
         <nav class="menu">
             <div class="container">
@@ -77,35 +76,25 @@
                 </div>
             </div>
         </div>
-  
+        
+        <div class="heading">QUẢN LÝ NGƯỜI DÙNG TRÊN HỆ THỐNG</div>
 
-        <div class="heading">QUẢN LÝ TÀI LIỆU TRÊN HỆ THỐNG</div>
-
-        <div class="input-group mb-3 mt-3">
-            <input id="SearchBar" type="text" class="form-control" placeholder="Tìm kiếm bài thi" aria-label="Recipient's username" aria-describedby="basic-addon2">
-            <div class="input-group-append">
-                <select class="custom-select" id="CategorySelected">
-                    <option selected value="1">Mã tài liệu</option>
-                    <option value="2">Tên tài liệu</option>
-                    <option value="3">Phân loại</option>
-                    <option value="4">Từ khóa tìm kiếm</option>
-                    <option value="5">Hình ảnh</option>
-                  </select>
-              <button id="SearchBtn" class="btn btn-outline-primary ml-1" type="button">Tìm kiếm</button>
-            </div>
-          </div>
+        <div class="container">
+            <!-- search starts-->
+            <div class="input-group mb-3 mt-3">
+                <input id="SearchBar" type="text" class="form-control" placeholder="Tìm kiếm bài thi" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                    <select class="custom-select" id="CategorySelected">
+                        <option selected value="1">Email</option>
+                        <option value="2">Tên người dùng</option>
+                      </select>
+                  <button id="SearchBtn" class="btn btn-outline-primary ml-1" type="button">Tìm kiếm</button>
+                </div>
+              </div>
 
         <div class="container container-quiz">
-        <!-- search ends -->
-        <label>Mã tài liệu</label> <input id="Idbox" type="text"> 
-        <label>Tên tài liệu</label> <input id="Namebox" type="text"> 
-        <label>Hình ảnh</label> <input id="imageURLbox" type="text"> 
-        <label>Tìm kiếm</label> <input id="Searchbox" type="text"> 
-        <label>Phân loại</label> 
-        <select id="Categorybox">
-            <option value="hot">Nổi bật</option>
-            <option value="all">Tất cả</option>
-        </select>
+        <label>Email</label> <input id="Emailbox" type="text"> 
+        <label>Tên người dùng</label> <input id="Namebox" type="text"> 
         
         <hr>
         <button id="Insbtn">Thêm</button>
@@ -113,14 +102,11 @@
         <button id="Updbtn">Sửa</button>
         <button id="Delbtn">Xóa</button>
 
-        <table class="table table-quiz table-striped">
+        <table class="table table-striped">
             <thead>
                 <th>STT</th>
-                <th>Mã tài liệu</th>
-                <th>Tên tài liệu</th>
-                <th>Phân loại</th>
-                <th>Từ khóa tìm kiếm</th>
-                <th>Hình ảnh</th>
+                <th>Email</th>
+                <th>Tên người dùng</th>
             </thead>
             <tbody id="tbody1"></tbody>
         </table>
@@ -129,48 +115,36 @@
 
     <script type="module">
 
-        var theoryNo = 0;
+        var userNo = 0;
         var tbody1 = document.getElementById('tbody1');
 
-        function AddItemsToTable(theoryId,theoryTitle,category,search,imageURL){
+        function AddItemsToTable(email, displayName){
             let trow = document.createElement("tr");
             let td1 = document.createElement('td');
             let td2 = document.createElement('td');
             let td3 = document.createElement('td');
-            let td4 = document.createElement('td');
-            let td5 = document.createElement('td');
-            let td6 = document.createElement('td');
 
 
-            td1.innerHTML= ++theoryNo;
-            td2.innerHTML= theoryId;
-            td3.innerHTML= theoryTitle;
-            td4.innerHTML= category;
-            td5.innerHTML= search;
-            td6.innerHTML= imageURL;
+            td1.innerHTML= ++userNo;
+            td2.innerHTML= email;
+            td3.innerHTML= displayName;
 
-            td2.classList +="theoryIdField";
-            td3.classList +="theoryTitleField";
-            td4.classList +="categoryField";
-            td5.classList +="searchField";
-            td6.classList +="imageURLField";
+            td2.classList +="emailField";
+            td3.classList +="displayNameField";
 
             trow.appendChild(td1); 
             trow.appendChild(td2); 
             trow.appendChild(td3); 
-            trow.appendChild(td4);
-            trow.appendChild(td5);
-            trow.appendChild(td6);
 
             tbody1.appendChild(trow);
         }
         
 
-        function AddAllItemsToTable(theory){
-            theoryNo=0;
+        function AddAllItemsToTable(user){
+            userNo=0;
             tbody1.innerHTML="";
-            theory.forEach(element => {
-                AddItemsToTable(element.theoryId,element.theoryTitle,element.category,element.search,element.imageURL);
+            user.forEach(element => {
+                AddItemsToTable(element.email,element.displayName);
             });
         }
 
@@ -204,25 +178,22 @@
 
 
         async function GetAllDataOnce(){
-            const querrySnapshot = await getDocs(collection(db, "theoryList"));
+            const querrySnapshot = await getDocs(collection(db, "userQuizInfo"));
 
-            var theory = [];
+            var user = [];
 
             querrySnapshot.forEach(doc =>{
-                theory.push(doc.data());
+                user.push(doc.data());
 
             });
 
-            AddAllItemsToTable(theory);
+            AddAllItemsToTable(user);
         }
 
         window.onload = GetAllDataOnce;
 
-        let idbox = document.getElementById("Idbox");
+        let emailbox = document.getElementById("Emailbox");
         let namebox = document.getElementById("Namebox");
-        let imageURLbox = document.getElementById("imageURLbox");
-        let searchbox = document.getElementById("Searchbox");
-        let categorybox = document.getElementById("Categorybox");
 
         let insBtn = document.getElementById("Insbtn");
         let selBtn = document.getElementById("Selbtn");
@@ -230,16 +201,16 @@
         let delBtn = document.getElementById("Delbtn");
 
         // thêm dữ liệu
-        async function AddTheory(){
-            var ref = doc(db, "theoryList", idbox.value);
+        async function AddUser(){
+            var ref = doc(db, "userQuizInfo", idbox.value);
 
             await setDoc(
                 ref,{
-                theoryId: idbox.value,
-                theoryTitle:  namebox.value,
-                imageURL: imageURLbox.value,
-                search: searchbox.value,
-                category: categorybox.value
+                email: emailbox.value,
+                displayName:  namebox.value
+                // imageURL: imageURLbox.value,
+                // search: searchbox.value,
+                // category: categorybox.value
                 }
             )
             .then(()=>{
@@ -252,15 +223,13 @@
 
         // chọn dữ liệu
             
-        async function GetTheory(){
-            var ref = doc(db, "theoryList", idbox.value);
+        async function GetUser(){
+            var ref = doc(db, "userQuizInfo", emailbox.value);
             const docSnap = await getDoc(ref);
 
             if(docSnap.exists()){
-                namebox.value = docSnap.data().theoryTitle;
-                imageURLbox.value = docSnap.data().imageURL;
-                searchbox.value = docSnap.data().search;
-                categorybox.value = docSnap.data().category;
+                namebox.value = docSnap.data().displayName;
+ 
             }
 
                 else{
@@ -270,15 +239,12 @@
 
         // sửa dữ liệu
 
-        async function UpdTheory(){
-            var ref = doc(db, "theoryList", idbox.value);
+        async function UpdUser(){
+            var ref = doc(db, "userQuizInfo", emailbox.value);
 
             await updateDoc(
                 ref,{
-                theoryTitle:  namebox.value,
-                imageURL: imageURLbox.value,
-                search: searchbox.value,
-                category: categorybox.value
+                displayNam:  namebox.value,
                 }
             )
             .then(()=>{
@@ -291,8 +257,8 @@
 
         //xóa dữ liệu
 
-        async function DelTheory(){
-            var ref = doc(db, "theoryList", idbox.value);
+        async function DelUser(){
+            var ref = doc(db, "userQuizInfo", emailbox.value);
             const docSnap = await getDoc(ref);
 
             if(!docSnap.exists()){
@@ -310,10 +276,10 @@
 
         //tạo event
 
-        insBtn.addEventListener('click', AddTheory);
-        selBtn.addEventListener('click', GetTheory);
-        updBtn.addEventListener('click', UpdTheory);
-        delBtn.addEventListener('click', DelTheory);
+        insBtn.addEventListener('click', AddUser);
+        selBtn.addEventListener('click', GetUser);
+        updBtn.addEventListener('click', UpdUser);
+        delBtn.addEventListener('click', DelUser);
 
         // tìm kiếm
 
@@ -353,19 +319,19 @@
             if(searchbar.value=="");
 
             else if(category.value==1)
-            SearchTable("theoryIdField");
+            SearchTable("emailField");
 
             else if(category.value==2)
-            SearchTable("theoryTitleField");
+            SearchTable("displayNameField");
 
-            else if(category.value==3)
-            SearchTable("categoryField");
+            // else if(category.value==3)
+            // SearchTable("categoryField");
             
-            else if(category.value==4)
-            SearchTable("searchField");
+            // else if(category.value==4)
+            // SearchTable("searchField");
             
-            else if(category.value==5)
-            SearchTable("imageURLField");
+            // else if(category.value==5)
+            // SearchTable("imageURLField");
         }
         // tim chinh xac 
         function SearchTableByExactValues(Category){
@@ -399,19 +365,20 @@
             if(searchbar.value=="");
 
             else if(category.value==1)
-            SearchTableByExactValues("theoryIdField");
+            SearchTableByExactValues("emailField");
 
             else if(category.value==2)
-            SearchTable("theoryTitleField");
+            SearchTableByExactValues("displayNameField");
 
-            else if(category.value==3)
-            SearchTableByExactValues("categoryField");
 
-            else if(category.value==4)
-            SearchTableByExactValues("searchField");
+            // else if(category.value==3)
+            // SearchTableByExactValues("categoryField");
 
-            else if(category.value==5)
-            SearchTable("imageURLField");
+            // else if(category.value==4)
+            // SearchTableByExactValues("searchField");
+
+            // else if(category.value==5)
+            // SearchTable("imageURLField");
         }
 
         searchbar.onkeypress = function(event){

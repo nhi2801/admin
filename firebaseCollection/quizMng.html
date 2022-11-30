@@ -7,26 +7,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quản lý Bài thi trên hệ thống</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        .labs{
+            display: inline-block;
+            width: 100px;
+        }
+    </style>
+    <link rel="stylesheet" href="../css/quiz.css">
 </head>
 
 <body>
 
-    <div class="container">
-        <!-- search starts-->
-        <div class="input-group mb-3 mt-3">
-            <input id="SearchBar" type="text" class="form-control" placeholder="Tìm kiếm bài thi" aria-label="Recipient's username" aria-describedby="basic-addon2">
-            <div class="input-group-append">
-                <select class="custom-select" id="CategorySelected">
-                    <option selected value="1">Mã bài thi</option>
-                    <option value="2">Tên bài thi</option>
-                    <option value="3">Phân loại</option>
-                    <option value="4">Từ khóa tìm kiếm</option>
-                    <option value="5">Hình ảnh</option>
-                  </select>
-              <button id="SearchBtn" class="btn btn-outline-primary ml-1" type="button">Tìm kiếm</button>
+    <div class="home-page">
+        <nav class="menu">
+            <div class="container">
+                <div class="main-menu">
+                    <a class="logo" href="index.html"> <i class="fas fa-home"></i></a>
+                    <li class="main-menu__item">
+                        <a href="./quizMng.html">Quản lý bài thi<i class="fas fa-chevron-down"></i></a>
+                        <div class="sub-menu">
+                            <div class="container">
+                                <ul>
+                                    <li>
+                                        <a class="link-drop-down" href="./quizList.html">Danh sách bài thi</a>
+                                    </li>
+                                    <li>
+                                        <a class="link-drop-down" href="./quizMng.html">Chỉnh sửa danh sách bài thi</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main-menu__item">
+                        <a href="./theoryMng.html">Quản lý tài liệu<i class="fas fa-chevron-down"></i></a>
+                        <div class="sub-menu">
+                            <div class="container">
+                                <ul>
+                                    <li>
+                                        <a class="link-drop-down" href="./theoryList.html">Danh sách tài liệu</a>
+                                    </li>
+                                    <li>
+                                        <a class="link-drop-down" href="./theoryMng.html">Chỉnh sửa danh sách tài liệu</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="main-menu__item">
+                        <a href="./userMng.html">Quản lý người dùng<i class="fas fa-chevron-down"></i></a>
+                        <div class="sub-menu">
+                            <div class="container">
+                                <ul>
+                                    <li>
+                                        <a class="link-drop-down" href="./userList.html">Danh sách người dùng</a>
+                                    </li>
+                                    <li>
+                                        <a class="link-drop-down" href="./userMng.html">Chỉnh sửa danh sách người dùng</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="main-menu__item">
+                        <a
+                            href="https://for-sitde.vercel.app/main.html">Trang chủ dành người dùng<span></span></a>
+                    </li>
+                </div>
             </div>
-          </div>
-        <!-- search ends -->
+        </div>
+        
+        <div class="heading">DANH SÁCH BÀI THI TRÊN HỆ THỐNG</div>
+
+        <div class="container container-quiz">
+
         <label>Mã bài thi</label> <input id="Idbox" type="text"> 
         <label>Tên bài thi</label> <input id="Namebox" type="text"> 
         <label>Hình ảnh</label> <input id="imageURLbox" type="text"> 
@@ -42,7 +97,22 @@
         <button id="Updbtn">Sửa</button>
         <button id="Delbtn">Xóa</button>
 
-        <table class="table table-striped">
+        <div class="input-group mb-3 mt-3">
+            <input id="SearchBar" type="text" class="form-control" placeholder="Tìm kiếm bài thi" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+                <select class="custom-select" id="CategorySelected">
+                    <option selected value="1">Mã bài thi</option>
+                    <option value="2">Tên bài thi</option>
+                    <option value="3">Phân loại</option>
+                    <option value="4">Từ khóa tìm kiếm</option>
+                    <option value="5">Hình ảnh</option>
+                  </select>
+              <button id="SearchBtn" class="btn btn-outline-primary ml-1" type="button">Tìm kiếm</button>
+            </div>
+        </div>
+
+
+        <table class="table table-quiz table-striped">
             <thead>
                 <th>STT</th>
                 <th>Mã bài thi</th>
@@ -50,6 +120,7 @@
                 <th>Phân loại</th>
                 <th>Từ khóa tìm kiếm</th>
                 <th>Hình ảnh</th>
+                <th>Số lượng câu hỏi</th>
             </thead>
             <tbody id="tbody1"></tbody>
         </table>
@@ -61,7 +132,7 @@
         var quizNo = 0;
         var tbody1 = document.getElementById('tbody1');
 
-        function AddItemsToTable(quizId,questionTitle,category,search,imageURL){
+        function AddItemsToTable(quizId,questionTitle,category,search,imageURL, questions){
             let trow = document.createElement("tr");
             let td1 = document.createElement('td');
             let td2 = document.createElement('td');
@@ -69,6 +140,7 @@
             let td4 = document.createElement('td');
             let td5 = document.createElement('td');
             let td6 = document.createElement('td');
+            let td7 = document.createElement('td');
 
 
             td1.innerHTML= ++quizNo;
@@ -77,6 +149,7 @@
             td4.innerHTML= category;
             td5.innerHTML= search;
             td6.innerHTML= imageURL;
+            td7.innerHTML= questions;
 
             td2.classList +="quizIdField";
             td3.classList +="questionTitleField";
@@ -94,12 +167,11 @@
             tbody1.appendChild(trow);
         }
         
-
         function AddAllItemsToTable(quiz){
             quizNo=0;
             tbody1.innerHTML="";
             quiz.forEach(element => {
-                AddItemsToTable(element.quizId,element.questionTitle,element.category,element.search,element.imageURL);
+                AddItemsToTable(element.quizId,element.questionTitle,element.category,element.search,element.imageURL,element.questions);
             });
         }
 
