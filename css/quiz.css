@@ -180,6 +180,8 @@ a {
     font-size: 16px;
     font-weight: 600;
     border-radius: 10px !important;
+    cursor: pointer;
+    padding: 5px 15px;
 }
 
 .btn-outline-primary:hover{
@@ -190,7 +192,7 @@ a {
     text-align: center;
     font-family: "Montserrat", sans-serif;
     box-sizing: border-box;
-    padding: 20px;
+    padding: 40px 20px;
     font-size: 30px;
     color: black;
 }
@@ -200,7 +202,8 @@ a {
 }
 
 .table-quiz{
-    table-layout: fixed;
+    width: auto;
+    margin: 0 auto;
 }
 
 .button-quiz{
@@ -221,3 +224,25 @@ a {
     max-width: 90%;
 }
 
+.updbtn, .delbtn{
+    margin-left: 15px;
+}
+
+.quiz-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* margin-top: 40px; */
+}
+
+.quiz-form label{
+    margin-right: 10px;
+}
+
+.quiz-btn{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

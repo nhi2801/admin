@@ -80,22 +80,33 @@
         
         <div class="heading">DANH SÁCH BÀI THI TRÊN HỆ THỐNG</div>
 
-        <div class="container container-quiz">
+        <div class="quiz-form"> 
+            <div class="quiz-form-item">
+                <label>Mã bài thi</label> <input id="Idbox" type="text">
+            </div> 
+            <div class="quiz-form-item">
+                <label>Tên bài thi</label> <input id="Namebox" type="text">
+            </div> 
+            <div class="quiz-form-item">
+                <label>Hình ảnh</label> <input id="imageURLbox" type="text">
+            </div> 
+            <div class="quiz-form-item">
+                <label>Tìm kiếm</label> <input id="Searchbox" type="text"> 
+            </div>
+            <div class="quiz-form-item">
+                <label>Phân loại</label> 
+                <select id="Categorybox">
+                    <option value="basic">Cơ bản</option>
+                    <option value="other">Nâng cao</option>
+                </select>
+            </div>
+        </div>
 
-        <label>Mã bài thi</label> <input id="Idbox" type="text"> 
-        <label>Tên bài thi</label> <input id="Namebox" type="text"> 
-        <label>Hình ảnh</label> <input id="imageURLbox" type="text"> 
-        <label>Tìm kiếm</label> <input id="Searchbox" type="text"> 
-        <label>Phân loại</label> 
-        <select id="Categorybox">
-            <option value="basic">Cơ bản</option>
-            <option value="other">Nâng cao</option>
-        </select>
-        
-        <hr>
-        <button id="Insbtn">Thêm</button>
-        <button id="Updbtn">Sửa</button>
-        <button id="Delbtn">Xóa</button>
+        <div class="quiz-btn">
+            <button class="btn-outline-primary insbtn" id="Insbtn">Thêm</button>
+            <button class="btn-outline-primary updbtn" id="Updbtn">Sửa</button>
+            <button class="btn-outline-primary delbtn" id="Delbtn">Xóa</button>
+        </div>
 
         <div class="input-group mb-3 mt-3">
             <input id="SearchBar" type="text" class="form-control" placeholder="Tìm kiếm bài thi" aria-label="Recipient's username" aria-describedby="basic-addon2">
